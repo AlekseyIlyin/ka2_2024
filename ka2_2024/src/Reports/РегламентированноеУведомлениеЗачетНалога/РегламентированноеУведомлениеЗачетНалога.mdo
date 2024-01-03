@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c176757f-44b3-4d34-a6f5-7b71f219b310">
+  <producedTypes>
+    <objectType typeId="bccabb95-758d-406f-b006-4be790f21992" valueTypeId="51c0772a-12c7-41b6-82d7-c4d38e2f5b0a"/>
+    <managerType typeId="8ddb24d1-c55b-4def-bf48-496d3e78997d" valueTypeId="43fd338e-db7d-4463-9f02-637ce25835c5"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеЗачетНалога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявление о зачете излишне уплаченного налога</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+  <forms uuid="9fa86856-701d-4983-a1e3-68e8b511b520">
+    <name>Форма2017_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о зачете излишне уплаченного налога</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73b7930c-6cfa-4a57-9567-0b03b65231e0">
+    <name>Форма2018_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о зачете излишне уплаченного налога</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e7749acf-7e45-47a2-b9ed-7c25755270b8">
+    <name>Форма2021_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о зачете излишне уплаченного налога</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a6f853c-2289-46f8-a78d-bbc02062344a">
+    <name>Форма2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о зачете излишне уплаченного налога</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5780f161-66f8-4bd8-a374-79ad8705c45d">
+    <name>СхемаВыгрузкиФорма2017_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки форма2017 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="504ed153-246f-4f19-a4b9-545ec0efc386">
+    <name>TIFF_2017_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>TIFF 2017 1</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="43f1016c-9509-4cb4-bd2f-6ea5dfd08621">
+    <name>СпискиВыбора2017_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора2017 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="c22ebd99-cc34-4ce2-a61a-6b36ec8d686c">
+    <name>Титульная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульная</value>
+    </synonym>
+  </templates>
+  <templates uuid="9d4bcfa1-ec1e-433f-8889-07ab83bf863b">
+    <name>Лист002</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лист002</value>
+    </synonym>
+  </templates>
+  <templates uuid="624eac55-a3ba-4681-b2dd-e725a1b1b433">
+    <name>СхемаВыгрузкиФорма2018_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки форма2018 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="02ba3e61-ec9c-4025-8d2b-7c7786de717d">
+    <name>TIFF_2018_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>TIFF 2018 1</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="03278e10-2810-4dea-bd8f-c2cf6b834933">
+    <name>СпискиВыбора2018_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора2018 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="653fa323-5445-4a64-8530-8c6684da04db">
+    <name>Титульная_2018</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульная 2018</value>
+    </synonym>
+  </templates>
+  <templates uuid="402f6d63-a7f3-4963-b055-85de4be43a5e">
+    <name>Лист002_2018</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лист002 2018</value>
+    </synonym>
+  </templates>
+  <templates uuid="b8150636-5d5e-4aa7-822e-f8bd4c92959b">
+    <name>Свед_2018</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свед 2018</value>
+    </synonym>
+  </templates>
+  <templates uuid="71957b28-4e5d-4cd3-b957-03f9caa33694">
+    <name>СхемаВыгрузкиФорма2021_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="bc6f0e21-3e51-438d-b6c5-dee7621f7b89">
+    <name>СпискиВыбора2021_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора2021 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="0a5f3be6-1c6f-4642-92b6-130ed89eb356">
+    <name>Титульная_2021</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="3f8965a8-3a84-4a0e-8478-c2ef041412b1">
+    <name>УдЛичнФЛ_2021</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="db4f1317-1b84-4dbc-bc4d-ad890ea1d1d6">
+    <name>СвНОПрПост_2021</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="f0c73a63-7c17-479e-ac5a-b656048909be">
+    <name>БланкиПечати_Форма2017_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатные бланки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="e9e3a374-4b3e-4793-919f-f8c65eac924e">
+    <name>БланкиПечати_Форма2018_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатные бланки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="4d4d30c7-6923-4fb1-abef-a0dd2cc68327">
+    <name>БланкиПечати_Форма2021_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатные бланки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="5603a3ca-8bb7-49f5-9472-a2af2f1109b1">
+    <name>СхемаВыгрузкиФорма2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="fb1bfa99-ff63-4a29-ac2d-b7254bf83769">
+    <name>СпискиВыбора2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="80a92f54-5380-404e-b7cc-449deb2796a2">
+    <name>Титульная_2023</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="2ca9b12d-8d44-4e6f-a46f-c83f4e041988">
+    <name>ЗачетСумЕНС_2023</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="b2898093-469a-4c8c-ba76-260072d0d315">
+    <name>Печать_Форма2023_1_Титульная</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="849c4516-ab8a-4bc4-a53a-9ecf2ce2218f">
+    <name>Печать_Форма2023_1_МногострочныеЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

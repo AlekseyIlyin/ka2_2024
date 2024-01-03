@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e31a9210-dbac-4000-81a2-176182a60114">
+  <producedTypes>
+    <containerType typeId="459f1f78-d780-49ab-937b-fa08d8539e2b" valueTypeId="3123176c-1216-4fa9-a3f7-d866fe839a52"/>
+  </producedTypes>
+  <name>СсылкаИзменениеКабинетСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылка изменение 1С:Кабинет сотрудника</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.СборГрафиковОтпусков</types>
+    <types>CatalogRef.Должности</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаСправкаОстаткиОтпусков</types>
+    <types>CatalogRef.МашиночитаемыеДоверенностиКЭДО</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.СтруктураПредприятия</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаОтсутствиеПоБолезни</types>
+    <types>DocumentRef.СогласиеНаПрисоединениеККЭДО</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаСправкаСМестаРаботы</types>
+    <types>CatalogRef.ПодразделенияОрганизаций</types>
+    <types>CatalogRef.ГрафикиРаботыСотрудников</types>
+    <types>CatalogRef.ШтатноеРасписание</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаОтсутствие</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаСправка2НДФЛ</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаИзменитьЛичныеДанные</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаОтпуск</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаДобровольныеСтраховыеВзносы</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаНалоговыйВычет</types>
+    <types>DocumentRef.ДокументКадровогоЭДО</types>
+  </type>
+</mdclass:DefinedType>

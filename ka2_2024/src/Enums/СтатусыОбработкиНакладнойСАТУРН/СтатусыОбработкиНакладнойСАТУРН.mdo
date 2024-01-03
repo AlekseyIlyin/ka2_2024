@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b823c10-073b-42c5-9685-025df24ebb2f">
+  <producedTypes>
+    <refType typeId="048e4350-caca-4ffc-920e-0f8e0f07a664" valueTypeId="4c490bef-dc5c-4bdb-93ee-0dfbe6978c39"/>
+    <listType typeId="62f26836-fd42-490a-a407-759ba9ca41c6" valueTypeId="97af53db-bd5b-436f-82c8-6da97860fbde"/>
+    <managerType typeId="5a962b0a-db66-4851-9968-5f68dfc1fc38" valueTypeId="35042f10-590d-4242-a110-954ad2ea3c2d"/>
+  </producedTypes>
+  <name>СтатусыОбработкиНакладнойСАТУРН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы обработки накладной САТУРН</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d20fa267-8df9-4330-a278-8a71914099a6">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6352694-d7d6-47fc-9856-126f3c418326">
+    <name>КПередаче</name>
+    <synonym>
+      <key>ru</key>
+      <value>К передаче</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52efa331-14f7-46cb-bb27-2fe5456a5ed6">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aecc6f11-0f21-4241-856d-8295b1df9fe7">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="495d181b-327e-4573-99a7-e22f749fb850">
+    <name>Обрабатывается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a482e3f7-b01f-489c-aa4a-13ce92eda1c5">
+    <name>ВПути</name>
+    <synonym>
+      <key>ru</key>
+      <value>В пути</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c3d0278-e306-4da2-8d0b-fb4988eb1507">
+    <name>НаправленНаЭкспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направлен на экспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68bc4dcb-c203-4b34-9190-1bf33a3e06ca">
+    <name>ОтправленВРозничнуюТорговлю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен в розничную торговлю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c97022e4-56a9-48d0-853a-8abeedc358ce">
+    <name>ОтправленНаУтилизацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен на утилизацию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15118680-0bfd-46c2-8fe9-f777fb61ae12">
+    <name>СписанВПромышленность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списан в промышленность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="642773b4-d57c-4dd6-a85e-e49d3c7e06b5">
+    <name>ПодтверждениеОбрабатывается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывается (подтверждение)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b864248-e375-427f-b10a-f1fd9f8dbf8c">
+    <name>ПодтверждениеОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка (подтверждение)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fdaafd68-57dd-4268-851d-9e3df6664ddd">
+    <name>Получен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61c8a848-9460-4607-b568-91711b456462">
+    <name>ВозвратОбрабатывается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывается (возврат)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea6a5025-3b74-4b3d-ae33-8d1e060d24f1">
+    <name>ВозвратОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка (возврат)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1de294ab-2656-43a9-a7e0-b5f74e207d84">
+    <name>КВозврату</name>
+    <synonym>
+      <key>ru</key>
+      <value>К возврату</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1f213f3-c2f0-43f4-9bc5-7a7c84bbde17">
+    <name>ПодтверждениеВозвратаОбрабатывается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывается (подтверждение возврата)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5cce551d-2c91-40c2-abd2-228633b27e5b">
+    <name>ПодтверждениеВозвратаОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка (подтверждение возврата)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbe9076e-7b43-44c1-9b4c-5161788c2827">
+    <name>Возвращен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвращен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0afb9deb-429f-409f-b488-c58327876279">
+    <name>ГрузУтраченОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка (груз утрачен)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6430d190-a667-4b42-9a3b-348fcc64d768">
+    <name>ГрузУтраченОбрабатывается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывается (груз утрачен)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0db43f3c-2138-4869-9d55-f4a7b50cb39c">
+    <name>Утрачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утрачен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc572c45-2597-44c8-90d9-8ad138b33812">
+    <name>ПодтверждениеУтратыГрузаОбрабатывается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывается (подтверждение утраты груза)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b80b2837-db3b-45f9-8e87-89832cd1b1f7">
+    <name>ПодтверждениеУтратыГрузаОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка (подтверждение утраты груза)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82eefe61-0023-4ec4-bb5f-5d8f6d3586e0">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

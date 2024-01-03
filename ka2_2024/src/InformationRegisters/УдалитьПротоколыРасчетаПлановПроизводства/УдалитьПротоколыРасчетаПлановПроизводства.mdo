@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce40a4f7-a2ab-4dad-bff0-93be0f3cf5a1">
+  <producedTypes>
+    <selectionType typeId="d911cae7-3ee5-442d-b836-e217fa09fc13" valueTypeId="3405ad7a-e063-4d9c-a563-f7ce65f1e088"/>
+    <listType typeId="fba2add8-457a-4d67-9701-d0ff134138fa" valueTypeId="a900a36e-7992-4298-b65f-c4610c432d47"/>
+    <managerType typeId="00cc80e1-8530-45e5-a65a-257e629d9148" valueTypeId="c1381602-6a9e-431f-9a55-3d00164db4ce"/>
+    <recordSetType typeId="4bb9c861-36ef-4497-b5d0-b76fa9e6b5ac" valueTypeId="715bd5b2-0fe0-4ada-9e19-7835c352bdfe"/>
+    <recordKeyType typeId="7b141c66-7b0b-4705-8852-1eef6f4a4966" valueTypeId="e38dd61e-e697-4102-84ad-1701f89ba005"/>
+    <recordType typeId="9f39a643-74ee-456b-a127-6a19a951b063" valueTypeId="e829c3b8-b747-455b-a84e-86e52f92368f"/>
+    <recordManagerType typeId="55f838ee-3f7b-4332-b0ef-ff76ce196a05" valueTypeId="e9243f0c-ff1a-47ca-abb7-590c4801d72c"/>
+  </producedTypes>
+  <name>УдалитьПротоколыРасчетаПлановПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Протоколы расчета планов производства</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="3bedd7dd-377d-4c4f-88f0-edec1184ec17">
+    <name>НачалоРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало расчета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="726aa66d-775e-439b-a1eb-5a2d89520e02">
+    <name>ОкончаниеРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание расчета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4390cfcd-3dca-4a54-8524-8d6fc23aa275">
+    <name>ЕстьОшибкиРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть ошибки расчета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="72a7b906-cedb-4e76-b743-475e0677f137">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="cd43c8fe-d04e-44d7-9854-c8ddb9dd6449">
+    <name>ОбъектРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>План производства</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПланПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b9e8205f-7af3-4c14-8538-b54188f527ec">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

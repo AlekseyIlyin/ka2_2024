@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>CommonCommand.ДополнительныеОтчетыБюджетированиеИПланирование</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.ОборотыБюджетов.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>AccumulationRegister.ОборотыБюджетов.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>AccumulationRegister.ОборотыБюджетов.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CommonCommand.ПанельОтчетовБюджетированиеИПланирование</commands>
+      <commands>DataProcessor.ПанельСправочниковБюджетирования.Command.РазделСправочниковБюджетирование</commands>
+      <commands>CommonCommand.ФункциональнаяМодельБюджетированиеИПланирование</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.БюджетированиеИПланирование.Subsystem.Бюджеты</subsystems>
+    <subsystems>Subsystem.БюджетированиеИПланирование.Subsystem.НСИБюджетирования</subsystems>
+    <subsystems>Subsystem.БюджетированиеИПланирование.Subsystem.ПланированиеЗапасов</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

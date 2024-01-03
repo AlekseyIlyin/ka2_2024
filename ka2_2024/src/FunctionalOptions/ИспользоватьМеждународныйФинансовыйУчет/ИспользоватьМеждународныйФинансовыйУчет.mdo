@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91eff11b-ca35-43b9-bc22-9e0cf107b0e5">
+  <name>ИспользоватьМеждународныйФинансовыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать международный финансовый учет</value>
+  </synonym>
+  <location>Constant.ИспользоватьМеждународныйФинансовыйУчет</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Enum.ВидыЭлементовФинансовогоОтчета</content>
+  <content>Catalog.ЭлементыФинансовыхОтчетов</content>
+  <content>Catalog.ГруппыФинансовогоУчетаДенежныхСредств</content>
+  <content>Catalog.ОбъектыЭксплуатации.Attribute.ГруппаОСМеждународныйУчет</content>
+  <content>Catalog.ОбъектыЭксплуатации</content>
+  <content>Catalog.НематериальныеАктивы</content>
+  <content>Catalog.НастройкиСчетовУчетаПрочихОпераций</content>
+  <content>InformationRegister.РегламентныеЗаданияЗакрытияМесяца.Resource.ЗакрыватьМеждународныйУчетВПрошломПериоде</content>
+  <content>InformationRegister.РегламентныеЗаданияЗакрытияМесяца.Resource.УдалитьЗакрываемыйПериодМУ</content>
+  <content>InformationRegister.УчетнаяПолитикаФинансовогоУчета.Resource.ДлительностьОперационногоЦикла</content>
+  <content>Catalog.ГруппыНМА.Attribute.ПорядокУчета</content>
+  <content>Catalog.ГруппыНМА.Attribute.ПериодичностьОценки</content>
+</mdclass:FunctionalOption>

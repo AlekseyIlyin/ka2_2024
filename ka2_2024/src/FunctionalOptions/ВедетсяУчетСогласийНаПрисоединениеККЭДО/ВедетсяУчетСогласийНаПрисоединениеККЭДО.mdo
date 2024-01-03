@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba2af0e2-2663-4152-b5a4-0bc7da5df8d8">
+  <name>ВедетсяУчетСогласийНаПрисоединениеККЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведется учет согласий на присоединение ККЭДО</value>
+  </synonym>
+  <location>Constant.ВедетсяУчетСогласийНаПрисоединениеККЭДО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.СогласиеНаПрисоединениеККЭДО</content>
+  <content>Constant.АвтоматическиФормироватьСогласияНаПрисоединениеККЭДО</content>
+</mdclass:FunctionalOption>

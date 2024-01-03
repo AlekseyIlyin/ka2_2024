@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51427215-6c5e-4992-9ad5-07cd7bfa1ceb">
+  <producedTypes>
+    <objectType typeId="d49ff0e9-f95d-446d-953b-f45bc0f22d84" valueTypeId="beeb5f06-4c3b-4f70-8398-111b58c24fbd"/>
+    <managerType typeId="a40329ca-fb16-4060-889e-5c27958a888e" valueTypeId="9bfb15e8-7fb4-41c0-bf88-96a7d7b0a109"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеБумажныеФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентированное уведомление</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+  <forms uuid="c0fbd350-132d-4193-861b-1441a2889526">
+    <name>ФормаУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма уведомления</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="21adec92-587d-45e3-b306-f724ed926ded">
+    <name>ФормаОсвобождениеНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Освобождение от НДС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ce0d26d-f9e9-4abe-a1ca-f9b43f425f5f">
+    <name>ОсвобождениеОтНДСПриЕСХН_501</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об освобождении от уплаты НДС при ЕСХН</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d94e5985-2040-46fd-8be2-920770e50b95">
+    <name>ОсвобождениеОтУплатыНДС_501</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об освобождении от уплаты НДС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1982a5ce-6686-419b-925d-bc72afde414c">
+    <name>Форма_ОсвобождениеОтУплатыНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="e900bf64-f267-440d-8b73-8701616b1bc0">
+    <name>Форма_ОсвобождениеОтНДСПриЕСХН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="b89ea0de-4779-47a1-a4f7-a6136e39f705">
+    <name>Печать_MXL_Форма_ОсвобождениеОтУплатыНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="4acea32d-a2f4-4579-bf70-b7f209c7fce3">
+    <name>Печать_MXL_Форма_ОсвобождениеОтНДСПриЕСХН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="09367a89-f9be-4acc-9c33-6479f9ab7022">
+    <name>Форма_ВозвратСуммыНВОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="141d66e7-b736-475c-af32-3a400da1da62">
+    <name>Форма_ЗачетСуммыНВОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="8267e51b-4a5e-4d7f-8131-887345ada0a6">
+    <name>Форма_Уведомление1НачалоУплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="b3ee0c70-4706-47dc-ba83-32d420d305be">
+    <name>Форма_Уведомление2ОтказОтУплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="dde3115c-07ab-44ea-a90d-ee5a3428de73">
+    <name>Форма_ЗаявлениеНаПриемДокументовФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="851f32bc-8059-4d9d-ada8-2b9f76347b1f">
+    <name>Печать_MXL_Форма_ВозвратСуммыНВОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="c4905929-c418-4a2a-8600-588342c20bb7">
+    <name>Печать_MXL_Форма_ЗачетСуммыНВОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="b55ad952-5730-49aa-bbbb-a4aec8027fdc">
+    <name>Печать_MXL_Форма_ЗаявлениеНаПриемДокументовФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="9fe0712e-e085-49e8-8a76-0f29c36e7d97">
+    <name>Печать_MXL_Форма_Уведомление1НачалоУплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="31637793-94fd-4492-96c9-d0ac18996e88">
+    <name>Печать_MXL_Форма_Уведомление2ОтказОтУплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="23eb8d0c-73e4-4e85-9e18-ab06d7fe0ed0">
+    <name>Форма_ДополнительныеВыпискиНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма дополнительные выписки НДС</value>
+    </synonym>
+  </templates>
+  <templates uuid="af2f0c8f-32cc-43e8-bd4a-e5fdc9f160f0">
+    <name>Печать_MXL_Форма_ДополнительныеВыпискиНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать MXL форма дополнительные выписки НДС</value>
+    </synonym>
+  </templates>
+  <templates uuid="da2624c1-f323-4bcf-925a-bca5e04d0a66">
+    <name>СхемаВыгрузки_ОсвобождениеОтУплатыНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="6f8bf6b2-aae3-41db-84a9-cc90678b57d6">
+    <name>СхемаВыгрузки_ОсвобождениеОтНДСПриЕСХН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="13c93ee6-9fe2-41c1-8879-93fc9dc0a88a">
+    <name>СпискиВыбора2020_Подписант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="64a9cddd-754f-43ee-8e26-6d02e5745b49">
+    <name>Титульная_ОсвобождениеОтНДСПриЕСХН_501</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="661765b4-4448-445c-88c2-e1ccd2907128">
+    <name>Титульная_ОсвобождениеОтУплатыНДС_501</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="95a01238-2ed6-4831-86d2-f82c42b44173">
+    <name>Титульная_ОсвобождениеОтУплатыНДС_БП3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="ef2cdd2e-7266-49e3-80c2-d8c8388c91e7">
+    <name>Форма_ОбработкаПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="0f38ee55-476c-4deb-90ab-492b6445e0e4">
+    <name>Печать_MXL_Форма_ОбработкаПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="e3b3b2a7-bbdf-4f7b-98a0-b3b14d766e82">
+    <name>Форма_ОбработкаПерсональныхДанных_2023</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="b0a42187-dadf-44fe-96be-a720f82c59ca">
+    <name>Форма_ИзменениеСведенийОбработкаПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="e3aa36d2-ca07-4914-bb17-d23dd73f5f1e">
+    <name>Печать_MXL_Форма_ОбработкаПерсональныхДанных_2023</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="8924021f-17c7-421d-bcdd-412592ccb747">
+    <name>Печать_MXL_ИзменениеСведенийОбработкаПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="21d0cef2-d620-434e-ba68-56f57aa0b5a8">
+    <name>Форма_ПрекращениеОбработкиПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="d3346d6f-8e23-4f92-bb6d-db90c7281281">
+    <name>Печать_MXL_ПрекращениеОбработкиПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="5c43a630-3c58-4f7f-b1dc-f0adb9987b5d">
+    <name>Форма_ВозмещениеПроизводственныхРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="aa2b3f8e-2634-4c5a-bf03-34fc388cb2ec">
+    <name>Печать_MXL_ВозмещениеПроизводственныхРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="c67c4921-68bc-44e9-bf25-18cf09c9252c">
+    <name>Форма_ПрибытиеГражданинаРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="1dbe1d57-f496-4cb7-adb0-47e95346ebc5">
+    <name>Форма_УбытиеИностранца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="a30810fb-29ef-4b30-9116-9094559f5f15">
+    <name>Форма_ПрибытиеИностранца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="af462c8e-beac-434e-8231-4552e23d9493">
+    <name>Печать_MXL_ПрибытиеГражданинаРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="04f72f4c-f0e6-4965-a3dd-065b79890216">
+    <name>Печать_MXL_УбытиеИностранца</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="d3a36808-80e7-424e-bedd-482387f8dee5">
+    <name>Печать_MXL_ПрибытиеИностранца</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="fb381cad-03fc-4962-910c-5d92fa51f6bd">
+    <name>Форма_ЗачетСФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="643315b1-0cd8-4e36-9770-862435a05fa9">
+    <name>Форма_ВозвратСФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="0a0035dd-4113-4c23-8168-4fb9ae614348">
+    <name>Печать_MXL_ЗачетСФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="f53b8055-7231-42be-bf9c-16b9c1157b74">
+    <name>Печать_MXL_ВозвратСФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

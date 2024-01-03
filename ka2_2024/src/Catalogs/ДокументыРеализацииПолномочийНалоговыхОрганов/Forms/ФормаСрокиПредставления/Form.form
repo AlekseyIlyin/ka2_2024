@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Нормативные сроки</value>
+  </title>
+  <items xsi:type="form:Decoration">
+    <name>СрокиПредставления</name>
+    <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>&lt;fontsize 16>&lt;b>&lt;colorstyle -16>Срок отправки подтверждения о приеме&lt;/>&lt;/>&lt;/>
+Квитанцию о приеме требования следует отправить в течение шести рабочих дней со дня его отправки налоговым органом (&lt;link https://its.1c.ru/db/garant#content:10800200:1:23501>п. 5.1 ст. 23 НК РФ&lt;/>).
+Если прием требования не будет подтвержден в указанный срок, налоговый орган вправе приостановить операции по банковским счетам (&lt;link https://its.1c.ru/db/garant#content:10800200:1:7603>пп.2 п.3 ст. 76 НК РФ&lt;/>).
+
+
+&lt;fontsize 16>&lt;b>&lt;colorstyle -16>Сроки ответа на требования &lt;/>&lt;/>&lt;/>
+
+&lt;fontsize 12>&lt;colorstyle -16>Требования о представлении пояснений&lt;/>&lt;/>
+&lt;colorstyle -16>5 рабочих дней со дня получения требования&lt;/>
+• При выявлении ошибок в налоговой декларации (расчете) и (или) противоречия между сведениями, содержащимися в представленных документах, либо при выявлении несоответствия сведений, представленных налогоплательщиком, сведениям, содержащимся в документах, имеющихся у налогового органа, и полученным им в ходе налогового контроля (&lt;link https://its.1c.ru/db/garant#content:10800200:1:883>п.3 ст.88 НК РФ&lt;/>)
+
+За непредставление (несвоевременное представление) пояснений по требованию налогового органа предусмотрена ответственность в виде штрафа (&lt;link https://its.1c.ru/db/garant#content:10800200:1:129>ст. 129 НК РФ&lt;/>)
+
+&lt;fontsize 12>&lt;colorstyle -16>Требования о представлении документов (информации)&lt;/>&lt;/>
+&lt;colorstyle -16>5 рабочих дней со дня получения требования&lt;/>
+• При проведении встречной проверки контрагента или иного лица (&lt;link https://its.1c.ru/db/garant#content:10800200:1:9301>ст.93.1 НК РФ&lt;/>). 
+Если документы по этому контрагенту отсутствуют, то об этом также нужно сообщить в течение 5 дней (&lt;link https://its.1c.ru/db/garant#content:10800200:1:93015>п.5 ст.93.1 НК РФ&lt;/>)
+
+&lt;colorstyle -16>10 рабочих дней со дня получения требования &lt;/>
+• В рамках проведения выездных и камеральных проверок (&lt;link https://its.1c.ru/db/garant#content:10800200:1:93>ст.93 НК РФ&lt;/>)
+• При проведении дополнительных мероприятий налогового контроля (&lt;link https://its.1c.ru/db/garant#content:10800200:1:1016>п.6 ст.101 НК РФ&lt;/>)
+
+&lt;colorstyle -16>20 рабочих дней со дня получения требования &lt;/>
+• В рамках проведения налоговой проверки консолидированной группы налогоплательщиков (&lt;link https://its.1c.ru/db/garant#content:10800200:1:93>ст.93 НК РФ&lt;/>)
+
+&lt;colorstyle -16>30 рабочих дней со дня получения требования &lt;/>
+• В рамках проведения налоговой проверки иностранной организации, подлежащей постановке на учет в налоговом органе в соответствии с п.4.6 ст. 83 НК РФ (&lt;link https://its.1c.ru/db/garant#content:10800200:1:93>ст.93 НК РФ&lt;/>)
+
+Течение указанных сроков начинается на следующий день после получения требования и заканчивается в 24 часа последнего дня срока.
+
+Если представить документы в указанные сроки невозможно, то следует в течение 1 дня уведомить об этом налоговый орган. В письменном уведомлении следует указать причины и срок, в течение которого документы могут быть представлены.
+
+За непредставление (несвоевременное представление) документов (информации) по требованию налогового органа предусмотрена ответственность в виде штрафа (&lt;link https://its.1c.ru/db/garant#content:10800200:1:93>ст.93 НК РФ&lt;/>, &lt;link https://its.1c.ru/db/garant#content:10800200:1:126>ст.126 НК РФ&lt;/>)</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>СрокиПредставленияРасширеннаяПодсказка</name>
+      <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СрокиПредставленияКонтекстноеМеню</name>
+      <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <width>88</width>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

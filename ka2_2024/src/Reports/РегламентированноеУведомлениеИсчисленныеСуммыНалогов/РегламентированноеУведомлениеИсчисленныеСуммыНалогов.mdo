@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d5efd4d-03f2-4655-bc10-e5d376209401">
+  <producedTypes>
+    <objectType typeId="1f75ecf4-f94d-4f48-9143-f92bdacee1f4" valueTypeId="e44627dd-a304-46df-acb1-fef1f6402978"/>
+    <managerType typeId="4803b21c-3bbc-40d8-8684-374e5ce5d4fd" valueTypeId="ca301664-16b9-46a9-86fa-fd73eb06258a"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеИсчисленныеСуммыНалогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление об исчисленных суммах налогов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+  <forms uuid="14c7d124-85db-491a-b085-617f4208b50f">
+    <name>Форма2022_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об исчисленных суммах налогов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e07a0f77-7d18-4858-9162-671a92db76e5">
+    <name>Форма2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об исчисленных суммах налогов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e13a2c6e-c4bc-4ed9-8060-89ed55b76a5a">
+    <name>СпискиВыбора2022_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="5628793f-027c-49e8-91d9-b47fe5f00aa0">
+    <name>Титульная_2022</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="e108fedf-1e85-4b73-90d1-2af6e80a5099">
+    <name>СумИсчНалог_2022</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="8f9a3936-9660-418f-a8fa-5ac0476fa04a">
+    <name>СхемаВыгрузкиФорма2022_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="cc83e1dc-9ef1-432d-b601-d9f364de999f">
+    <name>Печать_Форма2022_1_Титульная</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="12a5dbca-51fa-4fdc-91d6-4733cf5a92bb">
+    <name>СпискиВыбора2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="2b38415e-22f1-43d3-ad88-6cb1ca58c292">
+    <name>Титульная_2023</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="85bb0a01-17c1-4be8-9e8c-76b0efa49f74">
+    <name>СумИсчНалог_2023</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="2e5008cd-c065-4b89-b453-74264927cfa9">
+    <name>СхемаВыгрузкиФорма2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="bf7f1c33-baa7-4402-89d7-dc2ce7ded273">
+    <name>Печать_Форма2023_1_Титульная</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="057c3049-6e67-4329-9c57-7ba0440f2cf4">
+    <name>Печать_Форма2023_1_СумИсчНалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="a73faa63-c13a-4cb8-96f8-d466c6761329">
+    <name>TIFF_2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1110355_5.02000_02.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

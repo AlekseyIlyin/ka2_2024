@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88a8ef6e-9406-4b91-aa14-0de2ffaf4c24">
+  <name>ОтозватьСогласиеПриУвольнении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отозвать согласие при увольнении</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.КадроваяИсторияСотрудников</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.КадровыйЭДО.ОтозватьСогласиеПриУвольнении</handler>
+</mdclass:EventSubscription>

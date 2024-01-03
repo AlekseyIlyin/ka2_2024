@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd3079d9-cbaa-47e5-a7ee-816e3b405605">
+  <producedTypes>
+    <objectType typeId="6965c2ad-ba7f-42d5-b88b-8fc2580ef0f4" valueTypeId="9c4caba1-9b80-417a-9a65-620eb9bed2d0"/>
+    <managerType typeId="93cd01c3-02d8-4a2e-8cd3-2024154c56a6" valueTypeId="c6ffc60a-33f0-4191-992a-ed237c3c3366"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеОтсрочкаСтраховыеВзносы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявление о предоставлении рассрочки по уплате страховых взносов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+  <forms uuid="72b44e59-15fd-4e5e-bae0-4ba427787db3">
+    <name>Форма2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о предоставлении рассрочки по уплате страховых взносов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="330ca01f-9018-4cb1-a299-da11816c763b">
+    <name>СпискиВыбора2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="72d8629f-8d28-4b2a-a0f3-0e522f9db1ec">
+    <name>Титульная_2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="7dbe3a3d-60c0-4fc4-b41f-9df88e340958">
+    <name>СхемаВыгрузкиФорма2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="8ecb2251-a5b1-4106-a8c4-08d4cd4b5a57">
+    <name>Печать_Форма2023_1_Титульная</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

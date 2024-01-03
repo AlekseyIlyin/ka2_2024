@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2f8d9cf-552c-4fd9-8137-d7db81e9e3d8">
+  <name>КадровыйЭДОРасширенный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый ЭДО (расширенный)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.КадровыйЭДОРасширенный</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыРасширеннаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

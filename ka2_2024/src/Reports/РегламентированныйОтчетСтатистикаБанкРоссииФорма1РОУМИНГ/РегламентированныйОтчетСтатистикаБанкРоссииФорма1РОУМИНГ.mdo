@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fefb054-df9b-4205-948c-504e34f19982">
+  <producedTypes>
+    <objectType typeId="8700cfa8-4077-41cd-89b1-b34bd8070ab0" valueTypeId="6d82de03-53e0-479c-a170-b6db11273072"/>
+    <managerType typeId="ca842fc4-4985-4db5-bed0-f71417aefdc5" valueTypeId="cbec6825-d40f-4417-b16c-caef51883fc7"/>
+  </producedTypes>
+  <name>РегламентированныйОтчетСтатистикаБанкРоссииФорма1РОУМИНГ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма 1-РОУМИНГ &quot;Сведения об абонентах оператора подвижной радиотелефонной связи, находившихся в международном роуминге&quot;</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчетСтатистикаБанкРоссииФорма1РОУМИНГ.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="196c2ca8-eed0-4ee9-a4ba-64bfad615309">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 1-РОУМИНГ</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="efccb010-927b-462c-a196-340bb536358f">
+    <name>ФормаОтчета2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения об абонентах оператора подвижной радиотелефонной связи, находившихся в международном роуминге (форма № 1-РОУМИНГ)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3bf22d2f-e63f-4720-8e72-ea63a1bbac5b">
+    <name>МетаданныеШаблона2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метаданные шаблона</value>
+    </synonym>
+  </templates>
+  <templates uuid="eeca60cd-7d22-476e-8c2c-a24c3d75d0fd">
+    <name>НастройкиЗагрузкиXML2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2022</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7fc1f335-c67e-4faa-acc1-7e9dd37e3abf">
+    <name>НастройкиСравнения2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2022</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d97c9420-76a8-4738-94d1-09e032399626">
+    <name>ПечатныйБланк2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="c9459f09-68fe-4d07-829f-d7c70dcd55d2">
+    <name>СпискиВыбора2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="d713d84c-4794-43eb-b354-cdcddadccbc3">
+    <name>СхемаВыгрузкиXML2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки XML2022 кв1</value>
+    </synonym>
+  </templates>
+  <templates uuid="e297f606-9235-4dc5-8c10-784c578af373">
+    <name>ФормаОтчета2022Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="6f78f8d4-25ea-469d-9eb9-acc507efc67d">
+    <name>ФормаОтчета2022Кв1_Раздел2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="ad5005a2-494b-4f99-ace5-22f183b1deb8">
+    <name>ФормаОтчета2022Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="b5d761f5-6c81-4e59-b78f-cd1c17dbd931">
+    <name>ШаблонБанка2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон Банка России</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

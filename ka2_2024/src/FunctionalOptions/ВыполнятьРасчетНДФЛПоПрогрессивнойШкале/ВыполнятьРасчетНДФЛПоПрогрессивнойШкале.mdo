@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="838dcdd6-74ff-4fc9-a1f5-59cf9ea8d2eb">
+  <name>ВыполнятьРасчетНДФЛПоПрогрессивнойШкале</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнять расчет НДФЛ по прогрессивной шкале</value>
+  </synonym>
+  <location>InformationRegister.УчетнаяПолитикаПоНДФЛ.Resource.ВыполнятьРасчетНДФЛПоПрогрессивнойШкале</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>AccumulationRegister.РасчетыНалогоплательщиковСБюджетомПоНДФЛ.Resource.СуммаСПревышения</content>
+  <content>Document.ОперацияНалоговогоУчетаПоНДФЛ.TabularSection.СведенияОДоходах.Attribute.СуммаСПревышения</content>
+  <content>Document.ПерерасчетНДФЛ.TabularSection.Сотрудники.Attribute.НалогСПревышенияПоСтавке13</content>
+  <content>Document.ОперацияНалоговогоУчетаПоНДФЛ.TabularSection.НДФЛИсчисленныйПоСтавке13.Attribute.СуммаСПревышения</content>
+  <content>Document.ОперацияНалоговогоУчетаПоНДФЛ.TabularSection.НДФЛИсчисленныйПоСтавке13.Attribute.ЗачтеноАвансовыхПлатежейСПревышения</content>
+  <content>Document.ПерерасчетНДФЛ.TabularSection.Сотрудники.Attribute.ЗачтеноАвансовыхПлатежейСПревышенияПоСтавке13</content>
+  <content>Document.ВедомостьНаВыплатуЗарплатыВБанк.TabularSection.НДФЛ.Attribute.СуммаСПревышения</content>
+  <content>Document.ВедомостьНаВыплатуЗарплатыВКассу.TabularSection.НДФЛ.Attribute.СуммаСПревышения</content>
+  <content>Document.ВозвратНДФЛ.TabularSection.СуммыВозврата.Attribute.НалогСПревышения</content>
+  <content>AccumulationRegister.НДФЛКПеречислению.Resource.СуммаСПревышения</content>
+  <content>AccumulationRegister.НДФЛПеречисленный.Resource.СуммаСПревышения</content>
+</mdclass:FunctionalOption>

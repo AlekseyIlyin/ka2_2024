@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cdcbd51-24e5-4dc1-9885-7b74b4cc3869">
+  <name>ДобавлениеИзменениеДвиженийПродукцииИМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение движений продукции и материалов</value>
+  </synonym>
+</mdclass:Role>

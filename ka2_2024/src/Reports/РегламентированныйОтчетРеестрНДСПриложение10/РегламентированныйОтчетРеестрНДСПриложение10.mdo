@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f9e6cc1-6578-4bdc-980e-df5f7de827ac">
+  <producedTypes>
+    <objectType typeId="eeb335b3-c66c-4cfa-ab9f-aa87ec006693" valueTypeId="40f2da95-ddb0-4f8f-a678-164129cc03de"/>
+    <managerType typeId="efa55351-f37d-4163-a81e-78725db0ff42" valueTypeId="f1c4fcc1-8748-4173-a5cf-a9c33642116b"/>
+  </producedTypes>
+  <name>РегламентированныйОтчетРеестрНДСПриложение10</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр по НДС: Приложение 10</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчетРеестрНДСПриложение10.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="814c0989-48d5-450b-9445-07cb3bfb49f3">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр по НДС: Приложение 10</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="79fefeae-79fc-454d-878c-86deeba48a5d">
+    <name>ФормаОтчета2015Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр по НДС: Приложение 10</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="730ee16e-78f3-444c-9acc-8787c8c51a9b">
+    <name>ФормаОтчета2020Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр по НДС: Приложение 10</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8db65eeb-7304-40f7-abef-d95b5d1adb3c">
+    <name>ФормаОтчета2021Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр по НДС: Приложение 10</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="af19788a-3fd8-4900-b003-182506470557">
+    <name>НастройкиЗагрузкиXML2015Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2015 (кв.4)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="19b54494-74dd-4105-b229-3c8e2fb15a49">
+    <name>ПечатныйБланк2015Кв4_Реестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="a3a843bf-341a-4472-aa7a-dae2d52358b0">
+    <name>ПечатныйБланк2015Кв4_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="3a6e57b7-21ad-45d4-b001-af91c2df629f">
+    <name>СпискиВыбора2015Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора значений</value>
+    </synonym>
+  </templates>
+  <templates uuid="5cd9dd79-bd03-41b1-b848-64a89d272bc5">
+    <name>СхемаВыгрузки501_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки501 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="97b0ccc2-4e92-4290-9fd4-3aa16f072c4e">
+    <name>СхемаВыгрузки501_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки501 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="d236eb96-6c87-4b1c-a116-8d4b88c494da">
+    <name>ФормаОтчета2015Кв4_Реестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2015 кв4 реестр</value>
+    </synonym>
+  </templates>
+  <templates uuid="2eb5bbda-eade-4ed7-9562-795f2bc29032">
+    <name>ФормаОтчета2015Кв4_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный лист</value>
+    </synonym>
+  </templates>
+  <templates uuid="18c91f1b-b25c-4b8c-8dcb-1f464238026b">
+    <name>НастройкиСравнения2015Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2015 (кв.4)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b17ba5cd-8581-4e17-9c29-f70b6d5824da">
+    <name>НастройкиЗагрузкиXML2020Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2020 (кв.2)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7ca1851d-bdaf-41ac-8235-a3d8925e0b0c">
+    <name>НастройкиСравнения2020Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2020 (кв.2)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="aa796a0f-2d42-461e-a5d3-7dadbc1ec965">
+    <name>ПечатныйБланк2020Кв2_Реестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр</value>
+    </synonym>
+  </templates>
+  <templates uuid="833a6365-ae43-4745-afbf-a9bf69ea48f9">
+    <name>ПечатныйБланк2020Кв2_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный лист</value>
+    </synonym>
+  </templates>
+  <templates uuid="0b137580-bb01-47cf-941c-477988d22ab0">
+    <name>СпискиВыбора2020Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора значений</value>
+    </synonym>
+  </templates>
+  <templates uuid="fb1c31ee-1f95-4b93-acf3-0c6fc8dc4206">
+    <name>СхемаВыгрузки502_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="91d02a2f-1464-4ef8-b343-7d634b140245">
+    <name>СхемаВыгрузки502_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="9f49d409-4aca-4d75-b37e-9bfccf4d44a7">
+    <name>ФормаОтчета2020Кв2_Реестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр</value>
+    </synonym>
+  </templates>
+  <templates uuid="08d63390-90d3-4893-aeab-29d242788ff6">
+    <name>ФормаОтчета2020Кв2_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный лист</value>
+    </synonym>
+  </templates>
+  <templates uuid="11c76d76-f345-48e9-a837-376ccbaf0c37">
+    <name>НастройкиЗагрузкиXML2021Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2021 (кв.2)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="00117951-4ca1-430b-9e62-d2495489207c">
+    <name>НастройкиСравнения2021Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2021 (кв.2)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0dc8ebf1-6d5f-4a47-a3f0-9e58a7eded10">
+    <name>ПечатныйБланк2021Кв2_Реестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр</value>
+    </synonym>
+  </templates>
+  <templates uuid="bc080804-20ba-4d84-9f58-ea0723fb9cad">
+    <name>ПечатныйБланк2021Кв2_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный лист</value>
+    </synonym>
+  </templates>
+  <templates uuid="68edc5d8-f086-4f54-aa48-d6d23a9fe9ca">
+    <name>СпискиВыбора2021Кв2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора значений</value>
+    </synonym>
+  </templates>
+  <templates uuid="795484ba-6248-42c7-bb8e-f4711fa00f16">
+    <name>СхемаВыгрузки503_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="4c0955b1-965e-4e6a-a18b-300c527228c1">
+    <name>СхемаВыгрузки503_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="d23d7fa1-3b05-4764-bde5-08f612519dfd">
+    <name>ФормаОтчета2021Кв2_Реестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр</value>
+    </synonym>
+  </templates>
+  <templates uuid="e40c5e62-05dd-4e9f-ac8d-c6ac816269f0">
+    <name>ФормаОтчета2021Кв2_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный лист</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

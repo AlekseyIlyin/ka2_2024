@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dea05ce1-3e7f-4c33-a58c-edba05115945">
+  <producedTypes>
+    <refType typeId="aa5f6908-62d9-4d14-98e8-05424c5b513a" valueTypeId="17831868-c8fa-417c-a987-86a0ad6a5628"/>
+    <listType typeId="64cd4880-25bc-46a1-afb3-72c4a75603c8" valueTypeId="2d39f370-0ed7-4bd4-9159-89bd6fad1573"/>
+    <managerType typeId="2ea7a7ab-c6b7-4404-b6a7-17b31ceb6324" valueTypeId="8dfb3efa-80b2-44f0-810f-7a1d2a2ceb0c"/>
+  </producedTypes>
+  <name>ТипыОбъектовИнтеграцияУправлениеПерсоналом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы объектов интеграция управление персоналом</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eb19a2ae-2631-47de-ae1c-09f7c7f580b4">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5c5c808-f1a8-4b5c-925c-0d3844ef31ff">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="502c293c-ab9b-425b-851a-e752d3e3cc76">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b3c1761-cd5a-4906-8336-28ec543c5949">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="586902df-a40b-4c74-9001-a483226acccd">
+    <name>ДолжностьПоШтатномуРасписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность по штатному расписанию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbb769d4-662b-44f2-b390-79843f4503d2">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="576427dd-ee19-4d55-8673-cb24e6880ec5">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d712a7a6-96b0-4093-a293-fd1a6c702252">
+    <name>ГрафикОтпусковПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>График отпусков предприятия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42508e04-b328-4683-84f6-926c963aa940">
+    <name>ГрафикОтпусковПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>График отпусков подразделения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00d1795f-339c-4fb9-890d-6301ba7f9acd">
+    <name>ВерсииФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии формата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8861ce54-fbfd-4635-b3d9-1994a3766eee">
+    <name>ВсеИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все изменения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aaf04261-3e60-400b-8989-da40e9b67429">
+    <name>ВидПредоставляемойСотрудникамСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид предоставляемой сотрудникам справки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78ffc7e9-5c2d-46d1-a8b6-80eae20d5fa0">
+    <name>Оффер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оффер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="086c98ba-3bed-4dbf-a790-ea6358387b89">
+    <name>ОграничениеДоступаКРабочимКонтактам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничение доступа к рабочим контактам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="490f7c8c-b542-4a7f-8e10-ce2a1f35a7c5">
+    <name>ДоступныеФункцииФизическогоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступные функции физического лица</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4493a1f5-d914-4bcd-a6ff-7102fae12208">
+    <name>ДокументНаПодпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ на подпись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f57ed738-b0d9-4576-a811-5412618d8aec">
+    <name>СогласиеНаПрисоединениеККЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласие на присоединение ККЭДО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5f53176-cc89-40df-91ce-54b90de9fbca">
+    <name>МашиночитаемаяДоверенностьКЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Машиночитаемая доверенность КЭДО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eab76235-6f33-4da0-8682-6526aebb5349">
+    <name>ЗапросСправки2НДФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос справки 2НДФЛ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e65e90e6-9f34-4fcf-bdb6-c7bdf57bcea8">
+    <name>ЗапросСправкиСМестаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос справки с места работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4075a67c-7e58-4953-8baf-c9124233fc92">
+    <name>ЗаявкаИзменениеЛичныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка изменение личных данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96ab1e2d-9235-44d5-85b9-8fdbaab75a3e">
+    <name>ЗаявкаНалоговыйВычет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка налоговый вычет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4aabcaba-ca30-42f0-a6f3-4632cc74a431">
+    <name>ЗаявкаНаОтпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bf344b9-1b6a-4e27-8893-6b3004d45aee">
+    <name>ЗаявкаНаКомпенсациюОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на компенсацию отпуска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1fb8fc2-7a92-49d4-b6fc-8674be86233d">
+    <name>ЗаявкаОстаткиОтпусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка остатки отпусков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0eefa511-204d-4423-b62f-48afbc4a6566">
+    <name>Отсутствие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98de92a8-884a-4df2-9419-174f051460e5">
+    <name>ЗаявкаДСВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка ДСВ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27690d6e-4290-46c0-a9e9-86b62725472b">
+    <name>ГрафикОтпусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>График отпусков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59ebfbf3-f522-40cd-8f45-cfc663c0c325">
+    <name>ЗаработанныеПраваНаОтпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заработанные права на отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34839aff-11d2-4c77-a58b-726eb4868f70">
+    <name>ПрименяемыеВычетыНДФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применяемые вычеты НДФЛ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e788da4b-d460-40ee-93b3-c7c5a43f8bdf">
+    <name>ПраздничныеДниГрафикаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Праздничные дни графика работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f37bf7d0-e0aa-42f9-ad29-49cc112ae129">
+    <name>РезультатСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат согласования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b795ece9-4e8e-4140-8019-226249b2237c">
+    <name>ПравилоСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило согласования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f34e4db-4cb0-49c6-8a7c-387c49dd4f99">
+    <name>РасчетныйЛисток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный листок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b58eea5e-c682-4645-b6f9-a1cc308c12f4">
+    <name>ПлановоеУдержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановое удержание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95313b04-44fa-44b4-9a97-169a30b6ec9e">
+    <name>БудущееИзменениеОстаткаОтпусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Будущее изменение остатка отпусков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ce4de3b-f246-45a8-a27f-04c0cc034043">
+    <name>ДанныеГрафикаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные графика работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcfea29d-fd7f-468d-9ed3-db3d655a06e8">
+    <name>ИнформацияОбИспользованииОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация об использовании отпуска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="022c2425-9789-45f2-bedc-34b7296bff73">
+    <name>ВидСоставнойЧастиЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид составной части зарплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7fabadd0-25fa-400e-b344-0886b38ab0b2">
+    <name>Справка2НДФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка2 НДФЛ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17fa06af-88d0-4adc-a51f-21d440595d29">
+    <name>СправкаСМестаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка с места работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9ce44e2-e776-4eeb-865f-21d1dcd9d8d5">
+    <name>СправкаОстаткиОтпусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка остатки отпусков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b584e3c-5aff-4ecf-8756-34cdf4905f3f">
+    <name>ИспользуемаяФункциональность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используемая функциональность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70ce5055-7958-4029-ab48-838c301d7400">
+    <name>НастройкиЗаявленийНаОтпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки заявлений на отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f33f2811-d741-4b97-a99d-dbb5423ecb31">
+    <name>ДоступностьПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность приложения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

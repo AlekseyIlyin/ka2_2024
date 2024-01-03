@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2d00ce8-5b9a-48b3-b230-c729ffb04940">
+  <name>ИнтеграцияУправлениеПерсоналомПриЗаписиРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция управление персоналом при записи расширенная</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessObject.ЗаявкаСотрудникаСправкаОстаткиОтпусков</types>
+    <types>BusinessProcessObject.ЗаявкаСотрудникаСправкаСМестаРаботы</types>
+    <types>CatalogObject.ГрафикиРаботыСотрудников</types>
+    <types>DocumentObject.СборГрафиковОтпусков</types>
+    <types>BusinessProcessObject.ЗаявкаСотрудникаОтсутствие</types>
+    <types>BusinessProcessObject.ЗаявкаСотрудникаДобровольныеСтраховыеВзносы</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИнтеграцияУправлениеПерсоналомСобытияРасширенный.ОбъектПриЗаписи</handler>
+</mdclass:EventSubscription>

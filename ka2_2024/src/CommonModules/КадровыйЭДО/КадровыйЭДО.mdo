@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28124c2f-58c5-4847-8fc5-c218e0e3331e">
+  <name>КадровыйЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый ЭДО</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

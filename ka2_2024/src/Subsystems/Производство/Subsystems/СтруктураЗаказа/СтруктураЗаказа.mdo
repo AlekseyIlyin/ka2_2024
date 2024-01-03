@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="786cdccc-b717-427f-b732-636ec33d69a9">
+  <name>СтруктураЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура заказа</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.СпособыПланированияПолуфабрикатов</content>
+  <parentSubsystem>Subsystem.Производство</parentSubsystem>
+</mdclass:Subsystem>

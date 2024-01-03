@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74375cd6-a4a5-4209-99f5-d958a3f9d243">
+  <name>УстановитьИспользованиеКЭДОПриВключенииИнтеграцииСРаботаВРоссии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить использование КЭДОПри включении интеграции с Работа в России</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ИспользоватьИнтеграциюСРаботаВРоссии</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.КадровыйЭДО.УстановитьИспользованиеКЭДОПриВключенииИнтеграцииСРаботаВРоссии</handler>
+</mdclass:EventSubscription>

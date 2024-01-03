@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbdd8f12-b5cc-41bb-adc1-1fd908fb4cdf">
+  <name>ДобавлениеИзменениеСхемОбеспеченияПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение схем обеспечения производства</value>
+  </synonym>
+</mdclass:Role>

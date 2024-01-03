@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="419cd996-289b-406e-ba12-d1d471eb0801">
+  <producedTypes>
+    <objectType typeId="15d734e7-3369-43d8-9776-5f6b94dafa01" valueTypeId="58adf96a-571a-44e4-bc1b-aba0620a8f02"/>
+    <managerType typeId="77f8a878-4c4b-4397-8705-8a4a5bec6a15" valueTypeId="cddd6762-34cb-4f01-9202-8fc605be0744"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеВозвратНДФЛНПДБиоресурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявление о возврате НДФЛ, НПД, сбора за биоресурсы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+  <forms uuid="f8d92664-2974-43c3-87e5-f4c79376df98">
+    <name>Форма2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о возврате излишне уплаченного налога</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="02ab5219-0c62-4337-bf84-dd4d318a2eb4">
+    <name>Форма2024_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о возврате НДФЛ, НПД, сбора за биоресурсы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="73db0275-7486-4630-ae2c-e1cdea41f703">
+    <name>СхемаВыгрузкиФорма2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="c2457698-a849-4457-82eb-19e91b6bbde9">
+    <name>СпискиВыбора2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="165c508c-6e6c-4e1f-9cf8-274aa89e32e8">
+    <name>Титульная_2023</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="c7f0322c-cae2-42b8-9b5c-d4d8fea016d3">
+    <name>СвСчет_2023</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="f34b997e-4ef4-404a-8026-14602bb078b6">
+    <name>Печать_Титульная_2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="aa5896b4-80d8-44ed-bdab-3b69db8553eb">
+    <name>Печать_СвСчет_2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="eaf00c55-abcd-445d-8fbd-e408fee3bd82">
+    <name>TIFF_2023_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1165166_5.01000_01.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="80a60d1a-cc67-463d-9f0c-323e49ffcec3">
+    <name>СхемаВыгрузкиФорма2024_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="909e03bf-b34d-4c0c-ae7d-b07b22819e0e">
+    <name>СпискиВыбора2024_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="5215f991-4b5d-4e7c-9d41-a59bff4f095c">
+    <name>Титульная_2024</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="44c133e9-7f8e-4956-9ae2-d53223a221dd">
+    <name>СвСчет_2024</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="a603cfd5-87a5-4fd1-9b34-a9ba6cfad600">
+    <name>Печать_Титульная_2024_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="6fb982e1-9b34-440d-bfcb-cca4bb114233">
+    <name>Печать_СвСчет_2024_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>печатный бланк</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

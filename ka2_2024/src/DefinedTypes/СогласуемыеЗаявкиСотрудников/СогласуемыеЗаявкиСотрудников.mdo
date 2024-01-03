@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc829241-f15d-4b7f-8f95-eaed28126c1d">
+  <producedTypes>
+    <containerType typeId="ceeda44d-b9ce-4cc8-9674-5340513c52be" valueTypeId="0dd6f059-c5b4-4a05-8292-4e218cc28843"/>
+  </producedTypes>
+  <name>СогласуемыеЗаявкиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласуемые заявки сотрудников</value>
+  </synonym>
+  <type>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаОтсутствие</types>
+    <types>BusinessProcessRef.ЗаявкаСотрудникаОтпуск</types>
+  </type>
+</mdclass:DefinedType>

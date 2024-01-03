@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Constant.ФормироватьРезервыПредстоящихРасходов.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ОбъектыУчетаРезервовПредстоящихРасходов.Command.ОбъектыУчетаРезервов</commands>
+      <commands>AccumulationRegister.РезервыПредстоящихРасходов.StandardCommand.OpenList</commands>
+      <commands>Document.НачислениеСписаниеРезервовПредстоящихРасходов.Command.НачислениеСписаниеРезервов</commands>
+      <commands>Report.ВедомостьПоРезервамПредстоящихРасходов.Command.ВедомостьПоРезервам</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

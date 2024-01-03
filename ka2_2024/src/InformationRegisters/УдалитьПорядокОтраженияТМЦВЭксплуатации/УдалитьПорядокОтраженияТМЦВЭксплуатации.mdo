@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2b707d5-cf58-48d5-9708-14ae5ad3a64b">
+  <producedTypes>
+    <selectionType typeId="f3bb56a7-9490-4be5-bf26-d7473e674fc4" valueTypeId="10962cd2-ddac-46a1-95bf-5895dc06dea7"/>
+    <listType typeId="6141978a-40ce-45f4-a90c-6e4898c2bbd0" valueTypeId="bf970de7-f98c-415d-a8d9-bb4bff869dee"/>
+    <managerType typeId="2dce66b1-9c1d-4e5a-887e-3ab04bb6d487" valueTypeId="c27794f3-e1e6-4211-a498-193af2238e3f"/>
+    <recordSetType typeId="2cfee5c4-56b8-4bfa-ab6e-496de2fbf113" valueTypeId="75e09dbc-59ba-4085-ab17-d0970caac6d0"/>
+    <recordKeyType typeId="a7d80b16-e2c6-4c56-b9da-d28ea96c011a" valueTypeId="40227219-36bc-45f4-a5e2-69d0ad35e296"/>
+    <recordType typeId="5fdeec81-3def-4199-b932-d1b883caefeb" valueTypeId="a02c1f31-f136-4234-9a2d-4eb76d9c1ebd"/>
+    <recordManagerType typeId="c9c54fa5-4611-459e-88fe-9bc15a65d6b1" valueTypeId="ddd39b17-b3a1-41f7-87dc-f002a5cc06fc"/>
+  </producedTypes>
+  <name>УдалитьПорядокОтраженияТМЦВЭксплуатации</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Порядок отражения ТМЦ в эксплуатации</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Порядок отражения ТМЦ в эксплуатации</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Порядок отражения ТМЦ в эксплуатации в регл. учете</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Порядок отражения ТМЦ в эксплуатации</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Порядок отражения ТМЦ в эксплуатации в регл. учете</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Настройка порядка отражения ТМЦ в эксплуатации в регламентированном учете</value>
+  </explanation>
+  <resources uuid="b0cb56df-2e63-4171-b291-696f34cf4043">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета в эксплуатации</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета ТМЦ в эксплуатации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9db6bdce-afe3-47ba-b522-1116d32a06a5">
+    <name>СчетЗабалансовогоУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет забалансового учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет забалансового учета ТМЦ в эксплуатации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bb0a71bd-9560-406c-afc3-a9b3661fb98c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация,  для которой задается порядок отражения ТМЦ в эксплуатации.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Организации.EmptyRef</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a8346ca8-e4c1-4a95-bb06-d3309be4a5a9">
+    <name>КатегорияЭксплуатации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория эксплуатации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииЭксплуатации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Назначение использования в эксплуатации, для которой задается порядок отражения ТМЦ.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

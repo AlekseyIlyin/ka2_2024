@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60f765f8-e551-453b-a6d2-e4583127a842">
+  <name>ИнтеграцияКабинетСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция кабинет сотрудника</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияКабинетСотрудника</content>
+  <content>InformationRegister.ВыгружаемыеОбъектыКабинетСотрудника</content>
+  <content>InformationRegister.ИзмененияДляОбменаКабинетСотрудника</content>
+  <content>DefinedType.СсылкаИзменениеКабинетСотрудника</content>
+  <content>DefinedType.СсылкаПубликацииКабинетСотрудника</content>
+  <content>CommonModule.ИнтеграцияКабинетСотрудникаВнутренний</content>
+  <content>CommonModule.ИнтеграцияКабинетСотрудникаОбмен</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПодсистемы.Subsystem.ИнтеграцияУправлениеПерсоналом</parentSubsystem>
+</mdclass:Subsystem>

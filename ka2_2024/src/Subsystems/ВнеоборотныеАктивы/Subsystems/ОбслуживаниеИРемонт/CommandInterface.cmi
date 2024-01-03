@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.НаработкаОбъектовЭксплуатации.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.НаработкаОбъектовЭксплуатации.Command.НаработкаОбъектовЭксплуатации</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ПоказателиНаработки.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.НастройкаПоддержанияЗапасов.Command.НастройкаПоддержанияЗапасов</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ОбъектыЭксплуатации.StandardCommand.OpenList</commands>
+      <commands>Document.НаработкаОбъектовЭксплуатации.Command.НаработкаОбъектовЭксплуатации</commands>
+      <commands>Document.НаработкаОбъектовЭксплуатации.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПоказателиНаработки.StandardCommand.OpenList</commands>
+      <commands>DataProcessor.НастройкаПоддержанияЗапасов.Command.НастройкаПоддержанияЗапасов</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

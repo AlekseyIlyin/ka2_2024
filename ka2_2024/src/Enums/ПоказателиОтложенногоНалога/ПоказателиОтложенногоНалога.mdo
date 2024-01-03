@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b63bee6-b8bd-4429-bd50-f20717aee59f">
+  <producedTypes>
+    <refType typeId="88ca8085-3463-4faa-92c5-a418757faeaf" valueTypeId="47dfaf87-27ce-47f2-b652-d889097d83c0"/>
+    <listType typeId="e7e98a99-c830-4118-8d41-cecab71c26aa" valueTypeId="24dd8049-d59b-4eea-bb90-09754ff960f0"/>
+    <managerType typeId="51365dba-bd3e-4871-8db6-c713f9fd6d3f" valueTypeId="be257292-c8f2-4f2b-babd-847ba3387817"/>
+  </producedTypes>
+  <name>ПоказателиОтложенногоНалога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели отложенного налога (ПБУ 18)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bb5b9ec4-a814-43b4-9ace-a4d2acd4157f">
+    <name>ПрибыльДоНалогообложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прибыль до налогообложения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20859002-3641-444b-aeb2-79a1d83c88f3">
+    <name>ОтложенныйНалогНачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенный налог на начало периода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f618442-0cc1-4048-95db-0f18b8cc5175">
+    <name>ОтложенныйНалоговыйАктивНачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенный налоговый актив на начало периода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ff7d8b8-8634-4246-8b65-277105f26215">
+    <name>ОтложенноеНалоговоеОбязательствоНачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенное налоговое обязательство на начало периода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3d1f262-a2e3-4405-8b85-34913dc7f382">
+    <name>ОтложенныйНалогКонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенный налог на конец периода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d031e4b-cc75-4f79-873d-6301a19bb7e7">
+    <name>ОтложенныйНалоговыйАктивКонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенный налоговый актив на конец периода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="944dba2d-dfab-42b7-b31a-c28ec54f6dbe">
+    <name>ОтложенноеНалоговоеОбязательствоКонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенное налоговое обязательство на конец периода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="640262e4-1e92-40af-bdda-28ceed2591d4">
+    <name>ОтложенныйНалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенный налог за отчетный период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ccb826c0-d0df-4c9f-95b4-55067a9aa81f">
+    <name>ЭффектИзмененияВременныхРазниц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эффект изменения временных разниц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7f1a726-fe8a-4391-8cd8-6de534fbbfd8">
+    <name>ЭффектИзмененияСтавкиТекущегоНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эффект изменения ставки текущего налога</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5bab7d9-944d-4b93-863d-c90db5446423">
+    <name>ЭффектИзмененияСтавкиБудущегоНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эффект изменения ставки будущего налога</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d210a412-ac8d-439b-8f60-360a3f7425c6">
+    <name>ТекущийНалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий налог на прибыль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8003f15e-8bac-4ec4-8f31-b6f90e4839ae">
+    <name>РасходПоНалогу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход по налогу за отчетный период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77fe2c2e-b2ef-478f-a609-09219c44b631">
+    <name>ДоходПоНалогу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход по налогу за отчетный период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="612d163d-2036-4f46-a0b9-e5ccf53ce055">
+    <name>УсловныйРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условный расход по налогу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a00db395-7407-4a45-94f5-dfd3c4074925">
+    <name>УсловныйДоход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условный доход по налогу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32766bc4-1053-40f7-bf2d-9eb490c2abea">
+    <name>ПостоянныйНалоговыйРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянный налоговый расход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb6558ae-40f9-4ca7-a6fc-a7df5fe26c9a">
+    <name>ПостоянныйНалоговыйДоход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянный налоговый доход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c96e667-5079-4c44-a871-2ff8cf02e992">
+    <name>ЧистаяПрибыль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чистая прибыль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1b1dcbb-22b3-46f6-85da-28afcdb65bef">
+    <name>ВлияниеУбыткаТекущегоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенный налоговый актив, признанный в отношении налогового убытка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0905f0cf-086f-4dfe-a43c-a7a8254191f6">
+    <name>ПостояннаяРазница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянная разница за период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7218bb2-cccb-4f46-98dc-9a52e645bc61">
+    <name>ВременнаяРазница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временная разница за период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5663834-25d4-4cc9-ad05-05c62bd4c0ec">
+    <name>ОтложенныйРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенный налог, учитываемый при определении величины текущего налога на прибыль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4108d4b-cf7d-4fe6-8d18-fcd4b0353e49">
+    <name>ВыбытиеПоСпециальнымРежимам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенный налог, отнесенный к специальным режимам налогообложения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ec42fd7-10b3-4ef3-a4a7-074c7f428b39">
+    <name>РасчетныйТекущийНалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий налог, определенный на основе данных, сформированных в бухгалтерском учете</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a523e0f-9625-43db-ab4f-af4c315c28bd">
+    <name>КорректировкаТекущегоНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка текущего налога</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="daee12ca-ac3d-4899-b1f1-dc7b77c13312">
+    <name>ВлияниеОшибокУчетаРазниц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияние ошибок учета разниц</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53ca7349-d549-429b-b0e2-3d4a12c67c3b">
+    <name>ВлияниеОшибокУчетаОтложенногоНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияние ошибок учета отложенного налога</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

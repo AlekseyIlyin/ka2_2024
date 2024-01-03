@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb4a8e2d-fb2a-4156-a747-43d6d44e57b1">
+  <name>ВыделятьДолгосрочныеАктивыОбязательства</name>
+  <location>InformationRegister.УчетнаяПолитикаФинансовогоУчета.Resource.ИспользоватьВыделениеДолгосрочныхАктивовОбязательств</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>ChartOfAccounts.Хозрасчетный.Attribute.Долгосрочный</content>
+</mdclass:FunctionalOption>

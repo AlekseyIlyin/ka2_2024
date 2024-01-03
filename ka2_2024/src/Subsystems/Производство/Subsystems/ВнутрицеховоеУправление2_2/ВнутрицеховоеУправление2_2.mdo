@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="827ac378-0f24-428e-b797-e94ad82f461d">
+  <name>ВнутрицеховоеУправление2_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внутрицеховое управление</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ФормированиеЗаказовНаПередачуВПроизводствоНаОсновании</content>
+  <content>Report.ВыпускПродукции</content>
+  <content>Document.ЗаказМатериаловВПроизводство</content>
+  <content>AccumulationRegister.ЗаказыМатериаловВПроизводство</content>
+  <content>Role.ДобавлениеИзменениеЗаказовМатериаловВПроизводство</content>
+  <content>CommonModule.ОперативныйУчетПроизводстваВызовСервера</content>
+  <content>CommonModule.ОперативныйУчетПроизводстваКлиент</content>
+  <content>CommonPicture.РабочийЦентр</content>
+  <parentSubsystem>Subsystem.Производство</parentSubsystem>
+</mdclass:Subsystem>

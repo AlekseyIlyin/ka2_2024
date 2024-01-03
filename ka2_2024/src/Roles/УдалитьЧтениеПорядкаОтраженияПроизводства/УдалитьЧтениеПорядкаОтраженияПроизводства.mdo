@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a372ed8-31d4-4cfe-bee8-a7e2a9ae158c">
+  <name>УдалитьЧтениеПорядкаОтраженияПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Чтение порядка отражения производства</value>
+  </synonym>
+</mdclass:Role>

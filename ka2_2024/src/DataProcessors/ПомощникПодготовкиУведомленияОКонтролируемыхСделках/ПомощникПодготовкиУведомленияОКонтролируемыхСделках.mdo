@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="110e2cd1-c0c7-4432-9d43-65657043b181">
+  <producedTypes>
+    <objectType typeId="bdf05b65-fa19-44f5-92e3-2b21688e2647" valueTypeId="910c68f1-f58e-493f-a785-1776de5ba67e"/>
+    <managerType typeId="a720d1c2-ac90-4771-93a5-11a92e7f6ed3" valueTypeId="4a4e1012-ced3-4b11-8140-221d2354ae15"/>
+  </producedTypes>
+  <name>ПомощникПодготовкиУведомленияОКонтролируемыхСделках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник подготовки уведомления о контролируемых сделках</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПомощникПодготовкиУведомленияОКонтролируемыхСделках.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Помощник подготовки уведомления о контролируемых сделках</value>
+  </extendedPresentation>
+  <attributes uuid="5a062d19-6c8a-49b0-80ee-0665715a8d54">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="bf773dc6-8afb-4757-81d6-09e80b0df874">
+    <name>ОтчетныйГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчетный год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="d30ba53c-d430-4d13-95df-d8a8dc4b35b7">
+    <name>Уведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.УведомлениеОКонтролируемыхСделках</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5c0bdc45-6933-4a9f-ba9d-94528cabe5fc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="030d225c-1bf3-4218-85b3-13cf13c3c060">
+    <name>ФормаВзаимозависимыеЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма взаимозависимые лица</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="23206967-1020-4898-95c3-7c152610c67f">
+    <name>ФормаГраницыВключенияСделок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Границы включения сделок в уведомление</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="008f744f-bda7-45ac-9de8-b81d8b3bc8f7">
+    <name>ФормаИзмененияРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменения реквизитов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a0708677-3b13-4aff-afd5-0146158c466b">
+    <name>ФормаРаботыСДокументамиКонтролируемыхСделок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма работы с документами контролируемых сделок</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b12394c7-3d34-41f9-8163-99e7d5624172">
+    <name>ФормаИзмененияРеквизитовКонтролируемыхСделок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменения реквизитов контролируемых сделок</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="886ca82b-ebbe-4e32-bee2-747b8e24e2ce">
+    <name>КонтролируемыеСделкиСпискиКодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролируемые сделки списки кодов</value>
+    </synonym>
+  </templates>
+  <templates uuid="cdad66c2-fc59-4b0a-8d83-a51239bb820a">
+    <name>ТоварыМировойБиржевойТорговли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары мировой биржевой торговли</value>
+    </synonym>
+  </templates>
+  <templates uuid="c96c8df2-1e20-428a-8315-7ed511070966">
+    <name>ТоварыМировойБиржевойТорговлиXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары мировой биржевой торговли (XML)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="884b4f65-78ab-416e-bb5d-6e8e076386b3">
+    <name>ПомощникПодготовкиУведомленияОКонтролируемыхСделках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник подготовки уведомления о контролируемых сделках</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Помощник подготовки уведомления о контролируемых сделках</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

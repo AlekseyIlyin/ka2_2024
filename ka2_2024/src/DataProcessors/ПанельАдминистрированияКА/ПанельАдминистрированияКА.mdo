@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cce25970-3927-4cc2-b18e-96e4195e9ab6">
+  <producedTypes>
+    <objectType typeId="d807a7f8-1bd0-42d1-8426-035f3fe7d7fc" valueTypeId="5fdd8f7f-7c1e-4818-a458-4f274056abd7"/>
+    <managerType typeId="103aca5e-5384-43fc-94d8-a9b58a3ff8a4" valueTypeId="52b6a57e-42e1-4059-bad8-cbd654156c1e"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияКА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования КА</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПанельАдминистрированияКА.Form.Форма</defaultForm>
+  <forms uuid="e8537904-0942-467f-b23e-79c34a7d8888">
+    <name>Производство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c389f624-8e46-44f6-832a-cca613ba50f3">
+    <name>РегламентированныйУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентированный учет</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2feec5b5-0c09-47b2-8fc4-886764231964">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e02a6259-4de8-4df9-a584-f41ad69ea8c4">
+    <name>ВнеоборотныеАктивы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внеоборотные активы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5377da22-5e85-4646-91b4-d987d4799071">
+    <name>ПредупреждениеОбИспользовании21</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение об использовании 21</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="83c400f3-ee04-4f7c-b08e-730c47850d33">
+    <name>Производство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="93529c1c-6a56-4ffd-bcfe-960fe0978e3a">
+    <name>РегламентированныйУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентированный учет</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="19a5652a-0a91-4da8-a75d-8788c742ebf3">
+    <name>ОбновлениеДоERP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление до 1С:ERP 2</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="c1f2885c-b97f-4ff8-b7fc-03fe752d94a2">
+    <name>ВыгрузитьДанныеДляПереходаВСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переход в сервис</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="cdf33b16-cbf8-4031-a583-2fbf5f4cb503">
+    <name>ВнеоборотныеАктивы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внеоборотные активы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

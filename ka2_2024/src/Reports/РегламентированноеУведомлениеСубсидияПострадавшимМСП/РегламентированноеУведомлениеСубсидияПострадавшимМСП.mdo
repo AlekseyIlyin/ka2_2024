@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="595c90c3-5d58-498c-952b-7a12bf53d041">
+  <producedTypes>
+    <objectType typeId="924a843d-f86a-487a-aa0c-2b0e3b2202a3" valueTypeId="ad7b8aa9-9280-41d1-a973-9c520b07fe40"/>
+    <managerType typeId="367f0d8a-cbed-43fa-87b4-a3dac8a935db" valueTypeId="049e36ac-7cd1-46ac-b8cc-f47ed8725aae"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеСубсидияПострадавшимМСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявление на предоставление субсидии пострадавшим субъектам МСП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+  <forms uuid="08df7680-6e03-4954-8d1c-75e6903879ca">
+    <name>Форма2021_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление на предоставление субсидии пострадавшим субъектам МСП</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c7a426e3-14f5-4bcc-8fc2-464b18202209">
+    <name>Форма2021_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление на предоставление субсидии пострадавшим субъектам МСП</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5eaab0d8-c0b3-4c0f-9c29-93a20eb5f2c0">
+    <name>СхемаВыгрузкиФорма2021_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="63b1d70f-5161-4484-87cd-5203cc3de0a6">
+    <name>Титульная_2021</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="427bdc1b-82c6-4fe1-8ad0-994725fb0d5e">
+    <name>Лист002_2021</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="de6f598c-4a66-4e87-bed1-ec3e939b79f2">
+    <name>СпискиВыбора2021_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="74a1d888-3b1e-49f5-9eaf-485440267c68">
+    <name>ПечатныйБланк_2021</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="1359084e-a071-4615-8206-51033b6905e7">
+    <name>СхемаВыгрузкиФорма2021_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="f4a549f5-c977-4da6-9977-f70d2177c024">
+    <name>Титульная_2021_1513</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="579756a0-9dca-459b-88b7-cab33e29271d">
+    <name>СпискиВыбора2021_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="bde3894c-5697-4fea-bf3b-7fe7e24d9f08">
+    <name>ПечатныйБланк_2021_1513</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

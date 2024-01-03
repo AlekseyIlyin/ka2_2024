@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66b67f4c-0373-4198-9878-287038095fde">
+  <producedTypes>
+    <refType typeId="4e5a8286-2702-43a7-b221-21e9debf4f16" valueTypeId="28c2ffc7-c38e-4001-9b0f-9a11787eb7f3"/>
+    <listType typeId="0710832e-7904-45d0-90a7-042c97d8d704" valueTypeId="90d1704b-9e98-4410-b055-635183eba974"/>
+    <managerType typeId="ae2d1128-46a9-40a5-857b-54601faa5ca5" valueTypeId="83e11d5e-de22-45a1-8a1a-1d3930eddf3f"/>
+  </producedTypes>
+  <name>СпособыНастройкиСчетовУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы настройки счетов учета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="874a901c-e628-4fe5-ba29-dce8beaec556">
+    <name>ОдинаковоДляВсехДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одинаково для всех документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37247d26-fa9e-42dc-b234-f2c484df60ca">
+    <name>ИндивидуальноДляКаждогоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуально для каждого документа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

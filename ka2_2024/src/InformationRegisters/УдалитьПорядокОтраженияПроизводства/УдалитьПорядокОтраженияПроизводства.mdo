@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48690ecf-15c2-4ae0-a5ca-5833c2f7ecad">
+  <producedTypes>
+    <selectionType typeId="342f8723-1124-40d4-97bb-0528b44afda8" valueTypeId="cab8695b-17e3-4ad4-9c2d-0f4e3ab4337b"/>
+    <listType typeId="4385f635-0b92-495d-8564-a955447793e6" valueTypeId="5ee52051-1bcf-4c3f-8394-70d22b0177b7"/>
+    <managerType typeId="1d7269aa-0d1a-45c5-b84c-8efcc0247df3" valueTypeId="56bc1122-1ed8-461b-8a2e-46cf6ced6023"/>
+    <recordSetType typeId="df80c83e-9913-4eb3-bbb2-71bc84371511" valueTypeId="eed2f3cf-c9eb-4815-b4af-1b904fa53f7e"/>
+    <recordKeyType typeId="ec3ed0b4-1a31-4ad6-b933-734224f7864f" valueTypeId="aa2a119e-1dd5-40ed-a63b-bf084a1d7c33"/>
+    <recordType typeId="05ab71d1-70e1-4a2b-9925-63abf09ad109" valueTypeId="7dfccb57-d42d-443b-bda1-9149100acb87"/>
+    <recordManagerType typeId="cd6c8e21-1482-42e2-a748-a6665ac218b3" valueTypeId="4e308cc2-f5e0-4781-9143-374b23370323"/>
+  </producedTypes>
+  <name>УдалитьПорядокОтраженияПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Порядок отражения производства</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Порядок отражения производства в регл. учете</value>
+  </extendedRecordPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Настройка порядка отражения производства в регламентированном учете</value>
+  </explanation>
+  <resources uuid="2278da6f-7f35-4320-ac63-6c0f7343fbd2">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета производства в регл. учете</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d9870dcf-9ff7-409e-8ced-912d68adc77b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, для которой задается порядок отражения производства.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fbdb6daf-325a-4df6-8653-848ea0360b20">
+    <name>МестоПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место производства</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Переработчик, для которого задается порядок отражения производства.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

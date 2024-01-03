@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.БухучетЗарплатыСотрудников.StandardCommand.OpenList</commands>
+      <commands>Document.БухучетНачисленийСотрудников.StandardCommand.OpenList</commands>
+      <commands>Document.РаспределениеОсновногоЗаработка.StandardCommand.OpenList</commands>
+      <commands>Document.ПереносЗатратНаПерсоналМеждуСтатьями.StandardCommand.OpenList</commands>
+      <commands>Document.ОтражениеЗарплатыВФинансовомУчете.StandardCommand.OpenList</commands>
+      <commands>Document.РезервыПоОплатеТруда.StandardCommand.OpenList</commands>
+      <commands>Document.НачислениеОценочныхОбязательствПоОтпускам.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42469133-ab22-45c5-ab18-ae0dc65d25fd">
+  <producedTypes>
+    <managerType typeId="22cfe222-1481-448a-b7ce-74f51412dcef" valueTypeId="e03bcd7e-abf8-46a6-a330-143a74be2694"/>
+    <valueManagerType typeId="6aef6eac-6fc7-4d6d-b2b2-a922b7614e7b" valueTypeId="c8b43b7e-854e-4949-887b-ecc2a4abcc50"/>
+    <valueKeyType typeId="c6c7b807-6f6a-5e15-adb8-b07de842c245" valueTypeId="e23751f8-de84-5a9c-a892-68ba366affb2"/>
+  </producedTypes>
+  <name>УдалитьПорядокУчетаВНАВУпрУчете</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Порядок учета внеоборотных активов в управленческом учете</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ПорядокУчетаВНА</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

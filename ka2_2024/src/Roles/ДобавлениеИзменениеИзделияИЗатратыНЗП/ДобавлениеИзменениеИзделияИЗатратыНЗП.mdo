@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8988a818-7517-4d0d-bb2f-b358fde38763">
+  <name>ДобавлениеИзменениеИзделияИЗатратыНЗП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение изделия и затраты НЗП</value>
+  </synonym>
+</mdclass:Role>

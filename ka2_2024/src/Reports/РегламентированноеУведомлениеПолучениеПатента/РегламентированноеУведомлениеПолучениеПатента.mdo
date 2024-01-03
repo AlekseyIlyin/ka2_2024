@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c77f2fb-ee84-44b9-9f2a-6664dd7e9d70">
+  <producedTypes>
+    <objectType typeId="e2bcb69b-1c76-48bb-a58d-2f8cceb111b8" valueTypeId="3eba218e-af3f-45c6-8eab-7932eb32ace4"/>
+    <managerType typeId="81f40c0d-78a0-4dc1-87e8-e588832734d0" valueTypeId="54c1df89-cdfd-46ef-add7-65a7d49bf016"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеПолучениеПатента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентированное уведомление получение патента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.РегламентированноеУведомлениеПолучениеПатента.Form.ФормаОтчета</defaultForm>
+  <forms uuid="f8c388cc-1544-47bf-a788-049ed2694dcd">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="78ccbd10-8eac-47f1-8987-5ce174288b73">
+    <name>Форма2014_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заявление на получение патента (рекомендованная форма)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cf93ed4e-4d3f-4fea-be52-7879a8b2eb29">
+    <name>Форма2015_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заявление на получение патента (рекомендованная форма)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2289839b-e92b-405b-9928-a36642313545">
+    <name>Форма2016_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заявление на получение патента (рекомендованная форма)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8cf51c91-27f9-4565-8a33-95b97c6b8244">
+    <name>Форма2017_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о постановке (снятии) с учета в качестве налогового агента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="41b37ed5-d224-4f30-b741-9ccefd6426dc">
+    <name>Форма2020_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заявления на получение патента (рекомендуемая форма)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e89957f3-c1c3-44ff-b92c-4dd26908b2c8">
+    <name>Форма2021_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заявления на получение патента (рекомендуемая форма)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="95400084-c4aa-40a3-85c4-657903514f8a">
+    <name>Форма2014_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="2deebe0f-f21c-4959-9e80-cd4ed907f1dc">
+    <name>ПараметрыФорма2014_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры форма2014 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="015ef0ed-425b-438e-b023-62658dbfd385">
+    <name>Печать_MXL_Форма2014_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение патента</value>
+    </synonym>
+  </templates>
+  <templates uuid="7ea9e6da-85ba-4ab9-a104-575c9dbeb1a5">
+    <name>СхемаВыгрузкиФорма2014_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки форма2014 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="79b5ec09-b876-4d90-9c06-c735633aa552">
+    <name>Форма2015_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2015 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="bb33865e-4fda-4718-8289-8891b7bb54b7">
+    <name>ПараметрыФорма2015_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры форма2015 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="6c8f85c6-7970-4702-b3ee-ca78f433130f">
+    <name>Печать_MXL_Форма2015_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение патента</value>
+    </synonym>
+  </templates>
+  <templates uuid="a4475a8d-fa70-449c-b965-dfc1c490545e">
+    <name>СхемаВыгрузкиФорма2015_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки форма2015 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="73f91257-3a7d-4fdc-b5d3-f3cbd3c1b6e2">
+    <name>TIFF_2015_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1150010_5.05000_05.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="5bb81cc0-1f31-4e80-a16c-6e6ef817e3b1">
+    <name>Форма2016_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2016 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="15f85194-d4e6-4d28-9318-56c8e9761782">
+    <name>ПараметрыФорма2016_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры форма2016 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="fd310ce4-01a9-4b0b-af72-b81eee4bb805">
+    <name>Печать_MXL_Форма2016_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение патента</value>
+    </synonym>
+  </templates>
+  <templates uuid="ded096e7-3c82-4ff7-937d-c005f74a8041">
+    <name>СхемаВыгрузкиФорма2016_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки форма2016 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="73ce9971-b40a-4f86-825f-692350d1fac5">
+    <name>TIFF_2016_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1150010_5.06000_06.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="e3cee363-02c9-4215-a1b5-ee073fa34477">
+    <name>СхемаВыгрузкиФорма2017_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки форма2017 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="79c66d12-17e3-48fa-8c61-672cc1740a9c">
+    <name>TIFF_2017_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1150010_5.07000_07.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="cadefd34-f067-4196-aa44-89cc8ca66569">
+    <name>СхемаВыгрузкиФорма2020_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки форма2020 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="732885f0-a39b-4116-bd16-ff7a37634f2f">
+    <name>TIFF_2020_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1150010_5.08000_08.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="b73297f0-7b3a-457e-ad01-603f4174a70e">
+    <name>СхемаВыгрузкиФорма2021_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="add1bd5f-3b0e-4d32-a7f6-b7701bc6699f">
+    <name>TIFF_2021_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1150010_5.09000_10.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="b7d7e69b-8159-4e07-b1fd-882c9b979835">
+    <name>БланкиПечати_Форма2017_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатные бланки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="915cd387-f39c-4120-9d5e-c0d9feeba5cf">
+    <name>БланкиПечати_Форма2020_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатные бланки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="bbf9df37-f7ed-421f-b93f-a7bf0f617ffd">
+    <name>БланкиПечати_Форма2021_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатные бланки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="11d6aa04-c428-4699-94a7-1609c06d340d">
+    <name>ЭкранныеФормы1720</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранные формы + списки выбора</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="233bd683-0b01-41b8-bbcf-a71bccbeea74">
+    <name>ЭкранныеФормы21</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экранные формы + списки выбора</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="793bf0fa-e7ac-4856-9f58-f4d8b8e4017c">
+  <producedTypes>
+    <objectType typeId="40264ba1-c382-418b-a910-322b73bf59c5" valueTypeId="41d5c510-f82e-4dd1-826a-a7694adfb6a7"/>
+    <managerType typeId="2a05c0ce-8481-4e8f-a2f7-cca3b00d42ed" valueTypeId="dac75a76-5430-4e19-af20-4128a777f0d9"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеФормаР14001</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявление о внесении изменений в реестр</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+  <forms uuid="5b96c973-5454-44bb-a340-1e659297b03b">
+    <name>Форма2014_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a6841699-003f-4d1b-b718-90541fcfaa94">
+    <name>СпискиВыбора2014_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора2014 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="fcc5197f-6043-42fd-81d8-8b933d861371">
+    <name>Форматы2014_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форматы2014 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="663a7277-a948-49ec-b1cf-e7a5ec693c91">
+    <name>СхемаВыгрузкиФорма2014_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки форма2014 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="bc4f2def-fd49-44ed-b427-dc05da0ccc08">
+    <name>TIFF_2014_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1111516_5.02000_06.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="afe23d46-9f32-4b5a-8b8e-5670e9afea10">
+    <name>Форма2014_1_Страница1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница1</value>
+    </synonym>
+  </templates>
+  <templates uuid="c61705e6-fc76-4dbf-b692-a6a491dfc387">
+    <name>Форма2014_1_СтраницаА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница А</value>
+    </synonym>
+  </templates>
+  <templates uuid="672b4504-718c-41b0-b46b-9af786c1bf48">
+    <name>Форма2014_1_СтраницаБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница Б</value>
+    </synonym>
+  </templates>
+  <templates uuid="638dba6d-9635-4073-a762-69678bc2c487">
+    <name>Форма2014_1_СтраницаВ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница в1</value>
+    </synonym>
+  </templates>
+  <templates uuid="2ae000bc-2088-48f6-9f8f-c5b5d85259b0">
+    <name>Форма2014_1_СтраницаВ2_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница в2 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="d2ea3efd-7139-4168-82a1-a36c3b715903">
+    <name>Форма2014_1_СтраницаГ1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница г1 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="700ff71e-8f4e-4dd3-8299-7d8a0ee7b26d">
+    <name>Форма2014_1_СтраницаГ3_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница г3 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="0670bb64-9a8f-4ad7-9af5-3837cf978e61">
+    <name>Форма2014_1_СтраницаД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница Д</value>
+    </synonym>
+  </templates>
+  <templates uuid="063466c9-6622-4c23-9881-18aaa1d4f5fa">
+    <name>Форма2014_1_СтраницаД3_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница д3 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="c1b79f80-fa0a-498a-be5f-36ba1835b91b">
+    <name>Форма2014_1_СтраницаЕ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница е1</value>
+    </synonym>
+  </templates>
+  <templates uuid="8ce77a9d-18db-485f-8b4b-79ee47442fd0">
+    <name>Форма2014_1_СтраницаЕ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница е2</value>
+    </synonym>
+  </templates>
+  <templates uuid="72b3107c-4a7f-4814-8b9c-bfb9933034df">
+    <name>Форма2014_1_СтраницаЕ3_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница е3 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="a8a8111a-8315-42d2-8dc3-4d86bad71f4c">
+    <name>Форма2014_1_СтраницаЕ5_7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница е5 7</value>
+    </synonym>
+  </templates>
+  <templates uuid="0a533c20-3af6-4f98-bc21-620de6be2a80">
+    <name>Форма2014_1_СтраницаЖ1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница ж1 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="d6dabc27-8945-434a-a12d-f819697e1222">
+    <name>Форма2014_1_СтраницаЖ3_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница ж3 5</value>
+    </synonym>
+  </templates>
+  <templates uuid="396e84d6-47a5-452f-9b4b-fc4de71b8d53">
+    <name>Форма2014_1_СтраницаЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница З</value>
+    </synonym>
+  </templates>
+  <templates uuid="f29f9116-f1a8-4528-90d7-849300e23955">
+    <name>Форма2014_1_СтраницаИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница И</value>
+    </synonym>
+  </templates>
+  <templates uuid="5becb6d5-377d-4908-9095-efc116117505">
+    <name>Форма2014_1_СтраницаК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница К</value>
+    </synonym>
+  </templates>
+  <templates uuid="3414413b-9cd7-4680-babb-623adcb9e972">
+    <name>Форма2014_1_СтраницаЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница Л</value>
+    </synonym>
+  </templates>
+  <templates uuid="19757718-8cec-4861-ad2d-8035a0edfd03">
+    <name>Форма2014_1_СтраницаМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница М</value>
+    </synonym>
+  </templates>
+  <templates uuid="c77f188e-e14e-4358-8d84-f5d907631e2d">
+    <name>Форма2014_1_СтраницаН1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница н1</value>
+    </synonym>
+  </templates>
+  <templates uuid="3089b123-e120-42c5-bfaf-c7450b6ab1d9">
+    <name>Форма2014_1_СтраницаН2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница н2</value>
+    </synonym>
+  </templates>
+  <templates uuid="13d337b6-cc60-414c-847c-3a119a44fab9">
+    <name>Форма2014_1_СтраницаО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница О</value>
+    </synonym>
+  </templates>
+  <templates uuid="46a1afb8-5a03-4479-a255-079d75f3cbee">
+    <name>Форма2014_1_СтраницаП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница П</value>
+    </synonym>
+  </templates>
+  <templates uuid="cba35bdb-d37a-4e23-ab2f-6d54bb19b3df">
+    <name>Форма2014_1_СтраницаР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2014 1 страница Р</value>
+    </synonym>
+  </templates>
+  <templates uuid="cef2ee07-691d-43a3-829f-0fd134dc9f37">
+    <name>БланкиПечати_Форма2014_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатные бланки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

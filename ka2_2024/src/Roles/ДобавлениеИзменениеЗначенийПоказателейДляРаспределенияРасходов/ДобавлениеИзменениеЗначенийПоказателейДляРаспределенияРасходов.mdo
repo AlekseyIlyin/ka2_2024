@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73df447a-7ff5-4d56-9295-47239371ef56">
+  <name>ДобавлениеИзменениеЗначенийПоказателейДляРаспределенияРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение значений показателей для распределения расходов</value>
+  </synonym>
+</mdclass:Role>

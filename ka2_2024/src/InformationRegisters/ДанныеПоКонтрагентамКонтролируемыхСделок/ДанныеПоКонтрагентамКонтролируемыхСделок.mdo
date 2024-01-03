@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50148e53-6b74-4f07-b24e-aa0053317c62">
+  <producedTypes>
+    <selectionType typeId="ff1c8614-c4e7-4972-899d-db784e74c7d0" valueTypeId="b23b7545-6a49-43b1-8f1c-e394db58862d"/>
+    <listType typeId="12ef4178-d8ea-4af2-b155-947c8155e548" valueTypeId="a74ec599-f388-4b11-92a8-56a56a022427"/>
+    <managerType typeId="3432574e-0e76-403d-a0cf-956fcc2f1b1e" valueTypeId="ea6c5016-a84d-44f9-9c10-98a39a30d39d"/>
+    <recordSetType typeId="c66ff13e-18b8-47fe-82a4-0ade633c11e6" valueTypeId="9cc3c3f9-7aee-4731-8ac2-8bff8fafe138"/>
+    <recordKeyType typeId="e0ca9c17-b6e8-45b6-84fc-a4ebf67ee690" valueTypeId="0762071e-23cf-4074-a237-ae7ee67f40ef"/>
+    <recordType typeId="13fb912e-1578-4783-a518-b2c0cdaf9c07" valueTypeId="906ad543-ce74-4cc1-bdba-6f7c80efefb8"/>
+    <recordManagerType typeId="68eaf8ce-d16c-449d-83a0-73455dd120a4" valueTypeId="0a8089d8-145d-418d-b253-c7c4874d5296"/>
+  </producedTypes>
+  <name>ДанныеПоКонтрагентамКонтролируемыхСделок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по контрагентам контролируемых сделок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДанныеПоКонтрагентамКонтролируемыхСделок.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ДанныеПоКонтрагентамКонтролируемыхСделок.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Данные по контрагенту контролируемых сделок</value>
+  </recordPresentation>
+  <resources uuid="859bd9fb-6c35-4e14-bf13-d1c62f33befb">
+    <name>ЯвляетсяПлательщикомНалогаНаПрибыль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Является плательщиком налога на прибыль</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контрагент уплачивает налог на прибыль</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="81962b2a-9573-416f-aa85-ea38a7a47f1f">
+    <name>ЯвляетсяПлательщикомНДПИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Является плательщиком НДПИ по процентной ставке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контрагент уплачивает налог на добычу полезных ископаемых, исчисляемый по налоговой ставке, установленной в процентах.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fee94cf2-b9a6-4eae-a01f-a38bb41cd3bc">
+    <name>ЯвляетсяПлательщикомЕСХН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Является плательщиком ЕСХН</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контрагент является плательщиком единого сельскохозяйственного налога (ЕСХН)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ed7446ab-f273-4d37-9dbb-f39160ec4a7f">
+    <name>ЯвляетсяПлательщикомЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Является плательщиком ЕНВД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контрагент является плательщиком единого налога на вмененный доход (ЕНВД)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6d07b4b7-9bfe-44ec-9e7d-7c37a41dd466">
+    <name>ЗарегистрированВОЭЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрирован в особой экономической зоне</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контрагент является резидентом особой экономической зоны, налоговый режим в которой предусматривает специальные льготы по налогу на прибыль организаций </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="043589db-b76a-44f5-993e-96b052fcf200">
+    <name>КодВидаДеятельностиФизическогоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код вида деятельности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="4971601a-93c5-44f8-ab7f-bc74a42d53d0">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bf651472-c644-47da-a671-a16e0eb3be52">
+    <name>ПрименяетЛьготыУчастникаРегиональногоИнвестиционногоПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применяет льготы участника регионального инвестиционного проекта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контрагент является участником регионального инвестиционного проекта и применяет льготы по налогу на прибыль в соответствии с ст. 284.3 и 284.3-1  НК РФ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="07017f8f-e838-4bce-8962-73f0938f0db1">
+    <name>ОсвобожденОтУплатыНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Освобожден от уплаты НДС по ст. 145.1 (Инновационный центр &quot;Сколково&quot;)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контрагент является корпоративным исследовательским центром в &quot;Сколково&quot; и освобожден от уплаты НДС в соответствии со ст.145.1 НК РФ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="759c812b-8815-4690-bbd8-2f94f3a1fddc">
+    <name>ПрименяетИнвестиционныйВычетПоНалогуНаПрибыль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применяет инвестиционный вычет по налогу на прибыль</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контрагент применяет инвестиционный налоговый вычет по налогу на прибыль в соответствии со статьей 286.1 НК РФ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7707cb06-e359-4285-bcd9-e7ebf725090f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="68c80f6c-30a9-46ae-84ce-ff6ed8482644">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a04065ba-2c20-4b91-90aa-da8f6a830910">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="82c24e35-516a-475b-a2a2-abd94032503c">
+    <name>ПереченьОфшоров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень офшоров</value>
+    </synonym>
+  </templates>
+  <templates uuid="2f572b5c-3875-44c5-941b-e8648ec86756">
+    <name>ПереченьОфшоров2015</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень офшоров 2015 год</value>
+    </synonym>
+  </templates>
+  <templates uuid="7aa9f40f-53ac-4a18-a281-c367ee3be681">
+    <name>ПереченьОфшоров2018</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень офшоров2018</value>
+    </synonym>
+  </templates>
+  <commands uuid="dba706af-ab16-4755-b212-3d2a0579ea71">
+    <name>ДанныеПоКонтролируемымСделкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные по контролируемым сделкам</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Контрагенты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

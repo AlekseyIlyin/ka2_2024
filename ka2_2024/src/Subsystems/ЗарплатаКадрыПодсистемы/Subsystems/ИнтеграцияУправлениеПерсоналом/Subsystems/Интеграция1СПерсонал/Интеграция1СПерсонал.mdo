@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11ef8294-b444-4995-8e65-678efd697233">
+  <name>Интеграция1СПерсонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция 1С:Персонал</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.Интеграция1СПерсонал</content>
+  <content>InformationRegister.НастройкиПодключения1СПерсонал</content>
+  <content>Constant.ИспользуетсяПриложение1СПерсонал</content>
+  <content>FunctionalOption.ИспользуетсяПриложение1СПерсонал</content>
+  <content>CommonModule.Интеграция1СПерсонал</content>
+  <content>InformationRegister.ВыгружаемыеОбъекты1СПерсонал</content>
+  <content>InformationRegister.ИзмененияДляОбмена1СПерсонал</content>
+  <content>DefinedType.СсылкаПубликации1СПерсонал</content>
+  <content>DefinedType.СсылкаИзменение1СПерсонал</content>
+  <content>InformationRegister.СобытияОбменаУправлениеПерсоналом</content>
+  <content>ScheduledJob.ОбменСПриложением1СПерсонал</content>
+  <content>Document.Оффер</content>
+  <content>Constant.ИспользоватьИнтеграциюСПриложением1СПерсонал</content>
+  <content>FunctionalOption.ИспользоватьИнтеграциюСПриложением1СПерсонал</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПодсистемы.Subsystem.ИнтеграцияУправлениеПерсоналом</parentSubsystem>
+</mdclass:Subsystem>

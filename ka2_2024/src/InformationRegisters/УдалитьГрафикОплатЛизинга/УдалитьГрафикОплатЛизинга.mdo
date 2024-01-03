@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbf0e6ae-04ed-480d-b2b6-e72a6040b3c7">
+  <producedTypes>
+    <selectionType typeId="701629a2-d4f3-4c87-9119-524229bbe94c" valueTypeId="f0b1ada6-213e-4c49-b5cf-1a5d993f44b0"/>
+    <listType typeId="8ec4631f-2359-4de2-a525-9d01b8c76487" valueTypeId="487f6403-6a31-4732-9779-dde042d1597f"/>
+    <managerType typeId="a821585b-9603-45ac-9404-8f689c5b3c91" valueTypeId="00c230bb-f447-4abe-8772-184e0f9896c5"/>
+    <recordSetType typeId="915c026f-1e13-49e7-b996-96627983a2cb" valueTypeId="d81ecaa1-ef7e-4d60-a2e6-0a82dfb3dc04"/>
+    <recordKeyType typeId="0dd1890b-0da2-42ca-b9e2-f62e4126070d" valueTypeId="68cad6c5-9083-46a9-ae74-1c546e9bfe71"/>
+    <recordType typeId="c276bd0f-3253-42c9-b9ba-f5d25ba167e8" valueTypeId="9c3f6afe-afea-44f4-b50f-1787178b8c2b"/>
+    <recordManagerType typeId="f2510301-13ed-4b7c-9fd0-84838095f774" valueTypeId="8102cf98-164c-41e2-bc90-a206477d8c57"/>
+  </producedTypes>
+  <name>УдалитьГрафикОплатЛизинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) График оплат лизинга</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УдалитьГрафикОплатЛизинга.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="645738e8-bc24-438e-92c8-c7e26acded3f">
+    <name>УслугаПоЛизингу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма услуг по лизингу</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7abd2e91-576b-464d-badd-ddef9f1dbb70">
+    <name>ЗачетОбеспечительногоПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма зачета обеспечительного платежа</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4fcdd55e-dd0d-4db0-bbd9-8a7b40a5a256">
+    <name>ВыкупнаяСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма выкупа предмета лизинга</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="79645818-115e-41e2-adca-ebd20e812151">
+    <name>УслугаПоЛизингуИтог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма услуг по лизингу</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ed2d5474-277f-4b77-9647-9d017589f3fd">
+    <name>ЗачетОбеспечительногоПлатежаИтог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма зачета обеспечительного платежа</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1485d05f-1295-4d56-89ed-299de140270e">
+    <name>ВыкупнаяСтоимостьИтог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма выкупа предмета лизинга</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f9f26c05-e5ff-4269-a5fa-c11763bda8f4">
+    <name>ВариантГрафика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант графика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УдалитьВариантыГрафиковЛизинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9db0a728-9ecf-4555-90fb-3f6e6ab3e2ef">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

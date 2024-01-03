@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="897f31dd-b6eb-407b-8c7c-bcb1b0bb6ba1">
+  <producedTypes>
+    <objectType typeId="1ec22151-30cd-40b9-b999-9f7c2a14cbea" valueTypeId="ec248fd9-3bf7-4f75-ba73-c3031731d2f1"/>
+    <managerType typeId="69c9175d-11c1-4527-808d-1fa3e77c0a85" valueTypeId="2b39304a-b23c-42f7-b2f6-8b0dcaaa1e1c"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеФормаР19001</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявление об исключении субъекта МСП из ЕГРЮЛ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+  <forms uuid="381ca6e4-1caf-4c22-bc0a-f02a87194180">
+    <name>Форма2020_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление об исключении субъекта МСП из ЕГРЮЛ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a7231cd7-6f22-4896-9de2-52401779aef9">
+    <name>БланкиПечати_Форма2020_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатные бланки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="245a766f-d0ed-4c5f-bfb2-28042d94f5e8">
+    <name>TIFF_2020_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>1112502_5.02000_06.tif</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="79595425-cc2e-44e3-b7ee-64cc1799678c">
+    <name>СпискиВыбора2020_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора2020 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="b88869bb-1422-46c8-81d8-51e52d10b287">
+    <name>СхемаВыгрузкиФорма2020_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки форма2020 4</value>
+    </synonym>
+  </templates>
+  <templates uuid="9b799b91-b964-4e6a-b321-535c33d3be6a">
+    <name>Форма2020_4_Страница1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2020 4 страница1</value>
+    </synonym>
+  </templates>
+  <templates uuid="35351415-f56d-4af9-993a-d174da04a83b">
+    <name>Форма2020_4_Страница2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2020 4 страница2</value>
+    </synonym>
+  </templates>
+  <templates uuid="a877b47a-cd75-4ee6-9781-02ce0fa93854">
+    <name>Печать_Форма2020_4_Страница1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать форма2020 4 страница1</value>
+    </synonym>
+  </templates>
+  <templates uuid="ab781dfb-45bc-4db0-8421-59aaa52eb516">
+    <name>Печать_Форма2020_4_Страница2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать форма2020 4 страница2</value>
+    </synonym>
+  </templates>
+  <templates uuid="467f0305-296d-4074-8a29-872f28cb61a4">
+    <name>Печать_Форма2020_4_Страница3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать форма2020 4 страница3</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

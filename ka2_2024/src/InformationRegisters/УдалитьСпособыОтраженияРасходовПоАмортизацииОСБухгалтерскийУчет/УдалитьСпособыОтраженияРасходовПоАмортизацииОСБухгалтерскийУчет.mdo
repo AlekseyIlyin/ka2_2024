@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53e08d2b-2e37-458c-8894-678387a46bfb">
+  <producedTypes>
+    <selectionType typeId="7a25e922-2b6c-4a0d-99ce-41ec2dae66c1" valueTypeId="d84a01a0-28ee-4ab3-93b6-15d3b752d69d"/>
+    <listType typeId="04bcb766-341f-427f-ac81-30d5cbed6482" valueTypeId="26194e22-2b7a-4a8d-b912-bc4a99840f10"/>
+    <managerType typeId="d7898c37-b487-4666-b479-a0aca33871c8" valueTypeId="fe3c954c-4bf5-44c7-b00b-bf07f987e8f9"/>
+    <recordSetType typeId="c78632b2-3618-4a69-b015-db520c36f3f7" valueTypeId="c05900ef-0683-4aab-819b-ef85f81eea2a"/>
+    <recordKeyType typeId="e3c29ce9-d4ae-436c-9c35-44c5be7a69bf" valueTypeId="f7e0280e-4a56-46e6-b5c7-83807ea2b0ae"/>
+    <recordType typeId="1a72de49-3500-4b89-838c-4b85f029de0e" valueTypeId="c2870042-ba27-4d33-b643-bf6edcca2e22"/>
+    <recordManagerType typeId="d69df30b-00da-422f-af13-06a65477afd2" valueTypeId="2a88a1eb-9780-424e-9335-eba4eacf8186"/>
+  </producedTypes>
+  <name>УдалитьСпособыОтраженияРасходовПоАмортизацииОСБухгалтерскийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Способы отражения расходов по амортизации ОС (бухгалтерский учет, версия 2.2)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="a5b0e547-310f-428a-9eef-91a212a81fdc">
+    <name>СтатьяРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расходов</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статья расходов, по которой отражается комиссия банка в прочих расходах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.СтатьиРасходов.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <resources uuid="edc78f04-8fc3-4953-8db0-6c81a28ce18a">
+    <name>СпособОтраженияРасходовЗаданДокументом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ отражения расходов задан документом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак задания способа отражения расходов документом изменения параметров амортизации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b02fcf1a-655a-4bf3-b807-9a096b90f879">
+    <name>СпособОтраженияРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ отражения расходов</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИзменениеПараметровОС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ способа отражения амортизационных расходов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f70a444e-2779-4352-bd6b-8eea0e99e56a">
+    <name>АналитикаРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика расходов</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СтатьиРасходов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект аналитики прочих расходов.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+  </resources>
+  <resources uuid="8ee570e0-0fb1-4392-85ea-a1fe01ca8f92">
+    <name>ПередаватьРасходыВДругуюОрганизацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передавать расходы в другую организацию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что расходы по амортизации передаются в другую организацию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bc3ef065-b7c1-468c-8326-5835299a07a7">
+    <name>ОрганизацияПолучательРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация-получатель расходов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация-получатель расходов по амортизации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ae67bf85-aec8-4ae4-b8c1-2cef32db7ca7">
+    <name>СчетПередачиРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет передачи расходов</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет передачи расходов по амортизации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Родитель</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>ChartOfAccounts.Хозрасчетный.ВнутрихозяйственныеРасчеты</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4409b48c-e89d-42b5-a5c4-3b08fd041e2e">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыЭксплуатации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f040d9f4-9557-4316-b827-3e90f3803b68">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17a13bbc-0714-4e21-8b7a-9c1ffc9b0c40">
+  <producedTypes>
+    <objectType typeId="2b98ac0e-158b-4ad9-966f-4d520dde9056" valueTypeId="4d0fac19-7505-41b1-bc0d-1477e6c03611"/>
+    <managerType typeId="751d47dd-38a2-4b63-9a2f-532e4424c187" valueTypeId="6aab8951-f806-4f78-a380-af8950c2839f"/>
+  </producedTypes>
+  <name>Интеграция1СПерсонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с приложением 1С:Персонал</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Интеграция1СПерсонал.Form.Форма</defaultForm>
+  <attributes uuid="d08fa335-8a0a-4779-8a5f-07b1f3dd1aae">
+    <name>АдресПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="735c3343-ea0e-4d13-b5d0-53fb9d594084">
+    <name>ИспользуетсяПриложение1СПерсонал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется приложение1 с персонал</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d97be23e-2d7c-48c5-8ec6-bf5c66855412">
+    <name>Интеграция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интеграция</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="12744fa4-a5ee-4a0a-8aa4-6dbbcf2dca6d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f547a1a7-ff9f-4a89-a606-e5ea40999f26">
+    <name>Интеграция1СПерсоналКоманда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение 1С:Персонал</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

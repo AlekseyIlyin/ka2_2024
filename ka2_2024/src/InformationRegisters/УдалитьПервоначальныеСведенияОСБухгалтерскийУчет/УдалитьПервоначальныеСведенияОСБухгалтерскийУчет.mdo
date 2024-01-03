@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55e3c565-5b81-44d6-8e41-0417cd29b6f8">
+  <producedTypes>
+    <selectionType typeId="cb141156-ff42-4add-a80c-2e5197fdb3f4" valueTypeId="804b2614-347d-4a71-a4e3-42c2bd836599"/>
+    <listType typeId="4efe7717-ae3a-4808-9fc1-aea0abe2bee3" valueTypeId="bd33857f-92ef-4cf2-8d7f-c05f13306045"/>
+    <managerType typeId="7578a5ce-41f6-448f-b6be-d6937e700469" valueTypeId="d9f45d8a-facb-4aff-b8a6-535c86e9a733"/>
+    <recordSetType typeId="fb3227d2-cfba-4dd8-812b-c4e5a0374425" valueTypeId="10e0d47d-5241-4946-abf7-00ac195123df"/>
+    <recordKeyType typeId="43f4e336-f692-41ac-b9bb-eb40b00e52c5" valueTypeId="f124933b-93cc-4816-b8dd-02bccf548d0f"/>
+    <recordType typeId="8895fa75-cdbc-470b-b96b-d401b54eef12" valueTypeId="defe8e3d-7cff-4061-a7ff-bb0cdb767cbf"/>
+    <recordManagerType typeId="e63964ab-90c2-4bce-b3f2-f04456b274fc" valueTypeId="bed9c8b8-753f-4def-8e17-18525944b813"/>
+  </producedTypes>
+  <name>УдалитьПервоначальныеСведенияОСБухгалтерскийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Первоначальные сведения ОС (бухгалтерский учет, версия 2.2)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="734d35cc-18d1-4ef5-bae1-64e9a0da6766">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="2e310300-69f8-4406-b1ca-e1026c6837bb">
+    <name>ИнвентарныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный номер</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ИнвентарныйНомерОбъектовЭксплуатации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a1d3f4da-21d0-4815-8228-4fe2ef0d1049">
+    <name>СпособПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ поступления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыПоступленияАктивов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d207f96a-dbb0-4ecd-be76-2941352c80cd">
+    <name>ПервоначальнаяСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первоначальная стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6ff8ec92-0829-4933-9837-a16170c7584d">
+    <name>СпособНачисленияАмортизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ начисления амортизации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыНачисленияАмортизацииОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="109e54b2-f9cd-4b79-83a3-96e2ac661850">
+    <name>ПоказательНаработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель наработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоказателиНаработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7714ea1e-3dab-45d8-a94a-54a26dcab4e6">
+    <name>ПорядокПогашенияСтоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок погашения стоимости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПорядокПогашенияСтоимостиОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="233231bb-663a-4fcf-a0bd-133a0f20f4cc">
+    <name>ГруппаОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа ОС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГруппыОС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Классификационная группа основных средств</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="c6c764ac-ae3d-484d-9908-ea18963e1e08">
+    <name>УдалитьКодПоОКОФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Код по ОКОФ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбщероссийскийКлассификаторОсновныхФондов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код по классификатору основных фондов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3ad70504-3972-42d0-8227-eeb39b4c4acd">
+    <name>УдалитьШифрПоЕНАОФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Шифр по ЕНАОФ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиныеНормыАмортизационныхОтчисленийОсновныхФондов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код по классификатору единых норм амортизации основных фондов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="27dbbedd-c4ac-401f-b3b1-1f32612471f5">
+    <name>НаправлениеДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление деятельности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаправленияДеятельности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5b747a89-cc25-48e0-ad61-364f7c795390">
+    <name>НедвижимоеИмущество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недвижимое имущество</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основное средство является видом имущества, признаваемым в законодательном порядке недвижимым.
+Используется при расчете налога на имущество.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="504ea54e-0960-45a5-a9ea-ac01665979ad">
+    <name>АмортизационнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Амортизационная группа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АмортизационныеГруппы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Амортизационная группа основных средств</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d169d285-edea-4556-bd36-2348b5bab0a6">
+    <name>РезервПереоценкиСтоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резерв переоценки стоимости</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма резерва переоценки восстановительной стоимости на момент ввода остатков</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="782facad-dd4a-4eb5-8c6f-9c1c16055048">
+    <name>РезервПереоценкиАмортизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резерв переоценки амортизации</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма резерва переоценки накопленной амортизации на момент ввода остатков</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="90b5c3b1-c5c8-453e-a572-40b873756dcd">
+    <name>Арендодатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Арендодатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Получатель расходного документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Контрагенты.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <resources uuid="9e06640d-2128-4114-b108-543633e922b4">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыАренды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="da0b848b-3964-437c-ae08-f42046edf9cd">
+    <name>РесурсыОбновлены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурсы обновлены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Служебный реквизит, используется при обновлении ИБ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="58274ae7-3a18-43e3-b3c8-d2de6c4ac8e8">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыЭксплуатации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

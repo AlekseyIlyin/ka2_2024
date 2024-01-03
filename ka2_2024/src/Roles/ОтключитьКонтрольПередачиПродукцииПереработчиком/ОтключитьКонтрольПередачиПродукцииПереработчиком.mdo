@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d51a5278-a235-4ff8-9b06-ff37df22be29">
+  <name>ОтключитьКонтрольПередачиПродукцииПереработчиком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить контроль передачи продукции переработчиком</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="814ad9e1-8710-4024-abf1-e88126f0a0d9">
+  <name>ЧтениеВозвратовОСОтАрендатора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение возвратов ОС от арендатора</value>
+  </synonym>
+</mdclass:Role>

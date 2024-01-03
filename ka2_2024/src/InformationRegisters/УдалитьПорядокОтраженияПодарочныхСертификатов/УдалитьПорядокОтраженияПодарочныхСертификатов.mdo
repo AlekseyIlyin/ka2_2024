@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ecd4747-8546-42f1-8b4b-a0d8478de639">
+  <producedTypes>
+    <selectionType typeId="fcfeb731-81ea-4934-b673-2a4df7976b57" valueTypeId="247efae8-f670-47a1-8729-4260887716b9"/>
+    <listType typeId="ba76fb62-5476-4796-a4a5-930405c461a8" valueTypeId="ec5ee224-3add-41a2-9968-6af3e3b49309"/>
+    <managerType typeId="a5336352-ec41-44df-82c3-a64b5c7eef4e" valueTypeId="7ba159f3-f639-41ee-a444-113506f91eb4"/>
+    <recordSetType typeId="bb842eac-00a9-42fe-8c09-9f3b391e2dc3" valueTypeId="dae32bc9-4df0-4ae7-8cfa-b7c4b4e6774a"/>
+    <recordKeyType typeId="4738319e-759d-4516-85c6-5116960d515f" valueTypeId="94e0b6e7-bfc5-438c-8b03-0ba65a912e3c"/>
+    <recordType typeId="688745c3-2ae7-4b1f-95b6-75ff6cff47ac" valueTypeId="7d3a36ea-d7b9-4b4e-9ef1-04259df81089"/>
+    <recordManagerType typeId="3aba0814-5243-481c-bea9-be1c1d58c55d" valueTypeId="1cac0b6b-2b67-4ab9-8b79-c139f6f4523f"/>
+  </producedTypes>
+  <name>УдалитьПорядокОтраженияПодарочныхСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Порядок отражения подарочных сертификатов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Порядок отражения подарочных сертификатов</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Порядок отражения подарочных сертификатов в регл. учете</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Порядок отражения подарочных сертификатов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Порядок отражения подарочных сертификатов в регл. учете</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Настройка порядка отражения подарочных сертификатов в регламентированном учете</value>
+  </explanation>
+  <resources uuid="c0643d92-e486-4923-b617-15f03d005788">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="291f3d22-f957-4251-9793-669ce1e3fe01">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="584241ac-5b6d-4b29-b5a0-297aa90719e0">
+    <name>ВидСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сертификата</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПодарочныхСертификатов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

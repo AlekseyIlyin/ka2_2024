@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a0dcbc7-d309-4448-b8c5-8392b6405c19">
+  <producedTypes>
+    <objectType typeId="02606947-3096-4e96-9938-7828bc75fe12" valueTypeId="e69e171b-70aa-49b0-878d-1163056cd1f8"/>
+    <managerType typeId="7a298b18-7f1a-4675-acdb-cfb8e9debbd5" valueTypeId="4606ad26-136a-4077-8edd-d1a2033e06b6"/>
+  </producedTypes>
+  <name>РегламентированныйОтчетСтатистикаБанкРоссииФорма1АРЕНДА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма 1-АРЕНДА &quot;Сведения о долговых обязательствах перед нерезидентами по договорам аренды&quot;</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчетСтатистикаБанкРоссииФорма1АРЕНДА.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="3dc1085d-53bb-418c-b490-b4d2f70cca50">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 1-АРЕНДА </value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c4ce46c-78b3-4c94-9925-274d57e0ae91">
+    <name>ФормаОтчета2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения о долговых обязательствах перед нерезидентами по договорам аренды</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e9dc94be-2262-4c03-93a8-a96441e93f97">
+    <name>МетаданныеШаблона2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метаданные шаблона</value>
+    </synonym>
+  </templates>
+  <templates uuid="8950336c-7b4c-4b2e-9de1-6d4469ad448e">
+    <name>НастройкиЗагрузкиXML2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2022</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7f689e65-7dc4-4b80-bbfd-b0e228d6fa00">
+    <name>НастройкиСравнения2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2022</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f7881720-a870-459f-90d3-624c289a07a4">
+    <name>ПечатныйБланк2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="563037a5-00fb-4799-a3bd-21299eb95c14">
+    <name>СпискиВыбора2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="1cd9cc6d-d552-454f-bff0-9ba5431271a7">
+    <name>СхемаВыгрузкиXML2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки XML2022 кв. 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="f1a34bc5-e1bb-4a69-a5f5-72e299812564">
+    <name>ФормаОтчета2022Кв1_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="5e3d1df0-19f1-492d-9dc4-b4db229771a6">
+    <name>ФормаОтчета2022Кв1_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный</value>
+    </synonym>
+  </templates>
+  <templates uuid="de5a7d2b-523e-4feb-bcc4-31de9ff660d6">
+    <name>ШаблонБанка2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон Банка России</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

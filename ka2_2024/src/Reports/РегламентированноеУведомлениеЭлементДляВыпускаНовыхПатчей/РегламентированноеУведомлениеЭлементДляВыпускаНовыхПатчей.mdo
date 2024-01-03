@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f964e5e6-b094-4fe4-9804-470c156430d3">
+  <producedTypes>
+    <objectType typeId="0f92c9e5-e17e-404c-bb05-1cb635c2a861" valueTypeId="34d18439-7acd-4ec7-8027-000cc253bfbc"/>
+    <managerType typeId="a4329929-57ac-42fe-b202-8bacb0e300ae" valueTypeId="ee04e8a4-09e6-4957-b05e-23a61dba2d9c"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеЭлементДляВыпускаНовыхПатчей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элемент для выпуска новых патчей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+</mdclass:Report>

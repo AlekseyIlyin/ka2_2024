@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Нормативные сроки</value>
+  </title>
+  <items xsi:type="form:Decoration">
+    <name>СрокиПредставления</name>
+    <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>&lt;fontsize 16>&lt;b>&lt;colorstyle -16>Срок отправки подтверждения о приеме&lt;/>&lt;/>&lt;/>
+Квитанцию о приеме требования следует отправить в течение одного рабочего дня со дня его отправки территориальным органом СФР (&lt;link https://its.1c.ru/db/garant#content:403686530:hdoc>п. 12 Приказа ФСС РФ от 27 декабря 2021 г. N 595&lt;/>).
+
+Если прием требования не будет подтвержден в указанный срок, территориальный орган СФР в течение трех рабочих дней направит требование на бумажном носителе (&lt;link https://its.1c.ru/db/garant#content:403686530:hdoc>п. 13 Приказа ФСС РФ от 27 декабря 2021 г. N 595&lt;/>).
+
+&lt;fontsize 16>&lt;b>&lt;colorstyle -16>Сроки ответа на требования &lt;/>&lt;/>&lt;/>
+
+&lt;fontsize 12>&lt;colorstyle -16>Требования о представлении документов&lt;/>&lt;/>
+&lt;color #ff0000>10 рабочих дней со дня получения требования
+&lt;/>• В рамках проведения выездных и камеральных проверок (&lt;link https://its.1c.ru/db/garant#content:12012505:1:26186>п. 6 ст. 26.18 Федерального закона N 125-ФЗ&lt;/>).
+
+Если представить документы в указанные сроки невозможно, то следует в течение 1 дня уведомить об этом территориальный орган СФР. В письменном уведомлении следует указать причины и срок, в течение которого документы могут&lt;fontsize 12> &lt;/>быть представлены (&lt;link https://its.1c.ru/db/garant#content:12012505:1:26187>п. 7 ст. 26.18 Федерального закона N 125-ФЗ&lt;/>).
+
+Течение указанных сроков начинается на следующий день после получения требования и заканчивается в 24 часа последнего дня срока.
+
+За непредставление (несвоевременное представление) документов по требованию территориального органа СФР предусмотрена административная ответственность (&lt;link https://its.1c.ru/db/garant#content:12012505:1:26188>п. 8 ст. 26.18&lt;/>, &lt;link https://its.1c.ru/db/garant#content:12012505:1:19>ст.19 Федерального закона N 125-ФЗ&lt;/>).
+</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>СрокиПредставленияРасширеннаяПодсказка</name>
+      <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СрокиПредставленияКонтекстноеМеню</name>
+      <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <width>84</width>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

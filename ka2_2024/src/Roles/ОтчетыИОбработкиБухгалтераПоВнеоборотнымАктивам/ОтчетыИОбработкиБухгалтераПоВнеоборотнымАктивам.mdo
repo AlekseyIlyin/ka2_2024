@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bc3edd2-9353-49f9-b1b9-ce45c0ee7899">
+  <name>ОтчетыИОбработкиБухгалтераПоВнеоборотнымАктивам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты и обработки бухгалтера по внеоборотным активам</value>
+  </synonym>
+</mdclass:Role>

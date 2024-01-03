@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ea56c06-8750-406d-a597-0017534904be">
+  <name>ЕдиныйНалоговыйСчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единый налоговый счет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ЕдиныйНалоговыйСчетЛичныйКабинет</content>
+  <content>CommonCommand.ЕдиныйНалоговыйСчетЛичныйКабинет</content>
+  <content>SessionParameter.СессииОбменФНС</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетИнтеграция</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетИнтеграцияВызовСервера</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетИнтеграцияКлиент</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетЛичныйКабинет</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетИнтеграцияФормыКлиент</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетИнтеграцияКлиентСервер</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетИнтеграцияФормыПереопределяемый</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетИнтеграцияФормыКлиентПереопределяемый</content>
+  <content>StyleItem.ЕдиныйНалоговыйСчетЦветФонаАктивнойЗакладки</content>
+  <content>StyleItem.ЕдиныйНалоговыйСчетЦветФонаПассивнойЗакладки</content>
+  <content>StyleItem.ЕдиныйНалоговыйСчетСерыйЦвет</content>
+  <content>StyleItem.ЕдиныйНалоговыйСчетЗеленыйЦвет</content>
+  <content>StyleItem.ЕдиныйНалоговыйСчетКрасныйЦвет</content>
+  <content>ScheduledJob.ОбновлениеДанныхЛичногоКабинетаЕНС</content>
+  <content>StyleItem.ЕдиныйНалоговыйСчетКрасныйЦветФона</content>
+  <content>StyleItem.ЕдиныйНалоговыйСчетЖелтыйЦветФона</content>
+  <content>CommonPicture.ЕдиныйНалоговыйСчетВниманиеЖелтый</content>
+  <content>CommonPicture.ЕдиныйНалоговыйСчетВниманиеКрасный</content>
+  <content>CommonPicture.ЕдиныйНалоговыйСчетСостояниеОперации</content>
+  <content>CommonPicture.ЕдиныйНалоговыйСчетЗнакОперации</content>
+  <content>StyleItem.ЕдиныйНалоговыйСчетСветлоЖелтыйЦветФона</content>
+  <content>Role.ДобавлениеИзменениеДанныхЛичногоКабинетаЕНС</content>
+  <content>Role.ЧтениеДанныхЛичногоКабинетаЕНС</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетИнтеграцияПовтИсп</content>
+  <content>CommonPicture.ЕдиныйНалоговыйСчетСерыйКрестик</content>
+  <content>CommonPicture.ЕдиныйНалоговыйСчетПолоскаПрозрачная</content>
+  <content>CommonPicture.ЕдиныйНалоговыйСчетПолоскаЗеленая</content>
+  <content>Constant.ИспользуетсяИнтеграцияЕНС</content>
+  <content>FunctionalOption.ИспользуетсяИнтеграцияЕНС</content>
+  <content>CommonPicture.ЕдиныйНалоговыйСчетИнформация</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетИнтеграцияВнутренний</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетЛичныйКабинетВнутренний</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетЛичныйКабинетПереопределяемый</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетЛичныйКабинетКлиентСервер</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетЛичныйКабинетКлиентПереопределяемый</content>
+  <content>CommonPicture.ЕдиныйНалоговыйСчетВниманиеЖелтыйТреугольник</content>
+  <content>CommonModule.ЕдиныйНалоговыйСчетИнтеграцияВызовСервераВнутренний</content>
+  <content>DataProcessor.ЕдиныйНалоговыйСчетОбслуживание</content>
+  <content>DataProcessor.ЕдиныйНалоговыйСчетОбслуживаниеБазовый</content>
+  <content>DataProcessor.ЕдиныйНалоговыйСчетОбслуживаниеВнутренний</content>
+  <content>DataProcessor.ЕдиныйНалоговыйСчетОбслуживаниеРасширенный</content>
+  <subsystems>Операции</subsystems>
+  <subsystems>Состояния</subsystems>
+  <subsystems>СправочныеДанные</subsystems>
+  <parentSubsystem>Subsystem.РегламентированнаяОтчетность</parentSubsystem>
+</mdclass:Subsystem>

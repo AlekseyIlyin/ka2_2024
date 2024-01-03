@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bce0b75d-6a4d-4dfa-ae4b-1c0fbaa4e2fd">
+  <producedTypes>
+    <objectType typeId="46865d61-ef83-4199-a864-5a51971036bb" valueTypeId="1886d33a-64f3-46ab-aff9-29edba46fa8f"/>
+    <managerType typeId="c93c650d-3651-40f8-b7e0-19fa5c881e99" valueTypeId="6ff1bb7d-0704-4ecc-86bb-c3546788f291"/>
+  </producedTypes>
+  <name>РегламентированныйОтчетСтатистикаФорма2ТПОхота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма 2-ТП (охота) &quot;Сведения об охоте и охотничьем хозяйстве&quot;</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчетСтатистикаФорма2ТПОхота.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="121baf76-399b-4cc3-8f9d-dff8ff2df3c4">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика: Форма 2-ТП (охота)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8d174efb-a778-4550-a01d-22fb04678f2b">
+    <name>ФормаОтчета2018Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 2-ТП (охота)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c8abc4f-7afb-479e-9738-d422d0e38c4a">
+    <name>ФормаОтчета2020Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 2-ТП (охота)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f1a5fb4d-feee-4e96-9d2c-935eb04a5a94">
+    <name>ФормаОтчета2021Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 2-ТП (охота)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b495c7fc-e186-42ea-960e-46ee609c4fc9">
+    <name>ФормаОтчета2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 2-ТП (охота)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c8fd0f0-917d-45c2-8546-348581402c0d">
+    <name>ФормаОтчета2023Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 2-ТП (охота)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="740ff331-9c85-4132-bbbb-e1b90b94b177">
+    <name>АтрибВыгрузкиXML2021Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атрибуты выгрузки XML 2018 кв1</value>
+    </synonym>
+    <comment>Дополнительные атрибуты для выгрузки в XML</comment>
+  </templates>
+  <templates uuid="88de6d2c-639a-40e7-94ec-925ddf7d996d">
+    <name>СхемаВыгрузкиXML2021Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки XML2021 кв1</value>
+    </synonym>
+  </templates>
+  <templates uuid="eb331bd8-4b8e-4f47-bdb6-aed1eb7dafb3">
+    <name>ФормаОтчета2018Кв1_ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2018 кв1 форма отчета</value>
+    </synonym>
+  </templates>
+  <templates uuid="af11e1ba-f935-4b70-8b22-2fbaa925860f">
+    <name>ШаблонРосстата2023Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон росстата2023 кв1</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="c9e77a9e-ee9e-4f93-8f02-deb5d05b8ceb">
+    <name>НастройкиЗагрузкиXML2021Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2018 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="06c636c2-9e3b-4748-8e46-246fadf3db23">
+    <name>Списки2018кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки2018кв1</value>
+    </synonym>
+  </templates>
+  <templates uuid="54dbbc17-0449-4b11-9533-21cce1f9003f">
+    <name>НастройкиСравнения2021Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2018 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="398a4402-d26c-4cc2-86c4-9f6af9356323">
+    <name>АтрибВыгрузкиXML2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атрибуты выгрузки XML 2020 кв1</value>
+    </synonym>
+    <comment>Дополнительные атрибуты для выгрузки в XML</comment>
+  </templates>
+  <templates uuid="04648b89-5bf8-42f7-8636-846f32e78e5b">
+    <name>СхемаВыгрузкиXML2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки XML2022 кв1</value>
+    </synonym>
+  </templates>
+  <templates uuid="c168167e-293a-47a5-9c37-8c1b966c666d">
+    <name>ФормаОтчета2020Кв1_ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2020 кв1 форма отчета</value>
+    </synonym>
+  </templates>
+  <templates uuid="1dee66bc-eb4f-427e-b106-ffc1112d656c">
+    <name>Списки2020кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки2020кв1</value>
+    </synonym>
+  </templates>
+  <templates uuid="0a98ba3a-f6fd-4d12-812e-563fb63fce79">
+    <name>ШаблонРосстата2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон росстата2022 кв1</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="cd3be975-9e74-4379-bc82-b16b0ea0bd05">
+    <name>НастройкиСравнения2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2020 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="28f40fac-05e2-4f6a-88fa-62a753604508">
+    <name>НастройкиЗагрузкиXML2022Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2020 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="33eed44e-a177-4672-a2c1-bed0dd4aac05">
+    <name>ФормаОтчета2021Кв1_ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2021 кв1 форма отчета</value>
+    </synonym>
+  </templates>
+  <templates uuid="a1798e03-b047-445c-b2fe-9d36fed4782b">
+    <name>ФормаОтчета2022Кв1_ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2022 кв1 форма отчета</value>
+    </synonym>
+  </templates>
+  <templates uuid="97503c50-f0fa-48d7-9c0b-ad8d2777c2c2">
+    <name>Списки2023кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки2023кв1</value>
+    </synonym>
+  </templates>
+  <templates uuid="0c3abda6-758d-4bcd-8548-04ff66c30afb">
+    <name>АтрибВыгрузкиXML2023Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атрибуты выгрузки XML 2020 кв1</value>
+    </synonym>
+    <comment>Дополнительные атрибуты для выгрузки в XML</comment>
+  </templates>
+  <templates uuid="e3f4211b-218f-461c-ad27-f479d0b73c85">
+    <name>СхемаВыгрузкиXML2023Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки XML2023 кв1</value>
+    </synonym>
+  </templates>
+  <templates uuid="b912fae1-f4f3-4630-88fa-b393972145ac">
+    <name>ФормаОтчета2023Кв1_ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2023 кв1 форма отчета</value>
+    </synonym>
+  </templates>
+  <templates uuid="f594b6a9-556e-45d8-9d5d-3db5d2ff1b83">
+    <name>НастройкиЗагрузкиXML2023Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2020 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="63dce8ff-943a-4a52-bb15-a10a94c2a979">
+    <name>НастройкиСравнения2023Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2020 (кв.1)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Report>

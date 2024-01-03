@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10f852b2-0c31-445b-8814-fe21d8614d0a">
+  <producedTypes>
+    <objectType typeId="ab7f1a94-c850-4e58-a689-416aa8f2c7ed" valueTypeId="6d8c4ba4-815d-4c9b-a7db-ff11494b05da"/>
+    <refType typeId="8cba519d-13d4-46bf-a0b3-7333dcb58d16" valueTypeId="7863dcf4-9078-46f5-b927-edca40a3d6e0"/>
+    <selectionType typeId="289e4128-b96d-4615-96eb-945325263992" valueTypeId="53180b79-0f99-4ee3-aef8-7d47ce21b409"/>
+    <listType typeId="c6355483-2567-4e3f-a387-546b447e849c" valueTypeId="da65f4df-6faf-4781-978d-8a6b41c6ba9c"/>
+    <managerType typeId="63a42f24-e849-46d4-801b-fc8742fcc203" valueTypeId="940cb38b-1125-4894-bcab-de40edff6463"/>
+  </producedTypes>
+  <name>ВводОстатковРасходовПриУСН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод остатков расходов при УСН</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВводОстатковРасходовПриУСН.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.ИмяПредопределенногоНабора</typesFilterField>
+    <typesFilterValue xsi:type="core:StringValue">
+      <value>Документ_ВводОстатковРасходовПриУСН</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ввод остатков расходов при УСН</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Ввод остатков расходов при УСН</value>
+  </explanation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВводОстатковРасходовПриУСН.Form.ФормаРасходыПриУСН</defaultObjectForm>
+  <defaultListForm>Document.ВводОстатковРасходовПриУСН.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <sequenceFilling>AutoFillOff</sequenceFilling>
+  <registerRecords>AccumulationRegister.ДенежныеСредстваУПодотчетныхЛиц</registerRecords>
+  <registerRecords>AccumulationRegister.ДвиженияСерийТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.РезервыТоваровОрганизаций</registerRecords>
+  <registerRecords>AccumulationRegister.РасчетыСКлиентами</registerRecords>
+  <registerRecords>AccumulationRegister.ПартииТоваровОрганизаций</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыКОформлениюИзлишковНедостач</registerRecords>
+  <registerRecords>AccumulationRegister.СебестоимостьТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.ДвиженияНоменклатураДоходыРасходы</registerRecords>
+  <registerRecords>AccumulationRegister.ПрочиеАктивыПассивы</registerRecords>
+  <registerRecords>InformationRegister.ОтражениеДокументовВРеглУчете</registerRecords>
+  <registerRecords>AccumulationRegister.ДенежныеСредстваБезналичные</registerRecords>
+  <registerRecords>AccumulationRegister.НДСПредъявленный</registerRecords>
+  <registerRecords>AccumulationRegister.ДенежныеСредстваНаличные</registerRecords>
+  <registerRecords>AccumulationRegister.ПереданнаяВозвратнаяТара</registerRecords>
+  <registerRecords>AccumulationRegister.ПодарочныеСертификаты</registerRecords>
+  <registerRecords>AccumulationRegister.ПартииРасходовНаСебестоимостьТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.РасходыПриУСНОСиНМА</registerRecords>
+  <registerRecords>AccumulationRegister.РасходыПриУСНМатериалы</registerRecords>
+  <registerRecords>AccumulationRegister.РасходыПриУСН</registerRecords>
+  <registerRecords>AccumulationRegister.ДенежныеСредстваВПути</registerRecords>
+  <registerRecords>AccountingRegister.Хозрасчетный</registerRecords>
+  <registerRecords>AccumulationRegister.ДенежныеСредстваВКассахККМ</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
+  <registerRecords>InformationRegister.ДанныеОснованийСчетовФактур</registerRecords>
+  <registerRecords>AccumulationRegister.РасчетыСПоставщиками</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыПереданныеНаКомиссию</registerRecords>
+  <registerRecords>AccumulationRegister.ФинансовыеРезультаты</registerRecords>
+  <registerRecords>AccumulationRegister.Закупки</registerRecords>
+  <registerRecords>AccumulationRegister.РасходыПриУСНТовары</registerRecords>
+  <registerRecords>AccumulationRegister.НДСЗаписиКнигиПродаж</registerRecords>
+  <registerRecords>AccumulationRegister.РасчетыСКлиентамиПоДокументам</registerRecords>
+  <registerRecords>AccumulationRegister.РасчетыСПоставщикамиПоДокументам</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыПереданныеПереработчику</registerRecords>
+  <registerRecords>AccumulationRegister.МатериалыИРаботыВПроизводстве</registerRecords>
+  <registerRecords>AccumulationRegister.РасчетыПоФинансовымИнструментам</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыОрганизаций</registerRecords>
+  <registerRecords>AccumulationRegister.НДСЗаписиКнигиПокупок</registerRecords>
+  <registerRecords>AccumulationRegister.ПринятаяВозвратнаяТара</registerRecords>
+  <registerRecords>InformationRegister.НДССостояниеРеализации0</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыВЯчейках</registerRecords>
+  <registerRecords>AccumulationRegister.РасчетыПоЭквайрингу</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="677cefb8-12a1-44c9-b85b-847f03cecb2f">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Валюта взаиморасчетов с комитентом</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="67e4a4c0-4a9c-4464-bce5-160afafcaeaf">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный текст</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f04ec25-cdcb-4381-b2e9-bdce93dcd417">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация предприятия, от имени которой оформляется документ.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Организации.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16002f0c-00a2-426e-ab45-ebf8a801d41d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, оформивший документ и ответственный за его обработку.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0ebc842-ec1d-4149-afd6-79814f255099">
+    <name>ХозяйственнаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хозяйственная операция</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ХозяйственныеОперации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Хозяйственная операция ввода остатков.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ХозяйственныеОперации.EnumValue.ВводОстатковРасходовУСНПоТоварам</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b80fd4d-2ed1-46e7-a379-ff8bdff03cf5">
+    <name>ОтражатьВОперативномУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отражать в оперативном учете</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ввод остатков по региcтрам оперативного учета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1a8cf64e-2ffd-4c81-a528-b4e763a19e74">
+    <name>Исправление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправление</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак, что документ является исправительным</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f4052ab-aad2-462c-86f0-c70b2f17e6ff">
+    <name>СторнируемыйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сторнируемый документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВводОстатковРасходовПриУСН</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на документ, движения которого сторнируются при исправлении</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8aa7d384-3d9a-480c-815f-cb25b3f1f712">
+    <name>ИсправляемыйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправляемый документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВводОстатковРасходовПриУСН</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на исходный (первичный) исправляемый документ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="dab2f0f0-e951-44eb-a401-7d3760fb2bd1">
+    <name>ФормаРасходыПриУСН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма расходы при УСН</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7f31a20-4b96-4297-a05a-ea91ce8d0fb9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="278e377d-1dd0-4e87-93fb-579dc5120d89">
+    <producedTypes>
+      <objectType typeId="b1283e26-0aef-449e-a83a-fbda58fdc30d" valueTypeId="dc2504a2-7e49-4229-ab04-da8185d60be8"/>
+      <rowType typeId="fc675323-4708-4984-91ba-f90a122380c3" valueTypeId="251d84b0-05ed-40b7-b524-fcaabf101f27"/>
+    </producedTypes>
+    <name>РасходыПриУСН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы при УСН</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c64cb376-b0ee-4b3a-9884-c08e04edcdc8">
+      <name>ВидРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид расходов</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыРасходовУСН</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид расходов для целей УСН</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="66a44a50-0707-4ff8-ac77-4676b4f14534">
+      <name>ДокументВозникновенияРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ возникновения расходов</value>
+      </synonym>
+      <comment>Документ поступления</comment>
+      <type>
+        <types>DocumentRef</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Документ возникновения расходов</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Организация</name>
+        <field>Document.ВводОстатковРасходовПриУСН.Attribute.Организация</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ТипПервичногоДокумента</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыПервичныхДокументов.EnumValue.ПриобретениеУПоставщика</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0632049b-cb88-43cf-adf8-e6647cdd5b22">
+      <name>Партия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ поступления</value>
+      </synonym>
+      <comment>Документ поступления</comment>
+      <type>
+        <types>DocumentRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Организация</name>
+        <field>Document.ВводОстатковРасходовПриУСН.Attribute.Организация</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.Контрагент</name>
+        <field>Document.ВводОстатковРасходовПриУСН.TabularSection.РасходыПриУСН.Attribute.Контрагент</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.Партнер</name>
+        <field>Document.ВводОстатковРасходовПриУСН.TabularSection.РасходыПриУСН.Attribute.Партнер</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ТипПервичногоДокумента</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыПервичныхДокументов.EnumValue.ПриобретениеУПоставщика</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="22f5ad13-06f5-4f27-ac7a-f3fe4a280303">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Контрагент-поставщик товаров, работ, услуг</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Партнер</name>
+        <field>Document.ВводОстатковРасходовПриУСН.TabularSection.РасходыПриУСН.Attribute.Партнер</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b4ab104e-b6c1-4432-a0a0-0517386799fd">
+      <name>НДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>НДС расхода</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма НДС расходов</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4e0ed19a-2ef3-403e-a6a1-35ad00b9714a">
+      <name>Партнер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Партнер</value>
+      </synonym>
+      <comment>Поставщик</comment>
+      <type>
+        <types>CatalogRef.Партнеры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Партнер-поставщик товаров, работ, услуг</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5f0a624f-fea4-457b-8bd6-82cca90f9846">
+      <name>СтатьяРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья расходов</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Статья поступления прочих расходов</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ВариантРаспределенияРасходовРегл</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.ВариантыРаспределенияРасходов.EnumValue.НаСебестоимостьТоваров</value>
+          </values>
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.ВариантыРаспределенияРасходов.EnumValue.НаНаправленияДеятельности</value>
+          </values>
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.ВариантыРаспределенияРасходов.EnumValue.НаРасходыБудущихПериодов</value>
+          </values>
+          <values xsi:type="core:ReferenceValue">
+            <value>Enum.ВариантыРаспределенияРасходов.EnumValue.НаПроизводственныеЗатраты</value>
+          </values>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2c37c735-1e2f-415d-ae2d-bce77687b825">
+      <name>СуммаОплаты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Из них оплачено</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ранее оплаченная сумма расходов</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e1904c0f-8ae9-45e0-ac8b-c60aaa56d643">
+      <name>СуммаОтгрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Из них отгружено / списано</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ранее реализованная сумма расходов (товаров)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5feeedab-c938-41cc-b4f1-eab47cf5e20b">
+      <name>СуммаРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расходы к признанию</value>
+      </synonym>
+      <comment>Расходы к признанию</comment>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма расходов по документу, ожидающая признания</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="69232a8b-a27a-4491-9de8-986313ad1d11">
+      <name>Признано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Из них признано</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ранее признанная сумма расходов</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="44255478-226e-4e00-9105-dc66e16b6f2c">
+      <name>НеПризнано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Из них не признано</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ранее не признанная сумма расходов</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

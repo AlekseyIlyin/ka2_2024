@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b377f3d-366d-4679-8482-b132bcfc9f02">
+  <producedTypes>
+    <objectType typeId="e6e14c72-3ffa-42a5-91df-4010e2c301be" valueTypeId="c122e5de-38ef-4373-a152-e2f54d8b1cd4"/>
+    <managerType typeId="90f6fc45-0428-452e-ae13-b76fa4d47061" valueTypeId="2aede76d-cf1a-4445-b131-f435d21b8370"/>
+  </producedTypes>
+  <name>РегламентированноеУведомлениеВозвратЕНП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявление о возврате единого налогового платежа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ИнформацияОНевозможностиОткрытияУведомления</defaultForm>
+  <forms uuid="d5d411ba-4fc6-427e-9ecf-87e1c8d72f1e">
+    <name>Форма2022_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление о возврате единого налогового платежа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c6208e08-6a47-4dbf-8290-14af47e81483">
+    <name>СпискиВыбора2022_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>списки выбора</value>
+    </synonym>
+  </templates>
+  <templates uuid="b71af24c-efe9-4d83-8174-09e13b980288">
+    <name>Титульная_2022_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="c315722b-5e6b-475a-a3be-805f041dd18a">
+    <name>ЗаявВозврДенСр_2022_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>экранная форма</value>
+    </synonym>
+  </templates>
+  <templates uuid="05115c2e-ca79-4e81-8471-c69b1ece128d">
+    <name>СхемаВыгрузкиФорма2022_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>схема выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="dc983c37-d51a-4615-ad54-7576a70e127a">
+    <name>Печать_Форма2020_1_Титульная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+  <templates uuid="cc404c72-e74a-429d-9aa9-588bb1dccbca">
+    <name>Печать_Форма2020_1_ЗаявВозврДенСр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатный бланк</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fffb077-89a7-416f-8b56-c221b24aa9e7">
+  <producedTypes>
+    <selectionType typeId="7425d72c-9b36-48d4-95d1-0c40bd163051" valueTypeId="8e370c47-6bb1-4fbc-bb80-5c575e797c3a"/>
+    <listType typeId="c8a8781e-88c8-4e29-9e7e-d342e0efc17f" valueTypeId="59fffead-bbd6-4319-ba42-edbd2686f401"/>
+    <managerType typeId="c9525a07-bd3c-4626-b719-2bc196dfd11f" valueTypeId="f78c7ffb-b3ee-4d31-bb5c-56f45acbfd69"/>
+    <recordSetType typeId="32b804f7-27b0-49f8-b478-a9f0585de4b0" valueTypeId="fe6474ae-f232-4b64-a473-c208d18e0c42"/>
+    <recordKeyType typeId="5717435c-1206-4b89-94b6-6988c12f03da" valueTypeId="4371aa6b-5611-4ab7-8cfc-329ae2505793"/>
+    <recordType typeId="64372a9a-f4f9-4065-8c8c-c100680c7bf9" valueTypeId="7cbc5e38-7baf-4083-bb66-2ebe6c373245"/>
+    <recordManagerType typeId="4d479d5d-53a1-41f8-b606-b303f35c6896" valueTypeId="81ca30f7-923f-42e9-aa16-3caaed9a948c"/>
+  </producedTypes>
+  <name>УдалитьЗаданияКРасчетуДлительностиПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Задания к расчету нормативной длительности производства</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="655fba89-e296-42fc-b2b1-9ea441ad069e">
+    <name>ДатаДобавления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата добавления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="25d0a155-9c05-4653-8dbf-f20124b9a878">
+    <name>РасчетДнейДоОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет дней до окончания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d5ff38c0-c713-4917-9080-6d3896bbc262">
+    <name>ОбъектРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект расчета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РесурсныеСпецификации</types>
+      <types>CatalogRef.СтруктураПредприятия</types>
+      <types>CatalogRef.Календари</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="749626f7-27c2-44de-bac3-c17d21558f87">
+    <name>НомерЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер задания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

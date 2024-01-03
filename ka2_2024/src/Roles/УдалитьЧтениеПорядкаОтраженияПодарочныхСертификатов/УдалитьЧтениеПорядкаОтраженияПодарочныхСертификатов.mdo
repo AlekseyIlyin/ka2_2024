@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19b23cc3-9c4f-4356-80fa-0b2b74474968">
+  <name>УдалитьЧтениеПорядкаОтраженияПодарочныхСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Чтение порядка отражения подарочных сертификатов</value>
+  </synonym>
+</mdclass:Role>

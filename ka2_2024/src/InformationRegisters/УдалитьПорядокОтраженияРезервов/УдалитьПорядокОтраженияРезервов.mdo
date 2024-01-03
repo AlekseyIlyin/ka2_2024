@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="900cea1b-49a7-4398-9e93-50f39e174393">
+  <producedTypes>
+    <selectionType typeId="611eb7db-949f-4b9d-a44d-ffd2333b3b6e" valueTypeId="8991cf7e-0bfc-4feb-a02d-eb212b7aa7bb"/>
+    <listType typeId="62910318-6cb6-43a0-b92e-03243caa1b1c" valueTypeId="5e1b755e-c6e8-41d4-9900-ed7e5c70b40b"/>
+    <managerType typeId="82896b24-08c0-4639-8b13-a508e3a73fe4" valueTypeId="5405ee18-73e8-49bd-94eb-ad56b9ffd628"/>
+    <recordSetType typeId="9a85d9e7-d2f2-4e15-90b3-a47788784b32" valueTypeId="465803cc-6771-4ba9-b3a3-8974df4ab1a4"/>
+    <recordKeyType typeId="7ae611f3-aaa6-433c-9ba8-ac221c38cb8e" valueTypeId="d7eff67c-0c8a-406d-86d0-fb4d746b03d1"/>
+    <recordType typeId="4b13c3ce-54d1-4182-8214-15c7e3019409" valueTypeId="79c89f83-72be-426c-a105-7dd1f68bd726"/>
+    <recordManagerType typeId="dba3756e-f351-4add-ba01-1649e285a738" valueTypeId="fc235190-30c8-44d4-a5be-ed318e173eb0"/>
+  </producedTypes>
+  <name>УдалитьПорядокОтраженияРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Порядок отражения резервов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b9049c91-40a2-4826-9208-0f52f54d88df">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b0252852-cd14-41c1-8e83-1ed776373325">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="66ab40ff-ccb7-4fd5-8856-78444c0593d6">
+    <name>ВидРезервов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид резервов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Резервы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

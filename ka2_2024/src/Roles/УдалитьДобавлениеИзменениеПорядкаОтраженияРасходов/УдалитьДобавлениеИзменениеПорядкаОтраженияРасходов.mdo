@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c3b7c91-d3d7-46a9-b373-5aefa34fb13a">
+  <name>УдалитьДобавлениеИзменениеПорядкаОтраженияРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Добавление и изменение порядка отражения расходов</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09a6086d-4d82-4073-b84e-e10612461dc8">
+  <name>ЕдиныйНалоговыйПлатеж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единый налоговый платеж</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Report.РегламентированноеУведомлениеВозвратЕНП</content>
+  <content>Report.РегламентированноеУведомлениеИсчисленныеСуммыНалогов</content>
+  <content>Report.РегламентированноеУведомлениеОсобыйПорядокУплатыНалогов</content>
+  <content>Report.РегламентированноеУведомлениеЗапросЕНП</content>
+  <content>CommonModule.КонтрольныеСоотношенияИсчисленныеСуммыНалогов</content>
+  <parentSubsystem>Subsystem.РегламентированнаяОтчетность.Subsystem.СообщенияВКонтролирующиеОрганы</parentSubsystem>
+</mdclass:Subsystem>

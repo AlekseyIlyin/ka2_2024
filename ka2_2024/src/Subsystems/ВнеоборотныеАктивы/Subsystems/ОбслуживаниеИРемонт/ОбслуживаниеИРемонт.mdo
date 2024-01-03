@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9988a9f5-82dc-4c41-9771-20e1d5b05ce6">
+  <name>ОбслуживаниеИРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание и ремонт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.НаработкаОбъектовЭксплуатации</content>
+  <content>Enum.СтатусыДефектов</content>
+  <content>Enum.СтатусыОбъектовЭксплуатации</content>
+  <content>InformationRegister.НаработкиОбъектовЭксплуатации</content>
+  <content>InformationRegister.ПериодыАктуальностиОбъектовЭксплуатации</content>
+  <content>Role.ДобавлениеИзменениеНаработкиОбъектовЭксплуатации</content>
+  <content>Role.ДобавлениеИзменениеОбъектовЭксплуатации</content>
+  <content>Role.ДобавлениеИзменениеПоказателейНаработки</content>
+  <content>Role.ДобавлениеИзменениеУстановкиНаработки</content>
+  <content>Role.ЧтениеНаработок</content>
+  <content>Role.ЧтениеОбъектовЭксплуатации</content>
+  <content>Role.ЧтениеПоказателейНаработки</content>
+  <content>Catalog.ОбъектыЭксплуатации</content>
+  <content>Catalog.ОбъектыЭксплуатацииПрисоединенныеФайлы</content>
+  <content>Catalog.ПоказателиНаработки</content>
+  <content>Constant.ИспользоватьУзлыОбъектовЭксплуатации</content>
+  <content>Constant.ИспользоватьУправлениеРемонтами</content>
+  <content>CommonModule.РегистрацияНаработокЛокализация</content>
+  <content>FunctionalOption.ИспользоватьУзлыОбъектовЭксплуатации</content>
+  <content>FunctionalOption.ИспользоватьУправлениеРемонтами</content>
+  <content>Role.ДобавлениеИзменениеВидовДефектов</content>
+  <content>Role.ДобавлениеИзменениеВидовРемонтов</content>
+  <content>Role.ДобавлениеИзменениеЗаказовНаРемонт</content>
+  <content>Role.ДобавлениеИзменениеКлассовОбъектовЭксплуатации</content>
+  <content>Role.ДобавлениеИзменениеОбщихВидовРемонтов</content>
+  <content>Role.ДобавлениеИзменениеРегистрацийДефектов</content>
+  <content>Role.ИспользованиеПланированияРемонтныхРабот</content>
+  <content>Role.ПросмотрОтчетаСостояниеОбъектовЭксплуатации</content>
+  <content>Role.ПросмотрОтчетаХодРемонтныхМероприятий</content>
+  <content>Role.ЧтениеВидовДефектов</content>
+  <content>Role.ЧтениеДефектов</content>
+  <content>Role.ЧтениеРемонтов</content>
+  <content>Role.ЧтениеРемонтовРабочихЦентров</content>
+  <content>Role.ЧтениеУзловОбъектовЭксплуатации</content>
+  <content>DataProcessor.ПечатьЭтикетокОбъектовЭксплуатации</content>
+  <parentSubsystem>Subsystem.ВнеоборотныеАктивы</parentSubsystem>
+</mdclass:Subsystem>

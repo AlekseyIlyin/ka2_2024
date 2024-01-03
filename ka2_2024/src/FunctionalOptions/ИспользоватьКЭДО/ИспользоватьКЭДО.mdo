@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3a07aa1-5165-4bd3-a8ed-c6aa261d2b2e">
+  <name>ИспользоватьКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать КЭДО</value>
+  </synonym>
+  <location>Constant.ИспользоватьКЭДО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.КодыДокументовКадровыхМероприятий</content>
+  <content>Catalog.ДокументКадровогоЭДОПрисоединенныеФайлы</content>
+  <content>Document.ДокументКадровогоЭДО</content>
+  <content>Catalog.СогласиеНаПрисоединениеККЭДОПрисоединенныеФайлы</content>
+  <content>Document.СогласиеНаПрисоединениеККЭДО</content>
+  <content>InformationRegister.ЗапланированныеДействияСФайламиДокументовКЭДО</content>
+  <content>InformationRegister.КомментарииФайловДокументовКЭДО</content>
+  <content>InformationRegister.НастройкиПечатныхФормБЗК</content>
+  <content>InformationRegister.ПодписанныеОбъектыПользователей</content>
+  <content>InformationRegister.ПодписанныеПечатныеФормы</content>
+  <content>InformationRegister.ПодписиДокументовКЭДО</content>
+  <content>InformationRegister.СостояниеСогласияНаПрисоединениеККЭДО</content>
+  <content>InformationRegister.ФизическиеЛицаПрисоединенныеККЭДО</content>
+  <content>InformationRegister.СостоянияДокументовКЭДО</content>
+  <content>InformationRegister.ДокументыКЭДОКПересчетуСостояний</content>
+  <content>Catalog.МашиночитаемыеДоверенностиКЭДО</content>
+  <content>InformationRegister.ЭлектронныеПодписиКЭДО</content>
+</mdclass:FunctionalOption>
