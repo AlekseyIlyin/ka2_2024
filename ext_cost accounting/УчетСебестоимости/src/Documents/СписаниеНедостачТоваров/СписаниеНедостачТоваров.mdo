@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="817b3941-8bee-48b2-a1ae-d13ed27fd5eb" extendedConfigurationObject="80b2615f-3dc2-46a9-9c09-c3a3cfccf414">
+  <producedTypes>
+    <objectType typeId="9d530193-b769-40da-be08-597ae296a367" valueTypeId="d5abfc09-7730-47c8-affb-37e1a588f006"/>
+    <refType typeId="db39f060-5425-4dc1-b9f7-5b62e04d4379" valueTypeId="f8476fd8-c8b2-49a7-9f90-7eb77d6d909b"/>
+    <selectionType typeId="d2c8917b-f83e-4c12-90a0-3e8ed12b0f26" valueTypeId="1891c502-c162-4b1a-8ee1-b326774878aa"/>
+    <listType typeId="240c4ecb-3be4-4909-a90d-4603076aa6b1" valueTypeId="bc35035b-91bb-460b-ad09-497eaa3ae836"/>
+    <managerType typeId="276d4a0f-f9d1-43fe-89b8-1a4ce2b25af7" valueTypeId="bccf302b-806c-46bf-8be7-254cd925c446"/>
+  </producedTypes>
+  <name>СписаниеНедостачТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <registerRecords>AccumulationRegister.усОстаткиПоПартиям</registerRecords>
+</mdclass:Document>

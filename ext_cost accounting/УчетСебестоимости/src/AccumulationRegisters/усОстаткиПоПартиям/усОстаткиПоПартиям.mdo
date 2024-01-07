@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e5330e1-1ae1-41a9-9555-8376eb79ad92">
+  <producedTypes>
+    <selectionType typeId="7134e3ee-bdcb-4266-8ac4-d7290b4ef983" valueTypeId="ccac2fb3-1b31-4665-98aa-a61873e77a7e"/>
+    <listType typeId="9f9031e5-ea78-409e-93f0-9a3c48455006" valueTypeId="0ff26376-6c9b-4a2a-b2d7-726d54845d96"/>
+    <managerType typeId="9288f0b6-7278-4c86-8ef4-dbd158b0fb1c" valueTypeId="a28518cf-2f16-4535-8da8-dbd7b01b07f7"/>
+    <recordSetType typeId="5ba59fc4-2ae3-413e-8e66-ebe23cc45eb0" valueTypeId="fae04c4c-49e7-4938-9304-10953c9c8baa"/>
+    <recordKeyType typeId="9be552a6-dffc-468b-9e5a-8fb23b04a0f6" valueTypeId="78df4e98-95c0-4382-bbb3-1630320fd1c3"/>
+    <recordType typeId="c5789df1-e77d-4f94-b4ff-d3333c4a3678" valueTypeId="21a96e88-b289-4059-bc8d-af38b7be175c"/>
+  </producedTypes>
+  <name>усОстаткиПоПартиям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки по партиям (Учет себестоимости)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="70efb392-1e9b-41ff-98cb-6643cafd0436">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f7322005-833a-4f7f-89cc-26e934c75152">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="48a6cecc-31f2-474a-a86c-0071d8273682">
+    <name>ИдентификаторСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор строки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор строки документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0320e22e-1899-4ddf-a0e5-a1fe2ff9fadd">
+    <name>АналитикаУчетаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика учета номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиАналитикиУчетаНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5719374c-754b-4d6d-8f37-bb372e71d1dd">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДокументПартии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

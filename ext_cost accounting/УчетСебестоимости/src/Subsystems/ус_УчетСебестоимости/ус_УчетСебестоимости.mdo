@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa1a87f1-4081-4785-915e-0ae2c094942d">
+  <name>ус_УчетСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет себестоимости</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ус_ОбщаяКартинка</picture>
+  </picture>
+  <content>AccumulationRegister.усОстаткиПоПартиям</content>
+  <content>AccumulationRegister.усПродажи</content>
+</mdclass:Subsystem>

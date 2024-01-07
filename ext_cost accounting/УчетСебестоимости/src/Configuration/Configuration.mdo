@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8b2010a6-c0a3-45c8-a4e9-357907395d46">
+  <name>УчетСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет себестоимости</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8182c8b1-3201-4df0-b849-c78c26e0fd02"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f61eb247-d983-44a4-b032-348f066f877d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b1d94700-dd2a-46bc-9a5f-6cb60cba91ae"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b61f23d1-10ce-4718-8c61-cd352bf16ab1"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5bed1344-6464-4903-b900-0d3c705d7c86"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="03beb07a-d925-4118-9f15-2b423e11e862"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="0d68dd5b-69e8-4353-a3ad-178614e4ca47"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ус</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.усОсновнаяРоль</defaultRoles>
+  <version>1.00</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="d8ebb5d1-0260-40e7-89ab-666295311d68">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ус_УчетСебестоимости</subsystems>
+  <styleItems>StyleItem.ИтогиФон</styleItems>
+  <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
+  <commonPictures>CommonPicture.ВниманиеКрасный</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.ЛоготипОсновнойСервисДоставки</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.ОтгрузкаЗапрещена</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.ПревышениеЗаказа</commonPictures>
+  <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
+  <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
+  <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
+  <commonPictures>CommonPicture.ус_ОбщаяКартинка</commonPictures>
+  <roles>Role.усОсновнаяРоль</roles>
+  <commonModules>CommonModule.усУправлениеПродажами</commonModules>
+  <commonModules>CommonModule.усУправлениеСебестоимостью</commonModules>
+  <functionalOptions>FunctionalOption.ИспользоватьЗаказыКлиентов</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
+  <definedTypes>DefinedType.Артикул</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <definedTypes>DefinedType.ДокументПартии</definedTypes>
+  <definedTypes>DefinedType.Цена</definedTypes>
+  <constants>Constant.ИспользоватьЗаказыКлиентов</constants>
+  <constants>Constant.ИспользоватьНаборы</constants>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.ГруппыФинансовогоУчетаРасчетов</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.ЗоныДоставки</catalogs>
+  <catalogs>Catalog.КартыЛояльности</catalogs>
+  <catalogs>Catalog.КлассификаторТНВЭД</catalogs>
+  <catalogs>Catalog.КлючиАналитикиУчетаНоменклатуры</catalogs>
+  <catalogs>Catalog.КлючиАналитикиУчетаПоПартнерам</catalogs>
+  <catalogs>Catalog.КонтактныеЛицаПартнеров</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.НаправленияДеятельности</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.НоменклатураКонтрагентов</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СделкиСКлиентами</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
+  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <documents>Document.ВводОстатковТоваров</documents>
+  <documents>Document.КорректировкаРеализации</documents>
+  <documents>Document.КорректировкаРегистров</documents>
+  <documents>Document.ОприходованиеИзлишковТоваров</documents>
+  <documents>Document.ОтчетОРозничныхПродажах</documents>
+  <documents>Document.ПриобретениеТоваровУслуг</documents>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.СписаниеНедостачТоваров</documents>
+  <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
+  <enums>Enum.ВариантыОформленияПродажи</enums>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.СтатусыДействияВидовЦен</enums>
+  <enums>Enum.СтатусыРеализацийТоваровУслуг</enums>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ХозяйственныеОперации</enums>
+  <accumulationRegisters>AccumulationRegister.ВыручкаИСебестоимостьПродаж</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.усОстаткиПоПартиям</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.усПродажи</accumulationRegisters>
+</mdclass:Configuration>
