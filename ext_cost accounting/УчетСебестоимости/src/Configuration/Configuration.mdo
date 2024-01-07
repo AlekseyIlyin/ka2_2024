@@ -79,6 +79,9 @@
   <commonPictures>CommonPicture.ЭлектронноеПисьмо</commonPictures>
   <roles>Role.БазовыеПраваУТ</roles>
   <roles>Role.усОсновнаяРоль</roles>
+  <commonModules>CommonModule.СобытияФорм</commonModules>
+  <commonModules>CommonModule.СобытияФормКлиент</commonModules>
+  <commonModules>CommonModule.усОбслуживаниеФормВызовСервера</commonModules>
   <commonModules>CommonModule.усУправлениеПродажами</commonModules>
   <commonModules>CommonModule.усУправлениеСебестоимостью</commonModules>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>

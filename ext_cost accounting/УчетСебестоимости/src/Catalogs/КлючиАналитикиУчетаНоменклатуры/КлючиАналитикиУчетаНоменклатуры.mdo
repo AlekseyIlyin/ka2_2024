@@ -25,4 +25,17 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="afca486a-d97d-41d5-abcc-082747754199" extendedConfigurationObject="ac27de05-2dcf-41a4-825e-959ac84d264b">
+    <name>МестоХранения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
 </mdclass:Catalog>
