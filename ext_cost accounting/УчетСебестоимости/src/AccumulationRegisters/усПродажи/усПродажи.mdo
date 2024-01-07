@@ -38,7 +38,7 @@
     <name>СуммаВыручки</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма выручки с НДС</value>
+      <value>Сумма выручки</value>
     </synonym>
     <type>
       <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>

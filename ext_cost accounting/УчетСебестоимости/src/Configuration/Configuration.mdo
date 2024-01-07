@@ -43,24 +43,45 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ус_УчетСебестоимости</subsystems>
+  <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ИтогиФон</styleItems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.ЦветТекстаВнимание</styleItems>
+  <styleItems>StyleItem.ЦветФонаВнимание</styleItems>
   <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
+  <commonPictures>CommonPicture.БыстрыйДоступ</commonPictures>
   <commonPictures>CommonPicture.ВниманиеКрасный</commonPictures>
+  <commonPictures>CommonPicture.ВыбратьВариантОтчета</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
   <commonPictures>CommonPicture.ЛоготипОсновнойСервисДоставки</commonPictures>
   <commonPictures>CommonPicture.Набор</commonPictures>
   <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.Отборы</commonPictures>
   <commonPictures>CommonPicture.ОтгрузкаЗапрещена</commonPictures>
+  <commonPictures>CommonPicture.ОтменитьДействие</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.Оформление</commonPictures>
+  <commonPictures>CommonPicture.ПиктограммыДоступаКНастройкамОтчета</commonPictures>
+  <commonPictures>CommonPicture.ПиктограммыНастроекОтчета</commonPictures>
+  <commonPictures>CommonPicture.ПиктограммыТиповДанных</commonPictures>
+  <commonPictures>CommonPicture.ПовторитьДействие</commonPictures>
+  <commonPictures>CommonPicture.ПоляИСортировки</commonPictures>
   <commonPictures>CommonPicture.ПревышениеЗаказа</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
   <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
+  <commonPictures>CommonPicture.СохранитьКак</commonPictures>
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
+  <commonPictures>CommonPicture.Структура</commonPictures>
+  <commonPictures>CommonPicture.Сумма</commonPictures>
   <commonPictures>CommonPicture.ус_ОбщаяКартинка</commonPictures>
+  <commonPictures>CommonPicture.ЭлектронноеПисьмо</commonPictures>
+  <roles>Role.БазовыеПраваУТ</roles>
   <roles>Role.усОсновнаяРоль</roles>
   <commonModules>CommonModule.усУправлениеПродажами</commonModules>
   <commonModules>CommonModule.усУправлениеСебестоимостью</commonModules>
+  <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.ИспользоватьЗаказыКлиентов</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
   <definedTypes>DefinedType.Артикул</definedTypes>
@@ -70,6 +91,9 @@
   <definedTypes>DefinedType.Цена</definedTypes>
   <constants>Constant.ИспользоватьЗаказыКлиентов</constants>
   <constants>Constant.ИспользоватьНаборы</constants>
+  <commonForms>CommonForm.ФормаВариантаОтчета</commonForms>
+  <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
+  <commonForms>CommonForm.ФормаОтчета</commonForms>
   <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.ГруппыФинансовогоУчетаРасчетов</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
@@ -111,6 +135,7 @@
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
+  <reports>Report.усМарженальность</reports>
   <accumulationRegisters>AccumulationRegister.ВыручкаИСебестоимостьПродаж</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.усОстаткиПоПартиям</accumulationRegisters>

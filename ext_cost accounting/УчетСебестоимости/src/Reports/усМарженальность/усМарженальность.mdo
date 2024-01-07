@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6af7c4b9-edc8-4cdf-a4e6-fabe68a95699">
+  <producedTypes>
+    <objectType typeId="76e8af72-1808-4e35-b3f6-463d6e6ad188" valueTypeId="e705465e-9744-49fe-9ef6-cb741c3fab98"/>
+    <managerType typeId="5543a583-35c5-4518-9cb3-0fc499ecd374" valueTypeId="ea4e3f3a-0f40-4f99-b711-c5907ef69876"/>
+  </producedTypes>
+  <name>усМарженальность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марженальность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.усМарженальность.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="4e6e0890-687a-458d-b43f-b053b259f96a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
