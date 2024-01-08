@@ -1059,6 +1059,11 @@
                 <segments>Объект.Партнер</segments>
               </dataPath>
               <titleHeight>2</titleHeight>
+              <handlers xsi:type="form:EventHandlerExtension">
+                <event>OnChange</event>
+                <name>рвк_ПартнерПриИзмененииПосле</name>
+                <callType>After</callType>
+              </handlers>
               <extendedTooltip>
                 <name>ПартнерРасширеннаяПодсказка</name>
                 <id>737</id>
@@ -13231,6 +13236,11 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <handlers xsi:type="form:EventHandlerExtension">
+    <event>OnOpen</event>
+    <name>рвк_ПриОткрытииПосле</name>
+    <callType>After</callType>
+  </handlers>
   <excludedCommands>Post</excludedCommands>
   <excludedCommands>PostAndClose</excludedCommands>
   <excludedCommands>Write</excludedCommands>
