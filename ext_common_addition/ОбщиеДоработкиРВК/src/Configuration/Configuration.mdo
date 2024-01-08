@@ -62,6 +62,7 @@
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <roles>Role.рвк_ОсновнаяРоль</roles>
   <commonModules>CommonModule.рвк_НоменклатураВызовСервера</commonModules>
+  <commonModules>CommonModule.СобытияФорм</commonModules>
   <commonModules>CommonModule.ФормированиеПараметровФискальногоЧекаСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.ФормированиеФискальныхЧековСерверПереопределяемый</commonModules>
   <documents>Document.ПриобретениеТоваровУслуг</documents>
