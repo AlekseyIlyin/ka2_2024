@@ -61,7 +61,6 @@
   <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <roles>Role.рвк_ОсновнаяРоль</roles>
-  <commonModules>CommonModule.ДенежныеСредстваСервер</commonModules>
   <commonModules>CommonModule.рвк_НоменклатураВызовСервера</commonModules>
   <commonModules>CommonModule.ФормированиеПараметровФискальногоЧекаСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.ФормированиеФискальныхЧековСерверПереопределяемый</commonModules>
