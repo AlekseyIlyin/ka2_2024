@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fae42a3e-8fb8-4b76-b58a-c3261fdb2cce">
+  <producedTypes>
+    <objectType typeId="5bff3e3a-ce9a-4c41-a8b7-2181336b18f4" valueTypeId="f5f05571-67eb-4e5f-a21c-1af0d35cea80"/>
+  </producedTypes>
+  <name>ПечатнаяФормаЗаданиеНаОтборРазмещениеТовараДопЯчейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задание на отбор размещение товара (Доп. ячейки)</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="7054c797-8295-444d-8c5d-8aba3c16396a"/>
+  <defaultForm>ExternalDataProcessor.ПечатнаяФормаЗаданиеНаОтборРазмещениеТовараДопЯчейки.Form.ОсновнаяФорма</defaultForm>
+  <attributes uuid="b7ef80e2-6af4-4c5a-a301-721827bace54">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ed037202-e8e1-48f9-babc-d04a215ef964">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d566294a-b965-48d3-a8c7-f109b24c1222">
+    <name>ПФ_MXL_ЗаданиеНаОтборРазмещениеТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание на отбор размещение товара</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>
