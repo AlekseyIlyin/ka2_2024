@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64c6a1aa-adc6-4906-89e8-461dd7cb8d89">
+  <producedTypes>
+    <selectionType typeId="b343f921-b161-46c7-aae6-fa79ddc0623f" valueTypeId="583dfc2f-dbe1-4633-88d6-a7362b6c07b9"/>
+    <listType typeId="779a14a5-ac44-43ae-ab3e-0e51e738b5d6" valueTypeId="fa39ec51-b58a-43d3-9422-cae2a53acb80"/>
+    <managerType typeId="b9e45aa1-a664-4eec-876c-7e37df607c3b" valueTypeId="a1721651-df25-4be2-a6ed-3d17233265d2"/>
+    <recordSetType typeId="530bce18-0901-489a-a579-e410aa80fbfc" valueTypeId="e30a529c-efe3-447b-898d-8597e167444b"/>
+    <recordKeyType typeId="7aa36a9c-5b0d-4718-a140-028949ebfaa0" valueTypeId="18708d70-e6e7-4ce9-836a-cdb245c129ad"/>
+    <recordType typeId="53259052-d1e5-4ea0-a834-50e97ec46b30" valueTypeId="c5733977-04d1-48ae-9c69-d6867a2c8858"/>
+    <recordManagerType typeId="b5e90d13-2055-48d8-b5e8-2e5923ca227e" valueTypeId="bb6f1c07-62f7-4d17-ba42-dc6db9f14718"/>
+  </producedTypes>
+  <name>усПараметрыПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры подсистемы (Учет себестоимости)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eaf9809a-9c2d-42cd-bc22-9508d988f808">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.усПараметрыПодсистемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d9a3f773-7127-493c-b369-bb95696962ad">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.усПараметрыПодсистемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -19,6 +19,7 @@
       <group>NavigationPanelSeeAlso</group>
       <commands>AccumulationRegister.усОстаткиПоПартиям.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.усПродажи.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.усПараметрыПодсистемы.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -26,6 +27,7 @@
       <group>NavigationPanelSeeAlso</group>
       <commands>AccumulationRegister.усОстаткиПоПартиям.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.усПродажи.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.усПараметрыПодсистемы.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

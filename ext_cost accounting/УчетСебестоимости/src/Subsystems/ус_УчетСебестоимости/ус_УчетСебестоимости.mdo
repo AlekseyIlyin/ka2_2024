@@ -14,4 +14,11 @@
   <content>AccumulationRegister.усПродажи</content>
   <content>Role.БазовыеПраваУТ</content>
   <content>Report.усМарженальность</content>
+  <content>InformationRegister.усПараметрыПодсистемы</content>
+  <content>CommonForm.усПараметрыПодсистемы</content>
+  <content>CommonModule.СобытияФорм</content>
+  <content>CommonModule.усУправлениеПродажами</content>
+  <content>CommonModule.усУправлениеСебестоимостью</content>
+  <content>CommonModule.усОбслуживаниеФормВызовСервера</content>
+  <content>CommonModule.СобытияФормКлиент</content>
 </mdclass:Subsystem>

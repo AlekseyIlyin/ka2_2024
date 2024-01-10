@@ -82,6 +82,7 @@
   <commonModules>CommonModule.СобытияФорм</commonModules>
   <commonModules>CommonModule.СобытияФормКлиент</commonModules>
   <commonModules>CommonModule.усОбслуживаниеФормВызовСервера</commonModules>
+  <commonModules>CommonModule.усУправлениеПоследовательностью</commonModules>
   <commonModules>CommonModule.усУправлениеПродажами</commonModules>
   <commonModules>CommonModule.усУправлениеСебестоимостью</commonModules>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
@@ -94,6 +95,7 @@
   <definedTypes>DefinedType.Цена</definedTypes>
   <constants>Constant.ИспользоватьЗаказыКлиентов</constants>
   <constants>Constant.ИспользоватьНаборы</constants>
+  <commonForms>CommonForm.усПараметрыПодсистемы</commonForms>
   <commonForms>CommonForm.ФормаВариантаОтчета</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
@@ -139,8 +141,10 @@
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <reports>Report.усМарженальность</reports>
+  <informationRegisters>InformationRegister.усПараметрыПодсистемы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВыручкаИСебестоимостьПродаж</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.усОстаткиПоПартиям</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.усПродажи</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.усПараметрыПодсистемы</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
