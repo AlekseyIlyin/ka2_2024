@@ -1418,6 +1418,11 @@
                 <segments>Объект.Контрагент</segments>
               </dataPath>
               <titleHeight>2</titleHeight>
+              <handlers xsi:type="form:EventHandlerExtension">
+                <event>OnChange</event>
+                <name>рвк_КонтрагентПриИзмененииПосле</name>
+                <callType>After</callType>
+              </handlers>
               <extendedTooltip>
                 <name>КонтрагентРасширеннаяПодсказка</name>
                 <id>738</id>
@@ -2266,6 +2271,11 @@
                 <segments>Объект.Организация</segments>
               </dataPath>
               <titleLocation>Left</titleLocation>
+              <handlers xsi:type="form:EventHandlerExtension">
+                <event>OnChange</event>
+                <name>рвк_ОрганизацияПриИзмененииПосле</name>
+                <callType>After</callType>
+              </handlers>
               <extendedTooltip>
                 <name>ОрганизацияРасширеннаяПодсказка</name>
                 <id>746</id>
@@ -13239,6 +13249,11 @@
   <handlers xsi:type="form:EventHandlerExtension">
     <event>OnOpen</event>
     <name>рвк_ПриОткрытииПосле</name>
+    <callType>After</callType>
+  </handlers>
+  <handlers xsi:type="form:EventHandlerExtension">
+    <event>OnCreateAtServer</event>
+    <name>рвк_ПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
   <excludedCommands>Post</excludedCommands>
