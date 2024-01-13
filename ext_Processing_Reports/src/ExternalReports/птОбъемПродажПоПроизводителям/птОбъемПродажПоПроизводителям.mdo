@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="664d03d9-473a-47a4-8ff6-031a9becef25">
+  <producedTypes>
+    <objectType typeId="83ce1607-19dd-4c78-89d2-b88f3b532caa" valueTypeId="bfe6e8f5-e58b-4d52-b2d0-a802e80c3fdd"/>
+  </producedTypes>
+  <name>птОбъемПродажПоПроизводителям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объем продаж по производителям</value>
+  </synonym>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="36fc4f74-1f0e-426a-b6c8-20821e08bb92"/>
+  <mainDataCompositionSchema>ExternalReport.птОбъемПродажПоПроизводителям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="394c5dd3-5d2f-4e8b-b088-64408070411e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>
