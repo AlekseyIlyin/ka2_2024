@@ -26,4 +26,17 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="0224cf63-9352-405a-a5e4-2c3b1bd5919f" extendedConfigurationObject="24d1ded8-5b6d-47ca-bcad-7e24e1280e06">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Партнеры</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
 </mdclass:Catalog>

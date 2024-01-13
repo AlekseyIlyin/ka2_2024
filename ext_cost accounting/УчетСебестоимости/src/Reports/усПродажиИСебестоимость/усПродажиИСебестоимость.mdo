@@ -4,14 +4,14 @@
     <objectType typeId="76e8af72-1808-4e35-b3f6-463d6e6ad188" valueTypeId="e705465e-9744-49fe-9ef6-cb741c3fab98"/>
     <managerType typeId="5543a583-35c5-4518-9cb3-0fc499ecd374" valueTypeId="ea4e3f3a-0f40-4f99-b711-c5907ef69876"/>
   </producedTypes>
-  <name>усМарженальность</name>
+  <name>усПродажиИСебестоимость</name>
   <synonym>
     <key>ru</key>
-    <value>Марженальность</value>
+    <value>Продажи и себестоимость (Учет себестоимости)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>CommonForm.ФормаОтчета</defaultForm>
-  <mainDataCompositionSchema>Report.усМарженальность.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <mainDataCompositionSchema>Report.усПродажиИСебестоимость.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
   <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a26246e8-97a9-41ea-b7cf-9f31534be7dc" extendedConfigurationObject="a0c0e8df-7410-4a33-9690-ecb01b96ee97">
+  <producedTypes>
+    <objectType typeId="5dcb0b76-1340-4b75-b6f6-d4a9c6879c91" valueTypeId="1668d1df-87c5-4883-9166-5830e1599017"/>
+    <refType typeId="8d4a9f0a-39b1-4788-aaaa-b86ee18abed0" valueTypeId="887fc611-e912-4f00-8bb6-8ba0ac7c540e"/>
+    <selectionType typeId="0a7d5dc7-856b-4bb9-9edc-72d4d0389e51" valueTypeId="01898e6c-7604-441d-9a8b-68ea884bef77"/>
+    <listType typeId="d7ccfb5a-f366-43e8-9f51-9371ceeb64ea" valueTypeId="5a782c86-1a3e-4303-a4b6-5260e0706e99"/>
+    <managerType typeId="82b266de-011b-4470-9c29-462dcf980a4b" valueTypeId="ca800080-172e-41c8-8a35-b045b9fe43a0"/>
+  </producedTypes>
+  <name>УсловияОбслуживанияПартнеровТорговымиПредставителями</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <owners>Checked</owners>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <owners>Catalog.Партнеры</owners>
+  <attributes uuid="472a3604-7513-499d-98cd-3fa1ac0b8edf" extendedConfigurationObject="a49d1bbf-4f02-4264-8b67-cc4c886843c8">
+    <name>ТорговыйПредставитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

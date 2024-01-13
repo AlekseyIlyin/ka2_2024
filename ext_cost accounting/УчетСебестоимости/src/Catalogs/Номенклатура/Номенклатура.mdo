@@ -47,4 +47,17 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="24fe8629-bda6-447b-81b1-c49870995dbd" extendedConfigurationObject="a05b5fd6-cafb-4617-8026-2bf40ef192a8">
+    <name>Производитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Производители</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
 </mdclass:Catalog>
