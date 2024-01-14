@@ -80,6 +80,7 @@
   <commonPictures>CommonPicture.ЭлектронноеПисьмо</commonPictures>
   <roles>Role.БазовыеПраваУТ</roles>
   <roles>Role.усОсновнаяРоль</roles>
+  <commonModules>CommonModule.ВариантыОтчетовПереопределяемый</commonModules>
   <commonModules>CommonModule.СобытияФорм</commonModules>
   <commonModules>CommonModule.СобытияФормКлиент</commonModules>
   <commonModules>CommonModule.усОбслуживаниеФормВызовСервера</commonModules>
