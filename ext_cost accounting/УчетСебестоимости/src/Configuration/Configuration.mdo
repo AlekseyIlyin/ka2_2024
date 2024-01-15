@@ -83,6 +83,7 @@
   <commonModules>CommonModule.ВариантыОтчетовПереопределяемый</commonModules>
   <commonModules>CommonModule.СобытияФорм</commonModules>
   <commonModules>CommonModule.СобытияФормКлиент</commonModules>
+  <commonModules>CommonModule.усЖурналРегистрацииВызовСервера</commonModules>
   <commonModules>CommonModule.усОбслуживаниеФормВызовСервера</commonModules>
   <commonModules>CommonModule.усУправлениеПоследовательностью</commonModules>
   <commonModules>CommonModule.усУправлениеПродажами</commonModules>

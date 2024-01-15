@@ -14,42 +14,26 @@
     <value>Параметры подсистемы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>ChartOfCharacteristicTypes.усПараметрыПодсистемы.StandardAttribute.Code</inputByString>
   <inputByString>ChartOfCharacteristicTypes.усПараметрыПодсистемы.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
   <type>
-    <types>DocumentRef.КорректировкаРеализации</types>
-    <types>DocumentRef.ВводОстатковТоваров</types>
-    <types>DocumentRef.КорректировкаРегистров</types>
-    <types>DocumentRef.ОтчетОРозничныхПродажах</types>
-    <types>DocumentRef.ОприходованиеИзлишковТоваров</types>
-    <types>DocumentRef.ПриобретениеТоваровУслуг</types>
-    <types>DocumentRef.РеализацияТоваровУслуг</types>
-    <types>DocumentRef.СписаниеНедостачТоваров</types>
+    <types>Date</types>
+    <dateQualifiers/>
   </type>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <descriptionLength>25</descriptionLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
+  <descriptionLength>50</descriptionLength>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
     <items id="90a37114-377f-4d04-b797-30206cce72b5">
       <name>ГраницаПоследовательности</name>
-      <description>Граница последовательност</description>
-      <code>000000001</code>
+      <description>Граница последовательности</description>
+      <code></code>
       <type>
-        <types>DocumentRef.КорректировкаРеализации</types>
-        <types>DocumentRef.ВводОстатковТоваров</types>
-        <types>DocumentRef.КорректировкаРегистров</types>
-        <types>DocumentRef.ОтчетОРозничныхПродажах</types>
-        <types>DocumentRef.ОприходованиеИзлишковТоваров</types>
-        <types>DocumentRef.ПриобретениеТоваровУслуг</types>
-        <types>DocumentRef.РеализацияТоваровУслуг</types>
-        <types>DocumentRef.СписаниеНедостачТоваров</types>
+        <types>Date</types>
+        <dateQualifiers/>
       </type>
     </items>
   </predefined>
