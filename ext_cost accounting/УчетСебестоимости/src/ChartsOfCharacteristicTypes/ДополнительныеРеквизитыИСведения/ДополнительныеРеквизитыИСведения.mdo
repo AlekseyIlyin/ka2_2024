@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f5c125f5-3131-4e42-adcc-20f005255211" extendedConfigurationObject="1055d15b-8cb5-4ff0-a526-7fd20a08a96c">
+  <producedTypes>
+    <objectType typeId="7201b9ee-19a5-41a6-bb7d-cbf84f74d34f" valueTypeId="49ac8b66-4e4c-4260-9469-63549c6a807b"/>
+    <refType typeId="a28a0a26-a782-47e9-b24a-9916289d99e9" valueTypeId="7d0f4db0-2486-4853-accb-13a9bd4d99a2"/>
+    <selectionType typeId="54f2d99c-7ace-4498-a494-6d01911ad397" valueTypeId="340d5717-f855-4993-bee9-b5afa63bc6f3"/>
+    <listType typeId="1ea06a0f-e7b0-4d96-89e6-06ac7402a8de" valueTypeId="efdf09bb-afed-4694-85d3-d7c58f7d21b2"/>
+    <managerType typeId="526ce166-b002-46fb-bb6e-64ffb2dc66db" valueTypeId="0a9a3615-b86b-47b9-8141-56f038be64d0"/>
+    <containerType typeId="4ac8f3d0-1fc3-4a07-b562-afdc4c8fc558" valueTypeId="c0997ea1-98f1-4e94-b1da-0b0dfeb60328"/>
+  </producedTypes>
+  <name>ДополнительныеРеквизитыИСведения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="9f36c4ad-0c2b-4b84-ab6f-01a75cbec2a1" extendedConfigurationObject="8adebe50-a946-40c2-9258-b17efe787e0e">
+    <name>Имя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

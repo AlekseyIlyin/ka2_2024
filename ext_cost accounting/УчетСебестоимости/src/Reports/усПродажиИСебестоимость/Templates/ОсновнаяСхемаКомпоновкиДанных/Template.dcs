@@ -5,7 +5,7 @@
 		<dataSourceType>Local</dataSourceType>
 	</dataSource>
 	<dataSet xsi:type="DataSetQuery">
-		<name>НаборДанных1</name>
+		<name>Продажи</name>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Период</dataPath>
 			<field>Период</field>
@@ -178,6 +178,37 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
+	ПартнерыДополнительныеРеквизиты.Ссылка КАК Партнер
+ПОМЕСТИТЬ ВТ_НашиПартнеры
+ИЗ
+	Справочник.Партнеры.ДополнительныеРеквизиты КАК ПартнерыДополнительныеРеквизиты
+ГДЕ
+	ПартнерыДополнительныеРеквизиты.Свойство.Имя = &amp;ИмяСвойстваНашиОрганизации
+	И ПартнерыДополнительныеРеквизиты.Значение = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КлючиАналитикиУчетаПоПартнерам.Ссылка КАК АналитикаУчетаПоПартнерам,
+	КлючиАналитикиУчетаПоПартнерам.Контрагент,
+	КлючиАналитикиУчетаПоПартнерам.Партнер
+ПОМЕСТИТЬ ВТ_АналитикиУчетаПоПартнерам
+ИЗ
+	Справочник.КлючиАналитикиУчетаПоПартнерам КАК КлючиАналитикиУчетаПоПартнерам
+{ГДЕ
+	КлючиАналитикиУчетаПоПартнерам.Контрагент.* КАК Контрагент,
+	КлючиАналитикиУчетаПоПартнерам.Партнер.* КАК Партнер,
+	НЕ &amp;ИсключатьВнутренниеПродажи
+	ИЛИ &amp;ИсключатьВнутренниеПродажи
+	И КлючиАналитикиУчетаПоПартнерам.Партнер НЕ В
+		(ВЫБРАТЬ
+			ВТ_НашиПартнеры.Партнер
+		ИЗ
+			ВТ_НашиПартнеры КАК ВТ_НашиПартнеры)}
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
 	усПродажи.Период,
 	усПродажи.Регистратор,
 	усПродажи.АналитикаУчетаНоменклатуры.Номенклатура КАК Номенклатура,
@@ -186,13 +217,15 @@
 	усПродажи.Маржа,
 	усПродажи.Партия,
 	усПродажи.Стоимость,
-	усПродажи.АналитикаУчетаПоПартнерам.Контрагент КАК Контрагент,
-	усПродажи.АналитикаУчетаПоПартнерам.Партнер КАК Партнер,
+	ВТ_АналитикиУчетаПоПартнерам.Контрагент КАК Контрагент,
+	ВТ_АналитикиУчетаПоПартнерам.Партнер КАК Партнер,
 	усПродажи.АналитикаУчетаНоменклатуры.Номенклатура.Производитель КАК Производитель
 {ГДЕ
 	усПродажи.Период МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания}
 ИЗ
 	РегистрНакопления.усПродажи КАК усПродажи
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТ_АналитикиУчетаПоПартнерам КАК ВТ_АналитикиУчетаПоПартнерам
+		ПО ВТ_АналитикиУчетаПоПартнерам.АналитикаУчетаПоПартнерам = усПродажи.АналитикаУчетаПоПартнерам
 ГДЕ
 	усПродажи.Активность</query>
 	</dataSet>
@@ -222,7 +255,7 @@
 		<autoFillFields>false</autoFillFields>
 	</dataSet>
 	<dataSetLink>
-		<sourceDataSet>НаборДанных1</sourceDataSet>
+		<sourceDataSet>Продажи</sourceDataSet>
 		<destinationDataSet>УсловичОбслуживанияКлиентов</destinationDataSet>
 		<sourceExpression>Партнер</sourceExpression>
 		<destinationExpression>Партнер</destinationExpression>
@@ -316,6 +349,33 @@
 		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
+	<parameter>
+		<name>ИмяСвойстваНашиОрганизации</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Имя свойства наши организации</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:type="xs:string">ЭтоНашаОрганизация_f3674409091449fe9648a780ea00ab03</value>
+		<useRestriction>true</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ИсключатьВнутренниеПродажи</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исключать внутренние продажи</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">true</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
 	<settingsVariant>
 		<dcsset:name>ПоНоменклатуре</dcsset:name>
 		<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -360,6 +420,11 @@
 					<dcscor:value xsi:nil="true"/>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>9ba6ce80-9e0a-4c7a-a2d5-dc237092f8b8</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ИсключатьВнутренниеПродажи</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					<dcsset:userSettingID>0bff698a-dbdf-4656-a1e4-e79690cf17fb</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
@@ -449,6 +514,11 @@
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>efdef54c-2d60-4828-b36d-9f14afd9530b</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ИсключатьВнутренниеПродажи</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					<dcsset:userSettingID>e38de856-58c5-4502-b6e7-3b172c061bbd</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
@@ -553,6 +623,11 @@
 					<dcscor:value xsi:nil="true"/>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>9ba6ce80-9e0a-4c7a-a2d5-dc237092f8b8</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ИсключатьВнутренниеПродажи</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					<dcsset:userSettingID>2979a31e-0b7c-4927-8d3c-2419f9221b0a</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
@@ -666,6 +741,11 @@
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>9d140263-60f3-4085-9476-bab29cc76704</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ИсключатьВнутренниеПродажи</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					<dcsset:userSettingID>a191b32a-3fde-46dc-91b0-f4c9cd19f3e1</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

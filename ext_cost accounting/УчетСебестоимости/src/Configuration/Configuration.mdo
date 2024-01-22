@@ -151,5 +151,6 @@
   <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.усОстаткиПоПартиям</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.усПродажи</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.усПараметрыПодсистемы</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

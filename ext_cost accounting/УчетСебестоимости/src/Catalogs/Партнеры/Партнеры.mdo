@@ -13,4 +13,41 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <useStandardCommands>true</useStandardCommands>
+  <tabularSections uuid="9398d075-87a8-4b5c-898e-dc5f6d8d86f7" extendedConfigurationObject="4ab5533c-449f-4a1d-af28-3ced93327e26">
+    <producedTypes>
+      <objectType typeId="32c3571b-8b2a-4d57-a433-43a0d4395b59" valueTypeId="b037edf3-123a-41e5-95a4-4231d48c017b"/>
+      <rowType typeId="6f6c9ef2-8818-4ed1-8bd5-012688aba5b3" valueTypeId="dd088732-1979-43a3-9dc6-22d6bbf6bc31"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="61168184-f643-48aa-bae4-308672f59870" extendedConfigurationObject="9440a4fb-2b50-41d7-8021-72065d7db627">
+      <name>Свойство</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="7e7c2a7c-d509-4888-87a5-e46d6c08d01a" extendedConfigurationObject="d4e57453-9603-4e2d-93cf-24d068144f74">
+      <name>Значение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Characteristic.ДополнительныеРеквизитыИСведения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>
