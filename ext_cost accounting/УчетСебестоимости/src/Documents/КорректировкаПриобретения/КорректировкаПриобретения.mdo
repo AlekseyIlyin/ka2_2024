@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aa66cf3a-97ac-4ec6-9baa-8b04396388ce" extendedConfigurationObject="7b04ebc4-7995-4cc8-abb1-dce1cca4ebd3">
+  <producedTypes>
+    <objectType typeId="d30e2acb-6c6d-42ec-9db3-6d08648e41af" valueTypeId="99fc878e-81a4-4b04-aa73-7a7161bc9657"/>
+    <refType typeId="5714e3a8-747f-49f3-8c08-56dc3435b56c" valueTypeId="817c9d4a-095b-4870-af44-e50ea07ff567"/>
+    <selectionType typeId="3c6fb7f8-e4bc-4f30-a738-4dd6299e657b" valueTypeId="08f1c556-8419-4264-bed8-745867ccd370"/>
+    <listType typeId="5af2d3f7-d57d-4935-8182-656e81a817cd" valueTypeId="7e6d0da4-fc91-48d8-9775-da33d3692da6"/>
+    <managerType typeId="4b5d566d-beea-4521-8504-668e2054288c" valueTypeId="30beddc8-d3ee-4970-ab38-58d159248bb3"/>
+  </producedTypes>
+  <name>КорректировкаПриобретения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <registerRecords>AccumulationRegister.усОстаткиПоПартиям</registerRecords>
+</mdclass:Document>
