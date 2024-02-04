@@ -13,7 +13,6 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <objectModule>Extended</objectModule>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
   <forms uuid="f7354116-f750-4f36-9939-c079a8dc4954" extendedConfigurationObject="7ab41590-caae-4a1c-b94a-51c1e4c36a9c">
     <name>ФормаДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
