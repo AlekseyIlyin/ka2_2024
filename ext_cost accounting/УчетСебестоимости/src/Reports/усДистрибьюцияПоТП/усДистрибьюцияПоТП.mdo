@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb3a43b7-f844-47a6-8b95-5e63ca26e6e8">
+  <producedTypes>
+    <objectType typeId="4bfad9d2-31a8-4ad9-9fef-34f74b53685d" valueTypeId="ca11693b-54b5-40e9-aec5-a2fbf287d752"/>
+    <managerType typeId="8d6ae7e0-5a45-465b-8b1a-46c368a13864" valueTypeId="402b0d0b-30ed-443f-8c94-e5965931bed4"/>
+  </producedTypes>
+  <name>усДистрибьюцияПоТП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дистрибьюция по ТП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.усДистрибьюцияПоТП.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="1bc586ac-3524-4057-badc-852bc8b2ec0b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

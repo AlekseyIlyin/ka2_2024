@@ -130,6 +130,7 @@
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <documents>Document.ВводОстатковТоваров</documents>
+  <documents>Document.КорректировкаПриобретения</documents>
   <documents>Document.КорректировкаРеализации</documents>
   <documents>Document.КорректировкаРегистров</documents>
   <documents>Document.ОприходованиеИзлишковТоваров</documents>
@@ -145,11 +146,13 @@
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
+  <reports>Report.усДистрибьюцияПоТП</reports>
   <reports>Report.усПродажиИСебестоимость</reports>
   <informationRegisters>InformationRegister.усПараметрыПодсистемы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВыручкаИСебестоимостьПродаж</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.усОстаткиПоПартиям</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.усПродажи</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.усПараметрыПодсистемы</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

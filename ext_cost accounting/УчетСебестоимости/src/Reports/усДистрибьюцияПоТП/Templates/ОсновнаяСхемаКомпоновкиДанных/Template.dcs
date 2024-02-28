@@ -12,26 +12,18 @@
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Номенклатура</dataPath>
 			<field>Номенклатура</field>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Контрагент</dataPath>
 			<field>Контрагент</field>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Организация</dataPath>
 			<field>Организация</field>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Производитель</dataPath>
@@ -42,20 +34,14 @@
 					<v8:content>Производитель</v8:content>
 				</v8:item>
 			</title>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Договор</dataPath>
 			<field>Договор</field>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ТорговыйПредставитель</dataPath>
 			<field>ТорговыйПредставитель</field>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Показатель</dataPath>
@@ -70,8 +56,6 @@
 				<dcscom:dimension>true</dcscom:dimension>
 				<dcscom:parentDimension>ГруппаПоказателей</dcscom:parentDimension>
 			</role>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Месяц</dataPath>
@@ -99,7 +83,6 @@
 					<dcscor:value xsi:type="xs:string">ДФ='ММММ, гггг'</dcscor:value>
 				</dcscor:item>
 			</appearance>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ЗначениеПоказателя</dataPath>
@@ -128,7 +111,6 @@
 					<dcscor:value xsi:type="xs:string">ЧДЦ=''</dcscor:value>
 				</dcscor:item>
 			</appearance>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ГруппаПоказателей</dataPath>
@@ -139,8 +121,6 @@
 					<v8:content>Группа показателей</v8:content>
 				</v8:item>
 			</title>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -735,21 +715,18 @@
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">ТорговыйПредставитель</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:nil="true"/>
 					<dcsset:userSettingID>7fb47215-e480-4ef3-89bf-d48b7369b621</dcsset:userSettingID>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:FilterItemComparison">
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">Производитель</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:nil="true"/>
 					<dcsset:userSettingID>3afa464b-f747-47ae-b640-ade8e08d5cf7</dcsset:userSettingID>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:FilterItemComparison">
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">Номенклатура</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:nil="true"/>
 					<dcsset:userSettingID>152c5671-c0dd-4f50-b414-3585fe4904b2</dcsset:userSettingID>
 				</dcsset:item>
 			</dcsset:filter>

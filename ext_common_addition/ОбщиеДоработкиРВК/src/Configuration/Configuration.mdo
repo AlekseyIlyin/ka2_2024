@@ -9,8 +9,6 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
-    <commandInterface>Extended</commandInterface>
-    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <compatibilityMode>Checked</compatibilityMode>
@@ -62,9 +60,11 @@
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <roles>Role.рвк_ОсновнаяРоль</roles>
   <commonModules>CommonModule.рвк_НоменклатураВызовСервера</commonModules>
+  <commonModules>CommonModule.рвк_ОбщийМодульПовтИсп</commonModules>
   <commonModules>CommonModule.СобытияФорм</commonModules>
   <commonModules>CommonModule.ФормированиеПараметровФискальногоЧекаСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.ФормированиеФискальныхЧековСерверПереопределяемый</commonModules>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ПриобретениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>

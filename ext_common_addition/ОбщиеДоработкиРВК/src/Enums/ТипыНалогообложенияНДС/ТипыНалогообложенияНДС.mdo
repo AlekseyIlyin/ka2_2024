@@ -32,7 +32,14 @@
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
   </enumValues>
-  <enumValues uuid="9a04f0ab-ab5b-4b30-86ba-7f496d2d25f9" extendedConfigurationObject="1270ac55-6965-4dae-b63b-1266cf1cca2a">
+  <enumValues uuid="2cf03362-6770-4e49-b050-98df5b617d07" extendedConfigurationObject="b3c31986-dede-48b5-9cc7-1c35e4fb81f6">
+    <name>ПродажаПоПатенту</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="7ae47780-cdd9-4ec8-aec2-e1e56a107c27" extendedConfigurationObject="1270ac55-6965-4dae-b63b-1266cf1cca2a">
     <name>ПродажаОблагаетсяЕНВД</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:MdObjectExtension">

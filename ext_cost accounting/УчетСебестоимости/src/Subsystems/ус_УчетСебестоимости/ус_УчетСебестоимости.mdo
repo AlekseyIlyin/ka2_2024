@@ -21,4 +21,5 @@
   <content>CommonModule.усУправлениеСебестоимостью</content>
   <content>CommonModule.усОбслуживаниеФормВызовСервера</content>
   <content>CommonModule.СобытияФормКлиент</content>
+  <content>Report.усДистрибьюцияПоТП</content>
 </mdclass:Subsystem>
