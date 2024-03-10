@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalReport xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="915f9f13-432c-4391-bc06-55034efbb011">
+  <producedTypes>
+    <objectType typeId="9228c879-a133-4468-80b3-7675f2b9fb58" valueTypeId="4b8e39d4-21ae-43db-89d4-a2fcb629b26c"/>
+  </producedTypes>
+  <name>ПланированиеЗакупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование закупок</value>
+  </synonym>
+  <comment>Отображает остатки на складах и продажи за период</comment>
+  <containedObjects classId="e41aff26-25cf-4bb6-b6c1-3f478a75f374" objectId="e989f0bb-a045-48f9-b229-0af7e3bd014d"/>
+  <mainDataCompositionSchema>ExternalReport.ПланированиеЗакупок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="17bb4c8f-437e-4d7c-9dfb-b9453df210de">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalReport>

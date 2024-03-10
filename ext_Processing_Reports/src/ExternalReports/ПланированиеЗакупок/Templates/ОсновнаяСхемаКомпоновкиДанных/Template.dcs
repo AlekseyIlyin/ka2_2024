@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остаток</dataPath>
+			<field>Остаток</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продажи</dataPath>
+			<field>Продажи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дифицит</dataPath>
+			<field>Дифицит</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СправочникНоменклатура.Ссылка КАК Номенклатура
+ПОМЕСТИТЬ ВТ_Номенклатура
+{ВЫБРАТЬ
+	Номенклатура.*}
+ИЗ
+	Справочник.Номенклатура КАК СправочникНоменклатура
+{ГДЕ
+	СправочникНоменклатура.Ссылка.* КАК Номенклатура}
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПартнерыДополнительныеРеквизиты.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ВТ_НашиПартнеры
+ИЗ
+	Справочник.Партнеры.ДополнительныеРеквизиты КАК ПартнерыДополнительныеРеквизиты
+ГДЕ
+	ПартнерыДополнительныеРеквизиты.Свойство.Имя = &amp;ИмяСвойстваНашиОрганизации
+	И ПартнерыДополнительныеРеквизиты.Значение = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КлючиАналитикиУчетаПоПартнерам.Ссылка КАК АналитикаПоПартнерам
+ПОМЕСТИТЬ ВТ_АналитикаПоПартнерам
+ИЗ
+	Справочник.КлючиАналитикиУчетаПоПартнерам КАК КлючиАналитикиУчетаПоПартнерам
+ГДЕ
+	КлючиАналитикиУчетаПоПартнерам.Партнер НЕ В
+		(ВЫБРАТЬ
+			ВТ_НашиПартнеры.Ссылка
+		ИЗ
+			ВТ_НашиПартнеры КАК ВТ_НашиПартнеры)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ТоварыНаСкладахОстатки.Номенклатура КАК Номенклатура,
+	ТоварыНаСкладахОстатки.ВНаличииОстаток
+ПОМЕСТИТЬ ВТ_ОстаткиНаСкладах
+ИЗ
+	РегистрНакопления.ТоварыНаСкладах.Остатки(, Номенклатура В
+		(ВЫБРАТЬ
+			ВТ_Номенклатура.Номенклатура
+		ИЗ
+			ВТ_Номенклатура КАК ВТ_Номенклатура)) КАК ТоварыНаСкладахОстатки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВыручкаИСебестоимостьПродажОбороты.АналитикаУчетаНоменклатуры.Номенклатура КАК Номенклатура,
+	СУММА(ВыручкаИСебестоимостьПродажОбороты.КоличествоОборот) КАК Количество
+ПОМЕСТИТЬ ВТ_Продажи
+ИЗ
+	РегистрНакопления.ВыручкаИСебестоимостьПродаж.Обороты(,,, АналитикаУчетаНоменклатуры.Номенклатура В
+		(ВЫБРАТЬ
+			ВТ_Номенклатура.Номенклатура
+		ИЗ
+			ВТ_Номенклатура КАК ВТ_Номенклатура)
+	И АналитикаУчетаПоПартнерам В
+		(ВЫБРАТЬ
+			ВТ_АналитикаПоПартнерам.АналитикаПоПартнерам
+		ИЗ
+			ВТ_АналитикаПоПартнерам КАК ВТ_АналитикаПоПартнерам)) КАК ВыручкаИСебестоимостьПродажОбороты
+СГРУППИРОВАТЬ ПО
+	ВыручкаИСебестоимостьПродажОбороты.АналитикаУчетаНоменклатуры.Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_Номенклатура.Номенклатура КАК Номенклатура,
+	ЕСТЬNULL(ВТ_ОстаткиНаСкладах.ВНаличииОстаток, 0) КАК Остаток,
+	ЕСТЬNULL(ВТ_Продажи.Количество, 0) КАК Продажи,
+	ЕСТЬNULL(ВТ_Продажи.Количество, 0) - ЕСТЬNULL(ВТ_ОстаткиНаСкладах.ВНаличииОстаток, 0) КАК Дифицит
+{ВЫБРАТЬ
+	Номенклатура.*,
+	Остаток,
+	Продажи,
+	Дифицит}
+ИЗ
+	ВТ_Номенклатура КАК ВТ_Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_ОстаткиНаСкладах КАК ВТ_ОстаткиНаСкладах
+		ПО ВТ_ОстаткиНаСкладах.Номенклатура = ВТ_Номенклатура.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_Продажи КАК ВТ_Продажи
+		ПО ВТ_Продажи.Номенклатура = ВТ_Номенклатура.Номенклатура</query>
+		<autoFillFields>false</autoFillFields>
+	</dataSet>
+	<parameter>
+		<name>ОкончаниеПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Окончание периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>ТекущаяДатаСеанса()</expression>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>ДобавитьКДате(&amp;ОкончаниеПериода, "ДЕНЬ",  -&amp;ДнейПродаж)</expression>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ДнейПродаж</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дней продаж</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>2</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">14</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ИмяСвойстваНашиОрганизации</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Имя свойства наши организации</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>100</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string">ЭтоНашаОрганизация_f3674ЭтоНашаОрганизация_f3674409091449fe9648a780ea00ab03</value>
+		<useRestriction>true</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Планирование закупок</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Остаток</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Продажи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дифицит</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура.Производитель</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:nil="true"/>
+					<dcsset:userSettingID>cdf88dfb-8ff5-4f34-af23-bb81e01aa127</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>
