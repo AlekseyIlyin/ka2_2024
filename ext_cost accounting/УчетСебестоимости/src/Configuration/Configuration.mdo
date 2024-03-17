@@ -147,6 +147,7 @@
   <enums>Enum.ХозяйственныеОперации</enums>
   <reports>Report.усДистрибьюцияПоТП</reports>
   <reports>Report.усПродажиИСебестоимость</reports>
+  <dataProcessors>DataProcessor.усВосстановлениеПоследовательности</dataProcessors>
   <informationRegisters>InformationRegister.усПараметрыПодсистемы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВыручкаИСебестоимостьПродаж</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СебестоимостьТоваров</accumulationRegisters>

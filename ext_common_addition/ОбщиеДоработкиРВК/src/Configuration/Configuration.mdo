@@ -60,11 +60,19 @@
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <roles>Role.рвк_ОсновнаяРоль</roles>
   <commonModules>CommonModule.рвк_НоменклатураВызовСервера</commonModules>
+  <commonModules>CommonModule.рвк_ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.рвк_ОбщийМодульПовтИсп</commonModules>
   <commonModules>CommonModule.СобытияФорм</commonModules>
   <commonModules>CommonModule.ФормированиеПараметровФискальногоЧекаСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.ФормированиеФискальныхЧековСерверПереопределяемый</commonModules>
+  <constants>Constant.рвк_ВключитьИнтеркампани</constants>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <documents>Document.ПриобретениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
