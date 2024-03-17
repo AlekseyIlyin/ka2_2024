@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0425c220-067f-40ae-ba18-1f2b9fad6ca8">
+  <producedTypes>
+    <managerType typeId="885124fc-a7ff-4065-83b1-0805a60cb527" valueTypeId="8fe2f6f6-095f-44ea-a72f-10fb9f18e70d"/>
+    <valueManagerType typeId="8c75bf46-2fe8-402f-b074-ba5ca5476965" valueTypeId="08dad82b-d677-470b-b847-193878d0acb0"/>
+    <valueKeyType typeId="23e7baa8-c46e-4d5c-a3d2-0a76e9db83da" valueTypeId="2006ad14-456f-4536-8f32-17831232bea6"/>
+  </producedTypes>
+  <name>рвк_ВключитьИнтеркампани</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включить интеркампани</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -13,6 +13,38 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="ea6f7aa9-4617-478f-855e-23a304970edc" extendedConfigurationObject="7af43f23-66b5-4041-bd23-3216b1d23915">
+    <name>НомерВходящегоДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="b9669754-dc0d-4ee5-9689-ef6d2bea99cc" extendedConfigurationObject="49c74d36-ce0a-47f3-b6eb-899238c5cc0f">
+    <name>ДатаВходящегоДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
   <forms uuid="f43d1370-6e3d-43c9-a0e7-94004653290f" extendedConfigurationObject="722c2de4-8735-450a-a358-569415c93a9b">
     <name>ФормаДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -21,4 +53,15 @@
       <form>Extended</form>
     </extension>
   </forms>
+  <tabularSections uuid="98f2d171-4190-437c-9f2c-496ac528cc10" extendedConfigurationObject="941aa10e-3657-48ec-8f9d-92e38e90ecbf">
+    <producedTypes>
+      <objectType typeId="656b7ce8-216a-4682-be72-064439c6fe9d" valueTypeId="67f8d586-f70b-409b-8c17-4757fd4330a0"/>
+      <rowType typeId="dbed9bc8-3b6e-4e55-9931-bba6b71bb706" valueTypeId="3635e41d-05dc-4c73-870f-d9acf48c132c"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </tabularSections>
 </mdclass:Document>
