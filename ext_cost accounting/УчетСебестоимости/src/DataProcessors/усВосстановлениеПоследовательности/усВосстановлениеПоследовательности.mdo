@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b941795-cd7d-4b0b-8a0e-3250bc209285">
+  <producedTypes>
+    <objectType typeId="f5afa8db-70d5-49df-a177-7dbc11d25367" valueTypeId="bbcec3b5-02e0-4b23-ae69-17e4e6ffaabb"/>
+    <managerType typeId="13b5c544-38dc-4440-81ed-30cbe302f280" valueTypeId="7a9c13b8-a51d-47a3-bc7e-bcf11a797d18"/>
+  </producedTypes>
+  <name>усВосстановлениеПоследовательности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Восстановление последовательности</value>
+  </synonym>
+  <comment>Используется для автоматического восстановления последовательности по регламенту</comment>
+  <defaultForm>DataProcessor.усВосстановлениеПоследовательности.Form.Форма</defaultForm>
+  <forms uuid="e7bb39f4-61b4-42e4-b94c-afff995e3567">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
