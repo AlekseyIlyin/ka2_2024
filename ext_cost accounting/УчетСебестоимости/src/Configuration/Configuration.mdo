@@ -136,6 +136,7 @@
   <documents>Document.ОприходованиеИзлишковТоваров</documents>
   <documents>Document.ОтчетОРозничныхПродажах</documents>
   <documents>Document.ПриобретениеТоваровУслуг</documents>
+  <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.СписаниеНедостачТоваров</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыОформленияПродажи</enums>
