@@ -14,4 +14,12 @@
   </extension>
   <registerRecords>AccumulationRegister.усОстаткиПоПартиям</registerRecords>
   <registerRecords>AccumulationRegister.усПродажи</registerRecords>
+  <forms uuid="69a4e654-d515-4e67-aaf6-e29650a70868" extendedConfigurationObject="7ab41590-caae-4a1c-b94a-51c1e4c36a9c">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
 </mdclass:Document>
