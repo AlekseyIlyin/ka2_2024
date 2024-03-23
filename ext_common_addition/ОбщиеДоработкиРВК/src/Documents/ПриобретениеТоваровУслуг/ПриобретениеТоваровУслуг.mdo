@@ -45,6 +45,19 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="768776ba-7402-434d-9f7e-cfdd86f341ab" extendedConfigurationObject="c3c6b97e-7d9a-4a6b-8cfd-5a1d2a1e2450">
+    <name>НалогообложениеНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыНалогообложенияНДС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
   <forms uuid="f43d1370-6e3d-43c9-a0e7-94004653290f" extendedConfigurationObject="722c2de4-8735-450a-a358-569415c93a9b">
     <name>ФормаДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -63,5 +76,18 @@
     <extension xsi:type="mdclassExtension:MdObjectExtension">
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
+    <attributes uuid="c46b72d2-d3eb-44ec-936e-ed724ec6fcca" extendedConfigurationObject="87bdbf54-2a81-44f1-b7b9-18f0ca2a2511">
+      <name>НомерГТД</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.НомераГТД</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
   </tabularSections>
 </mdclass:Document>

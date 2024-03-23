@@ -6763,6 +6763,36 @@
               </extendedTooltip>
               <extInfo xsi:type="form:ButtonGroupExtInfo"/>
             </items>
+            <items xsi:type="form:Button">
+              <name>ТоварыЦенаСНаценкойНаУчетную</name>
+              <id>1627</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ТоварыЦенаСНаценкойНаУчетнуюРасширеннаяПодсказка</name>
+                <id>1628</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЦенаСНаценкойНаУчетную</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -13241,6 +13271,11 @@
     <name>рвк_ПриОткрытииПосле</name>
     <callType>After</callType>
   </handlers>
+  <handlers xsi:type="form:EventHandlerExtension">
+    <event>OnCreateAtServer</event>
+    <name>рвк_ПриСозданииНаСервереПосле</name>
+    <callType>After</callType>
+  </handlers>
   <excludedCommands>Post</excludedCommands>
   <excludedCommands>PostAndClose</excludedCommands>
   <excludedCommands>Write</excludedCommands>
@@ -13252,6 +13287,41 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>рвк_ЕстьРеквизитСУчетнойЦеной</name>
+    <title>
+      <key>ru</key>
+      <value>Рвк есть реквизит с учетной ценой</value>
+    </title>
+    <id>1000001</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <formCommands>
+    <name>ЦенаСНаценкойНаУчетную</name>
+    <title>
+      <key>ru</key>
+      <value>Наценка на учетную</value>
+    </title>
+    <id>1000001</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormExtensionCommandHandlerContainer">
+      <handlers>
+        <name>рвк_ЦенаСНаценкойНаУчетнуюПосле</name>
+        <callType>After</callType>
+      </handlers>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

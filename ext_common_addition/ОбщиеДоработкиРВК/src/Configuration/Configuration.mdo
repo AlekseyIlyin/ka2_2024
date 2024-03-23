@@ -67,8 +67,10 @@
   <commonModules>CommonModule.ФормированиеФискальныхЧековСерверПереопределяемый</commonModules>
   <constants>Constant.рвк_ВключитьИнтеркампани</constants>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.КлючиАналитикиУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.НомераГТД</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Склады</catalogs>

@@ -110,4 +110,28 @@
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
   </tabularSections>
+  <tabularSections uuid="5df6c623-85a0-41a9-a40e-86e8cc6c3055" extendedConfigurationObject="a37e84ac-bf38-4699-99ca-e57572841cfc">
+    <producedTypes>
+      <objectType typeId="ff377091-0660-46e0-bfa8-ae33a111ae91" valueTypeId="f7f39373-86cd-470d-b5e8-a9071aa97fec"/>
+      <rowType typeId="499b038e-5ba1-4e0d-984b-f223eadf278d" valueTypeId="1feba59d-7b8e-4a02-93f6-60faea1d8f05"/>
+    </producedTypes>
+    <name>ВидыЗапасов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="cbdda9d6-c25c-4998-b1b8-d09567d73cb9" extendedConfigurationObject="e4986aa8-bcf8-443e-9b49-4140b2505fa4">
+      <name>АналитикаУчетаНоменклатуры</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.КлючиАналитикиУчетаНоменклатуры</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>
