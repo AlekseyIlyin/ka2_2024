@@ -58,6 +58,19 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="f0fbed5d-0147-4528-88bc-42c54dbcdcb3" extendedConfigurationObject="5eb8b5ad-0eec-40f5-88b2-f1412f212359">
+    <name>ЗакупкаПодДеятельность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыНалогообложенияНДС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
   <forms uuid="f43d1370-6e3d-43c9-a0e7-94004653290f" extendedConfigurationObject="722c2de4-8735-450a-a358-569415c93a9b">
     <name>ФормаДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
