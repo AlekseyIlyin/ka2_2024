@@ -12,7 +12,6 @@
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
-  <useStandardCommands>true</useStandardCommands>
   <attributes uuid="ea6f7aa9-4617-478f-855e-23a304970edc" extendedConfigurationObject="7af43f23-66b5-4041-bd23-3216b1d23915">
     <name>НомерВходящегоДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -67,6 +66,45 @@
         <types>
           <state>Checked</state>
           <type>EnumRef.ТипыНалогообложенияНДС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="727db1b8-8a1c-4163-81e8-c119bfb2b8d2" extendedConfigurationObject="a595dc27-9b9c-47fc-a70f-c6763ab3d7a2">
+    <name>Согласован</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="b6863e25-2607-4f9e-a098-a895647974f5" extendedConfigurationObject="dd906d50-e8be-4b18-b32c-c20813240936">
+    <name>ВариантПриемкиТоваров</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВариантыПриемкиТоваров</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="bb16ac5a-fcd7-4dc5-92f1-6871ddd93906" extendedConfigurationObject="c545b75d-dd2d-4844-903e-a04b725622b7">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Склады</type>
         </types>
       </typeExtension>
     </extension>

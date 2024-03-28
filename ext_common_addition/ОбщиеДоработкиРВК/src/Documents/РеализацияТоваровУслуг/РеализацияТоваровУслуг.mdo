@@ -12,6 +12,7 @@
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
   </extension>
   <attributes uuid="d10a35dd-df39-4f95-9270-306af9c462e8" extendedConfigurationObject="015a5e71-6dc7-4bc2-a50c-fa1ea71ab233">
     <name>Организация</name>

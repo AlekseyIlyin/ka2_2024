@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="38fc8bfd-8aa0-4a76-be65-f8f5cb829ef1" extendedConfigurationObject="4ac76022-5cb3-45b4-bcb8-f601c15cee32">
+  <producedTypes>
+    <refType typeId="e6d7d4a6-5fe8-4b22-be42-b706c5521b01" valueTypeId="39323ea2-92de-466a-94d4-326b52aad91b"/>
+    <listType typeId="8e235087-1e98-40cf-a10f-631dc7ff70eb" valueTypeId="108d1ec3-68b8-4255-b92c-8823395ee354"/>
+    <managerType typeId="53bcbb09-5023-41a1-99a1-4384013ea1d4" valueTypeId="bd468966-582b-44e4-9010-5027b5a0f8f8"/>
+  </producedTypes>
+  <name>ВариантыПриемкиТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="93bb67a9-a5e2-4f6c-938a-08028e68160f" extendedConfigurationObject="763ad8c6-1bb4-4322-bb25-ee808af5a1c5">
+    <name>НеРазделенаПоЗаказамИНакладным</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ecbff19d-d04d-43d8-9494-af7f84cde8ac" extendedConfigurationObject="8d94a0e6-c8fc-4515-8e9a-c8a8e359a0a7">
+    <name>РазделенаТолькоПоНакладным</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

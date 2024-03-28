@@ -79,6 +79,7 @@
   <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыОформленияПродажи</enums>
+  <enums>Enum.ВариантыПриемкиТоваров</enums>
   <enums>Enum.СпособыДоставки</enums>
   <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.СтатусыДоговоровКонтрагентов</enums>
