@@ -30,7 +30,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.усОсновнаяРоль</defaultRoles>
-  <version>1.00</version>
+  <version>1.02</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>
@@ -135,7 +135,10 @@
   <documents>Document.КорректировкаРегистров</documents>
   <documents>Document.ОприходованиеИзлишковТоваров</documents>
   <documents>Document.ОтчетОРозничныхПродажах</documents>
+  <documents>Document.ПервичныйДокумент</documents>
+  <documents>Document.ПередачаТоваровМеждуОрганизациями</documents>
   <documents>Document.ПриобретениеТоваровУслуг</documents>
+  <documents>Document.ПриобретениеУслугПрочихАктивов</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.СписаниеНедостачТоваров</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
