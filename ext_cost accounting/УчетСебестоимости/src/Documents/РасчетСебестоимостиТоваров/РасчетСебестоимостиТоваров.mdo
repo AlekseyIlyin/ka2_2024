@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a89f83b3-9000-47a3-85e6-b55e22fc3a35" extendedConfigurationObject="2023b7c3-e16b-4bba-9802-e8eaec058770">
+  <producedTypes>
+    <objectType typeId="bf6cf6e3-78b2-4ff5-a3d0-66bedc7f6cae" valueTypeId="8e6e9665-c3fe-42e0-a56f-b81b1af814ef"/>
+    <refType typeId="4b478e4a-83a0-4c8e-9f56-2db2ed7b4029" valueTypeId="d6e56016-055e-4fa9-9cc9-4da8df1b1ce0"/>
+    <selectionType typeId="fa278385-63ae-45b0-86bd-cb5305694f56" valueTypeId="04cac641-f29b-4cad-8b81-59bb87350502"/>
+    <listType typeId="6f6f1312-41e3-4f8e-b8b2-a73017d0fb48" valueTypeId="1abb7585-6fe9-4a7c-b6e3-b18e3982a431"/>
+    <managerType typeId="214f9d18-6d42-442a-862a-07ceb1b256e4" valueTypeId="44ff3ae9-42c3-43db-b3f0-49d592de8d53"/>
+  </producedTypes>
+  <name>РасчетСебестоимостиТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <registerRecords>AccumulationRegister.усОстаткиПоПартиям</registerRecords>
+</mdclass:Document>
