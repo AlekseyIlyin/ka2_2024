@@ -141,6 +141,7 @@
   <documents>Document.ПриобретениеУслугПрочихАктивов</documents>
   <documents>Document.РасчетСебестоимостиТоваров</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.СписаниеБезналичныхДенежныхСредств</documents>
   <documents>Document.СписаниеНедостачТоваров</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыОформленияПродажи</enums>
