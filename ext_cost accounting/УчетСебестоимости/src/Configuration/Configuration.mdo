@@ -139,6 +139,7 @@
   <documents>Document.ПередачаТоваровМеждуОрганизациями</documents>
   <documents>Document.ПриобретениеТоваровУслуг</documents>
   <documents>Document.ПриобретениеУслугПрочихАктивов</documents>
+  <documents>Document.РасходныйКассовыйОрдер</documents>
   <documents>Document.РасчетСебестоимостиТоваров</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.СписаниеБезналичныхДенежныхСредств</documents>
