@@ -13231,9 +13231,6 @@
     <name>усОбработкаВыбораПосле</name>
     <callType>After</callType>
   </handlers>
-  <excludedCommands>Post</excludedCommands>
-  <excludedCommands>PostAndClose</excludedCommands>
-  <excludedCommands>Write</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

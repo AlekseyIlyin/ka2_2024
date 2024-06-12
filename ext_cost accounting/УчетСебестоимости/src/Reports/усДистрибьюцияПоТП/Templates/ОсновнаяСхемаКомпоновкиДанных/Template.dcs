@@ -22,10 +22,6 @@
 			<field>Контрагент</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Организация</dataPath>
-			<field>Организация</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Производитель</dataPath>
 			<field>Производитель</field>
 			<title xsi:type="v8:LocalStringType">
@@ -34,10 +30,6 @@
 					<v8:content>Производитель</v8:content>
 				</v8:item>
 			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Договор</dataPath>
-			<field>Договор</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ТорговыйПредставитель</dataPath>
@@ -121,6 +113,10 @@
 					<v8:content>Группа показателей</v8:content>
 				</v8:item>
 			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ

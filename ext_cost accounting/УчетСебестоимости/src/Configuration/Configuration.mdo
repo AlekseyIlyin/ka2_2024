@@ -30,7 +30,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.усОсновнаяРоль</defaultRoles>
-  <version>1.02</version>
+  <version>1.03</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>
@@ -153,6 +153,7 @@
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <reports>Report.усДистрибьюцияПоТП</reports>
+  <reports>Report.усПоступленяПоПроизводителям</reports>
   <reports>Report.усПродажиИСебестоимость</reports>
   <dataProcessors>DataProcessor.усВосстановлениеПоследовательности</dataProcessors>
   <informationRegisters>InformationRegister.усПараметрыПодсистемы</informationRegisters>

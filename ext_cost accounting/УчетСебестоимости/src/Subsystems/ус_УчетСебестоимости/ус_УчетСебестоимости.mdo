@@ -22,4 +22,5 @@
   <content>CommonModule.усОбслуживаниеФормВызовСервера</content>
   <content>CommonModule.СобытияФормКлиент</content>
   <content>Report.усДистрибьюцияПоТП</content>
+  <content>Report.усПоступленяПоПроизводителям</content>
 </mdclass:Subsystem>

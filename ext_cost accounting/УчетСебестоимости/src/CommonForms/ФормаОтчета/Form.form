@@ -7288,8 +7288,7 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <excludedCommands>ReportSettings</excludedCommands>
-  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+    <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
