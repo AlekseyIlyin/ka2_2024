@@ -129,6 +129,8 @@
   <catalogs>Catalog.УсловияОбслуживанияПартнеровТорговымиПредставителями</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <documents>Document.ВводОстатковОПродажахЗаПрошлыеПериоды</documents>
+  <documents>Document.ВводОстатковПрочиеРасходы</documents>
   <documents>Document.ВводОстатковТоваров</documents>
   <documents>Document.КорректировкаПриобретения</documents>
   <documents>Document.КорректировкаРеализации</documents>

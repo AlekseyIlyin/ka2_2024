@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="62f2f3da-2e0d-4299-8df1-eb8e8c05debc" extendedConfigurationObject="9cb247d3-38db-4216-94ed-471363a6e853">
+  <producedTypes>
+    <objectType typeId="c63e9193-e13d-4d5f-816b-d1936dd45e80" valueTypeId="1e893679-4334-4dd7-8c61-49c941ce573f"/>
+    <refType typeId="70dc1d3e-4a6c-43f1-aae1-31f162a153bd" valueTypeId="03d44433-d99b-4e95-a2d2-9f0660468896"/>
+    <selectionType typeId="6c0e81cc-75b0-4d96-bbe5-22a5cc19ff25" valueTypeId="b0c93816-37fb-4956-8a3f-b87090b8230c"/>
+    <listType typeId="0414ca39-779d-4a11-860f-083a428fb56e" valueTypeId="ca71ab60-223d-481f-8127-88f3c6fb7bca"/>
+    <managerType typeId="99066835-1671-4392-a645-6d535b4c0e17" valueTypeId="80d7a12a-9aa5-445d-addf-c47ec2e85063"/>
+  </producedTypes>
+  <name>ВводОстатковОПродажахЗаПрошлыеПериоды</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <registerRecords>AccumulationRegister.усОстаткиПоПартиям</registerRecords>
+</mdclass:Document>
