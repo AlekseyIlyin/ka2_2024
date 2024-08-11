@@ -30,7 +30,8 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.рвк_ОсновнаяРоль</defaultRoles>
-  <version>1.00</version>
+  <vendor>Ильин</vendor>
+  <version>1.01</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>
@@ -59,6 +60,7 @@
   <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <roles>Role.рвк_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.рвк_ЖурналРегистрацииВызовСервера</commonModules>
   <commonModules>CommonModule.рвк_НоменклатураВызовСервера</commonModules>
   <commonModules>CommonModule.рвк_ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.рвк_ОбщийМодульПовтИсп</commonModules>
