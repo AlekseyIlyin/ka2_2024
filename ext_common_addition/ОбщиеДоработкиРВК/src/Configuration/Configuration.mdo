@@ -60,6 +60,7 @@
   <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <roles>Role.рвк_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.рвк_ДополнительныеОтчетыИОбработки</commonModules>
   <commonModules>CommonModule.рвк_ЖурналРегистрацииВызовСервера</commonModules>
   <commonModules>CommonModule.рвк_НоменклатураВызовСервера</commonModules>
   <commonModules>CommonModule.рвк_ОбщегоНазначения</commonModules>

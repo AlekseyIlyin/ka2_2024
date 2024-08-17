@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7790358-b79e-4cc9-abc1-ddfdf3a02d4a">
+  <producedTypes>
+    <objectType typeId="9454d30e-0b35-4d94-a9e0-856fa92b47e9" valueTypeId="43def2f9-5f2b-4cca-92c9-7c5122276f85"/>
+  </producedTypes>
+  <name>ВозвратОстатковИнтеркампани</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возврат остатков интеркампани</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="12194552-395d-4f33-9bce-439339b6b5e9"/>
+  <defaultForm>ExternalDataProcessor.ВозвратОстатковИнтеркампани.Form.Форма</defaultForm>
+  <attributes uuid="6a5d0864-1463-40a4-be18-f54cb90dac78">
+    <name>ДополнительнаяОбработкаСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная обработка ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4ccd8f0a-8068-4b0e-aeaa-65a3e3af2608">
+    <name>НастройкиЗагружены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загружены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="72e74260-363d-4f32-81d5-47cd4e969c0b">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fc2f14df-0335-49bb-9c15-7ed04fefb4c7">
+    <name>СоглашениеИнтеркампани</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соглашение интеркампани</value>
+    </synonym>
+    <comment>Параметр</comment>
+    <type>
+      <types>CatalogRef.СоглашенияСПоставщиками</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="75f42e52-e214-40d1-a09f-a0096e9b074c">
+    <name>ДопСвойствоПриобретение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп свойство приобретение</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="6aa86e15-f67d-4420-a3f4-049e14a69c11">
+    <producedTypes>
+      <objectType typeId="06505326-a9de-4303-ae57-f3e43db7206d" valueTypeId="220cb008-ca20-4c12-ae94-bbd4ef3d1996"/>
+      <rowType typeId="91191c3d-9c04-4c9a-a100-dae0969b122a" valueTypeId="78b381ab-f0a8-4cec-bee2-09115373b625"/>
+    </producedTypes>
+    <name>Остатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки</value>
+    </synonym>
+    <attributes uuid="25b2b24d-4bd7-4874-b10f-7624b8771499">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="34b38a79-e7ea-4d6f-996c-b6aa7de7c7fb">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="160dd161-9c0e-4ec3-9fc6-bf379f08e925">
+      <name>Передано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Передано</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧДЦ=0</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=0</value>
+      </editFormat>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a55301c9-9005-4329-95cd-024cda954143">
+      <name>Остаток</name>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧДЦ=0</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=0</value>
+      </editFormat>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="84e8335a-8aaa-4c61-9156-f7ad8ffadfee">
+      <name>КоличествоМакс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество макс</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="76020956-0ac1-4880-825c-b1f1454fc14a">
+      <name>ДокументПередачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ передачи</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fa088699-4436-4b60-8813-3df390418f20">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
