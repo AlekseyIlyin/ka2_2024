@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06ea9f52-0f1b-4c55-8161-139950c939c7">
+  <producedTypes>
+    <objectType typeId="ad848493-161a-4a84-849b-726ffb8faf31" valueTypeId="984c5430-febb-41f2-8a4d-36d38692e13b"/>
+  </producedTypes>
+  <name>CISLink_DTS_Module_83_UT11_6009</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка в &quot;Ekoprom&quot;</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="3b07434d-7ba4-4f51-a546-f03756f6e43b"/>
+  <defaultForm>ExternalDataProcessor.CISLink_DTS_Module_83_UT11_6009.Form.ФормаУправляемая</defaultForm>
+  <attributes uuid="33b3bb21-460b-49be-bf2a-71e16ac94427">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="fed358ca-e38d-4258-a184-ed36664dda26">
+    <name>ФормаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cec2c6fc-fade-4ad5-801d-1f46a716baa6">
+    <name>СоздатьСкриптДляПланировщикаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать скрипт для планировщика управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="879d9dbe-5d75-4a71-bb0b-8907bdfc56ea">
+    <name>ВыборКаталогаНаСервереУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор каталога на сервере управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ebb5a195-94da-4b6e-b66a-4015f59d59de">
+    <name>ТаблицаПересчетаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица пересчета управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="205ce4c7-deef-4ee7-90b1-d0531fa6b6d6">
+    <name>ТаблицаТранслитаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица транслита управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="85f5ee0b-e200-4013-9038-daa8496ce10a">
+    <name>РедакторНастроекУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор настроек управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="36b51618-b543-49e8-91dd-045e4c2c2a45">
+    <name>ВыборИзСпискаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор из списка управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="54b4c781-b036-4722-a3b6-375af1620409">
+    <name>ИнструкцияУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e8c6aedb-6c6b-4c3f-bc44-61dd55d80aaa">
+    <name>ДополнительныеСведенияУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные сведения управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="163ec80c-43cf-4e36-b5ee-f812879e6c51">
+    <name>УдалитьТаблицаГруппКлиентовУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица групп клиентов управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f0f7a5a0-6a9a-4a2d-abd6-8ebf93aeb0c8">
+    <name>ТипыФилиаловУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы филиалов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1b710f21-e09c-4dae-8d6e-f3a8edfcd2a1">
+    <name>ОтчетПоНастройкамУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по настройкам управляемая</value>
+    </synonym>
+  </templates>
+  <templates uuid="ea1a9088-2662-4f0d-ab38-100d63f19e2f">
+    <name>ИнструкцияУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция управляемая</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>

@@ -1,0 +1,1712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dd3edce-037f-4231-a5ec-93fe4a3b48ac">
+  <producedTypes>
+    <objectType typeId="6de0b207-1ea2-4604-9460-f8ee6d746831" valueTypeId="02a6b3d9-3382-4dec-b0a9-c6f54f8e205b"/>
+  </producedTypes>
+  <name>ВыгрузкаЭкопром</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка Экопром</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="ae32615c-dc1b-456c-8d9e-0055d98c5c9b"/>
+  <attributes uuid="21e8026e-bc0e-44ce-8de9-8629ded9e5d0">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="94f358dd-b735-4b60-9307-29a7933f17a0">
+    <producedTypes>
+      <objectType typeId="3952f7c3-cb6a-45c6-b20a-7c1d07989761" valueTypeId="b86959f8-8986-4cf7-9bdf-7efcd3326c56"/>
+      <rowType typeId="1b871769-6330-48ac-944c-e7047ad51681" valueTypeId="27848497-ec51-44dc-a32d-d8f08f85d45a"/>
+    </producedTypes>
+    <name>epcatal</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник товарной номенклатуры (epcatal)</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Обратите внимание!
+Если артикулы товаров не хранятся в системе учёта, то это никак не помешает проверке данных – высылайте файлы на проверку с пустующим полем art. Сами коды можно будет внести в процессе работы над файлами или в ближайшее время после завершения подключения к системе сбора данных.
+
+Чтобы избежать возможных дублей в файле, строки необходимо группировать - поля, входящие в составной ключ: code.</value>
+    </toolTip>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="7d688222-e6d6-4881-a23a-7de61614ab2a">
+      <name>code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код товара</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний уникальный код, хранящийся в учётной системе и позволяющий идентифицировать товар. Выгружать в это поле артикулы производителя можно только в том случае, если они используются в качестве внутренних кодов. Поле не может быть пустым. В пределах списка товаров один код не должен встречаться несколько раз.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f8668081-c81f-4d64-9780-f535f1109023">
+      <name>art</name>
+      <synonym>
+        <key>ru</key>
+        <value>Артикул товара</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификационный код товара, присвоенный производителем. Если артикулы товара не хранятся в учётной системе, то список артикулов необходимо запросить в технической поддержке компании CISLink.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0475fee4-3688-45d8-a07d-d6a1c21bbb32">
+      <name>barcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штриховой код товара</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5e20f179-8e7b-4680-9cf4-a3828d8b85f2">
+      <name>name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное наименование товара</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полное, не сокращённое наименование товара, хранящееся в учётной системе. Поле не может быть пустым. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="744a0603-9d15-47c3-8f5b-21bb59e57449">
+      <name>pack</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество минимальных единиц в упаковке</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе. Обратите внимание, поле информационное и необходимо как дополнительный признак для идентификации продуктов, оно не используется для пересчёта в другие единицы хранения.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8109ad3f-60d8-451d-9a96-28fb428abb74">
+      <name>manfid</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификационный код</value>
+      </synonym>
+      <comment>Идентификационный код «НПФ «ЭКОПРОМ» в системе CISLink – 6009</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение 6009 выгружается для всех строк. Поле не должно быть пустым и не должно содержать других значений. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5f1601dd-a11c-4248-9a7c-8e881a0b3399">
+    <producedTypes>
+      <objectType typeId="79b1f395-03ae-4faf-8eb6-52e426a2b16f" valueTypeId="25f1029e-0d31-4eec-8283-89f8c13ea08b"/>
+      <rowType typeId="e75007eb-d42d-47fc-b70b-7277b75eaf5c" valueTypeId="d95e9364-5f40-47a6-88a5-e1b9e780bd8d"/>
+    </producedTypes>
+    <name>epclient</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник покупателей, поставщиков и филиалов дистрибьютора (epclient)</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Файл содержит информацию обо всех покупателях (оптовых и розничных клиентах, субдистрибьюторах), которые приобретали продукцию «НПФ «ЭКОПРОМ» в отчётный период, поставщиках (прямых и вторичных), у которых товар закупался, филиалах (физических складах - местах хранения, находящихся удаленно друг от друга), между которыми перемещалась продукция. Отчётный период – 45 календарных дней. Обратите внимание!
+
+Поля clientcode и spocode не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в кодах есть эти символы, от них необходимо избавиться.
+
+Поля clientcode и clientname связаны между собой: строки с одним и тем же clientcode должно содержать один и тот же clientname.
+
+Если продажи товара детализируются по торговым точкам, а возвраты товаров можно выгружать только с детализацией до покупателя, следует в файл epclient кроме списка торговых точек добавить список покупателей, где торговые точки будут пустые.
+
+Если в системе учёта допустимо хранение документов без указания действительного покупателя или поставщика, то в файл epclient кроме действительных покупателей и поставщиков необходимо выгрузить фиктивную строку, где: 
+- в поле clientcode выгружается значение «Клиент не определён» (без кавычек);
+- в поле clientname выгружается значение «Клиент не определён» (без кавычек);
+- поле manfid заполняется согласно описанию этого поля;
+- остальные поля следует оставить пустыми.
+
+Чтобы избежать возможных дублей в файле, строки необходимо группировать - поля, входящие в составной ключ: clientcode, spocode.</value>
+    </toolTip>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="7e510d28-f503-4c99-aa80-a27fcbd3fb79">
+      <name>clientcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код покупателя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Код покупателя, поставщика или филиала. Внутренний уникальный код, хранящийся в учётной системе и позволяющий идентифицировать покупателя, поставщика или филиал. В случаях, когда торговые точки хранятся как отдельные покупатели, выгружать сюда коды торговых точек, а поле spocode оставлять пустым. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в кодах клиентов есть эти символы, от них необходимо избавиться. Поле не может быть пустым. В пределах файла сочетание кода покупателя и кода торговой точки не должно встречаться несколько раз. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="44d89a75-7af6-4dc5-bad6-ad719bdb51db">
+      <name>clientname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование покупателя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование покупателя, поставщика или филиала. Полное, не сокращённое наименование покупателя, поставщика или филиала, хранящееся в учётной системе. Поле не может быть пустым. В тех случаях, когда торговые точки хранятся как отдельные покупатели, выгружать сюда наименование торговой точки, а поле sponame оставлять пустым.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="7aec41cf-63dd-4849-b4ee-19fe4dc72133">
+      <name>address_ur</name>
+      <synonym>
+        <key>ru</key>
+        <value>Юридический адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Юридический адрес покупателя, поставщика или филиала. Полный юридический адрес покупателя, поставщика или филиала в формате КЛАДP. Если КЛАДP не поддерживается, следует выгружать в том формате, в каком данные хранятся. Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1317c19c-6dea-43fc-93d0-56d00b00fc74">
+      <name>address</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фактический адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Фактический адрес покупателя, поставщика или филиала. Полный фактический адрес покупателя, поставщика или филиала в формате КЛАДP. Если КЛАДP не поддерживается, следует выгружать в том формате, в каком данные хранятся. В тех случаях, когда торговые точки хранятся как отдельные покупатели, выгружать сюда фактический адрес торговой точки, а поле spoaddress оставлять пустым. Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="044629e6-1e77-4367-bf95-8fb592aad74c">
+      <name>inn</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИНН</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>ИНН покупателя или поставщика. Идентификационный номер налогоплательщика. Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="341fd7ad-e1c2-4893-a329-df17e559c2c0">
+      <name>kpp</name>
+      <synonym>
+        <key>ru</key>
+        <value>КПП</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>КПП торговой точки покупателя. Код причины постановки на учёт. Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="79cd894b-c440-4e57-8bb3-821c631ce25c">
+      <name>spocode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код ТТ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Код торговой точки покупателя. Внутренний уникальный код, хранящийся в учётной системе и позволяющий идентифицировать торговую точку. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в кодах торговых точек есть эти символы, от них необходимо избавиться. В тех случаях, когда торговые точки хранятся как отдельные покупатели, поле оставлять пустым. В пределах файла сочетание кода покупателя и кода торговой точки не должно встречаться несколько раз.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4e2dff26-7320-44d2-afaf-3d2842a0681e">
+      <name>sponame</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование ТТ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование торговой точки покупателя. Полное, не сокращённое наименование торговой точки покупателя, хранящееся в учётной системе. В тех случаях, когда торговые точки хранятся как отдельные покупатели, поле следует оставлять пустым.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b87b9ed6-ea63-45a7-b8a4-c5cf598d6854">
+      <name>spoaddress</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фактический адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Фактический адрес торговой точки покупателя. Полный фактический адрес торговой точки покупателя в формате КЛАДP. Если КЛАДP не поддерживается, следует выгружать в том формате, в каком данные хранятся. В тех случаях, когда торговые точки хранятся как отдельные покупатели, поле следует оставлять пустым.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f98ac769-fd0f-416c-9d80-6423cc0ffa72">
+      <name>kladrcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код населенного пункта ТТ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>13</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Код населенного пункта торговой точки по КЛАДP. 13-тизначный код республики, области, края, города или населенного пункта. Либо 17-тизначный код из справочника улиц, включающий привязку к улице, проспекту, переулку и проч. Указывается исходя из фактического адреса торговой точки. Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d4db2ff6-46a8-446e-a4e1-39dd748197d6">
+      <name>zip_code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Почтовый индекс ТТ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Почтовый индекс торговой точки. Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="384e98a2-c91b-49ce-893d-f1927608d97a">
+      <name>mccode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование канала рынка ТТ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний учётный код канала рынка, которому соответствует торговая точка. Если торговые точки не классифицируются по каналам рынка, поле можно оставлять пустым.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1aa712ce-a01e-40f1-b4ec-27a12536766d">
+      <name>manfid</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификационный код</value>
+      </synonym>
+      <comment>Идентификационный код «НПФ «ЭКОПРОМ» в системе CISLink – 6009</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧЦ=4; ЧДЦ=0; ЧГ=</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение 6009 выгружается для всех строк. Поле не должно быть пустым и не должно содержать других значений.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:NumberValue">
+        <value>0</value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="91dc9f89-d410-4de8-ad8a-2a06e724b03f">
+    <producedTypes>
+      <objectType typeId="004854b2-d9b9-45db-a5e0-2435ebbc5f4b" valueTypeId="dfbedff1-1169-4a3b-b441-732b61fd222f"/>
+      <rowType typeId="de2c033c-5f76-4bb6-81aa-7a19197a9fc2" valueTypeId="309071d3-4a51-4261-94f8-47ea5c268186"/>
+    </producedTypes>
+    <name>epsr</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник торговых представителей и операторов</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Файл содержит информацию о торговых представителях и операторах дистрибьютора (также могут называться продавцами, менеджерами по работе с клиентами), которые оформляли документы с товарами «НПФ «ЭКОПРОМ» в отчётный период – 45 календарных дней. Обратите внимание!
+
+Чтобы избежать возможных дублей в файле, строки необходимо группировать - поля, входящие в составной ключ: tpcode.
+
+Если в системе учёта допустимо хранение документов без указания действительного торгового представителя, то в файле epsr кроме действительных торговых представителей необходимо выгрузить фиктивную строку, где:
+- в поле tpcode выгружается значение «ТП не определён» (без кавычек);
+- в поле tpname выгружается значение «ТП не определён» (без кавычек);
+- в поле tptypeid выгружается значение 2;
+- поле manfid заполняется согласно описанию этого поля.</value>
+    </toolTip>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="39dff425-8269-4a3f-af3a-32d780107b20">
+      <name>tpcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код торгового представителя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний уникальный код, хранящийся в учётной системе и позволяющий идентифицировать торгового представителя или оператора. Поле не может быть пустым. В пределах файла код не должен встречаться несколько раз. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="83bce3fc-a8fc-411a-a7f9-2bc349e2103c">
+      <name>tpname</name>
+      <synonym>
+        <key>ru</key>
+        <value>ФИО торгового представителя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Фамилия, имя и отчество торгового представителя или оператора. Если информация хранится в сокращённом варианте, то выгружать следует так, как хранится в учётной системе. Поле не может быть пустым.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="cfbbc97a-e299-4dca-bd51-54b4207ce147">
+      <name>tptypeid</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип торгового представителя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если торговый представитель занимается исключительно продукцией компании «НПФ «ЭКОПРОМ», то значение поля – 1. Если торговый представитель занимается не только группой товаров компании «НПФ «ЭКОПРОМ», то значение поля – 2. Для строк с операторами необходимо выгружать значение 2. Поле не должно быть пустым и не должно содержать других значений.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="fd09ea52-028f-4bc7-8fcd-d2eda076eacc">
+      <name>manfid</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификационный код</value>
+      </synonym>
+      <comment>Идентификационный код «НПФ «ЭКОПРОМ» в системе CISLink – 6009</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>4</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:StringValue">
+        <value>6009</value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1c0561bc-d610-4d5e-8aa7-6db1af82fc24">
+    <producedTypes>
+      <objectType typeId="87803866-5b12-4590-902c-79e9df2d0a87" valueTypeId="8c7ae489-ea69-4ea3-889f-8b9c178d53c2"/>
+      <rowType typeId="45336433-2d61-4b9d-ab8f-fb6ecba3df9c" valueTypeId="31995d54-4baa-49c8-9e8f-c4492b73e72e"/>
+    </producedTypes>
+    <name>epwh</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник филиалов </value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Файл содержит список территориально разделенных филиалов и распределительных центров дистрибьютора (не виртуальные склады). Выгружать следует все филиалы дистрибьютора, на остатках которых была продукция «НПФ «ЭКОПРОМ» в отчётном периоде – 45 календарных дней. Обратите внимание!
+
+Файл предназначен не для внутренних или виртуальных складов, только для территориально разделённых филиалов. Список филиалов лучше всего согласовать с техподдержкой CISLink, контактная информация указана на первом листе.
+
+В тех случаях, когда территориально разделённых филиалов нет, файл необходимо формировать с одной виртуальной строкой, где:
+- в поле whcode выгружается виртуальный код дистрибьютора (он будет использоваться в выборках c операциями и остатками);
+- в поле whname выгружается наименование дистрибьютора;
+- в поле whaddress выгружается юридический адрес дистрибьютора;
+- поле manfid заполняется согласно описанию этого поля.
+
+Чтобы избежать возможных дублей в файле, строки необходимо группировать - поля, входящие в составной ключ: whcode.</value>
+    </toolTip>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="1d3ee91c-2190-4955-978d-ef5d79166345">
+      <name>whcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код филиала</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний уникальный код, хранящийся в учётной системе и позволяющий идентифицировать филиал. Поле не может быть пустым. В пределах файла код не должен встречаться несколько раз.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a1355b95-041d-410d-b740-cdcd1e3a9f61">
+      <name>whname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование филиала</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полное, не сокращённое наименование филиала, хранящееся в учётной системе. Поле не может быть пустым.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="028ca358-b579-4f47-b6d6-87f06f86ffed">
+      <name>whaddress</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес филиала</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный адрес филиала в формате КЛАДP. Если КЛАДP не поддерживается, следует выгружать в том формате, в каком данные хранятся. Поле может оставаться пустым, только если такая информация не хранится в учётной системе.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="8ea289e9-338f-4229-a301-0d582cb969b0">
+      <name>manfid</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификационный код</value>
+      </synonym>
+      <comment>Идентификационный код «НПФ «ЭКОПРОМ» в системе CISLink – 6009</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>в системе CISLink – 6009). Значение 6009 выгружается для всех строк. Поле не должно быть пустым и не должно содержать других значений. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:NumberValue">
+        <value>6009</value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="59cbc6b5-b582-45cc-a9ff-346ea0202a71">
+    <producedTypes>
+      <objectType typeId="1aa2bbde-9c0c-485f-86fa-c93800e503dd" valueTypeId="aae3106d-1350-4a47-94eb-cb2945c229a8"/>
+      <rowType typeId="077c6e43-9dc4-49d5-ab6d-572e349d083a" valueTypeId="027382ab-9b82-49f6-b789-11e0017f7fb2"/>
+    </producedTypes>
+    <name>epsales</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл детализации движения товара</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Файл содержит информацию о документах продаж, возвратов от клиентов, заказов от клиентов и заказов поставщику, перемещения между филиалами, поступления от поставщиков и возвратов поставщикам, а также детализацию по таким документам. Выгружать необходимо все документы, в которых есть продукция «НПФ «ЭКОПРОМ», и по которым было движение в отчётный период – 45 календарных дней. Обратите внимание!
+
+Чтобы избежать возможных дублей в файле, строки необходимо группировать - поля, входящие в составной ключ: whcode, code, curr_date, exp_date, scd_number, doc_number, oper_type, clientcode, spocode, tpcode.</value>
+    </toolTip>
+    <attributes uuid="342cc716-e1e3-441d-bc6b-1e4b7304fa4f">
+      <name>whcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код филиала</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний уникальный код, хранящийся в учётной системе дистрибьютора и позволяющий идентифицировать филиал. Поле не может быть пустым. Все указанные в этом файле коды филиалов должны быть в файле epwh. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a2decfc3-482e-47e8-976f-d23208f05c85">
+      <name>code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код товара</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний уникальный код, хранящийся в учётной системе дистрибьютора и позволяющий идентифицировать товар. Поле не может быть пустым. Все указанные в этом поле коды товаров должны быть в файле epcatal.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2fa2ca68-63dd-43be-9fba-f64c391a5b20">
+      <name>curr_date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата актуальности документа</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата документа продажи, возврата, прихода, перемещения или заказа. Формат даты строгий: ГГГГММДД, где ГГГГ – год, ММ – месяц, ДД – день. Поле не должно быть пустым. Выгрузка недостоверных дат в поле не допускается.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+    </attributes>
+    <attributes uuid="2a05b435-560d-459f-8113-4c2e35c11b75">
+      <name>exp_date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата истечения срока годности</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Формат даты строгий: ГГГГММДД, где ГГГГ – год, ММ – месяц, ДД – день. Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе дистрибьютора. Выгрузка недостоверных дат в поле не допускается. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="177c4b34-20b9-46ee-b080-be5f3c117ba2">
+      <name>scd_number</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер грузовой таможенной декларации</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер грузовой таможенной декларации является основным реквизитом документов, оформляемых при перемещении товаров через таможенную границу государства. Выгрузка недостоверных данных в поле не допускается. Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе дистрибьютора. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="34c45088-51c8-47d9-8383-3090529b249b">
+      <name>doc_number</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер документа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Уникальный идентификационный номер документов продажи, возврата, прихода, перемещения или заказа. Поле не должно быть пустым. Если уникальность номеров соблюдается только в пределах ограниченного периода (дня, месяца, года), то к номеру документа следует выгружать значение его даты актуальности через нижнее подчёркивание. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7d53ca9a-ed11-4d20-ae51-0acbfaed45bc">
+      <name>doc_parent</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер документа-основания</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Уникальный идентификационный номер документа, на основании которого проведена операция текущей строки. Поле может оставаться пустым только в том случае, если такая информация не хранится в системе дистрибьютора. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f8103fec-6abd-46a7-9dbf-05777a1350b3">
+      <name>oper_type</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип операции с товаром</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Выгружается код произведённой с товаром операции: 0 – для продаж (а также для корректировок продаж, увеличивающих количества в исходном документе), 1 – для возвратов от клиентов (а также для корректировок продаж, уменьшающих количества в исходном документе), 2 – для приходов от поставщика, 3 – для заказов от клиентов, 4 – расходные перемещения в другие филиалы, 5 – приходные перемещения из других филиалов, 6 – для заказов поставщику, 7 – для возвратов поставщику. Прочие операции (инвентаризации, списания и т.п.) не должны попадать в этот файл (но должны быть в файле состояния склада eprest). Поле не должно быть пустым и не должно содержать других значений. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5332a445-18ad-4d6c-a5b4-90a47f9d8845">
+      <name>doc_ttn</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер товарной накладной поставщика</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер товарной накладной, присвоенный поставщиком данной партии товара. Следует выгружать для строк с oper_type = 2. Выгрузка недостоверных данных в поле не допускается. Поле может оставаться пустым только в том случае, если такая информация не хранится в системе дистрибьютора. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="52e52728-d7d2-4865-86a9-6b0be6b08750">
+      <name>doc_inv</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер счёта-фактуры поставщика</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер счёта-фактуры поставщика, на основании которой фиксируется факт доставки продукции на филиал дистрибьютора. Следует выгружать для строк с oper_type = 2. Выгрузка недостоверных данных в поле не допускается. Поле может оставаться пустым только в том случае, если такая информация не хранится в системе дистрибьютора. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="46e6d82c-eb23-4840-b7c8-795206245eb7">
+      <name>order_date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата заказа товара</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата заказа товара покупателем у дистрибьютора (для oper_type 0 и 3) и дистрибьютором у поставщика (для oper_type 2 и 6). Формат даты строгий: ГГГГММДД, где ГГГГ – год, ММ – месяц, ДД – день. Выгрузка недостоверных дат в поле не допускается. Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе дистрибьютора. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="44ad02bc-6562-457f-b4b5-906ee570e5ad">
+      <name>deliv_date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата доставки товара</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата доставки товара покупателю (для oper_type 0) и от поставщика (для oper_type 2). Формат даты строгий: ГГГГММДД, где ГГГГ – год, ММ – месяц, ДД – день. Выгрузка недостоверных дат в поле не допускается. Поле может оставаться пустым только в том случае, если такая информация не хранится в системе дистрибьютора.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5de03431-d906-4467-ac0f-9bdd35980f5e">
+      <name>clientcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код покупателя, поставщика или филиала</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний уникальный код, хранящийся в системе дистрибьютора и позволяющий идентифицировать покупателя, поставщика или филиал. Все указанные в этом файле сочетания полей clientcode и spocode должны присутствовать в файле epclient. Если в системе учёта допустимо хранение документов без указания действительного клиента или поставщика, то в это поле необходимо выгрузить фиктивное значение «Клиент не определён» (без кавычек). Поле не может быть пустым. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5a4e8d06-e25c-4384-b29e-1586838d6f0d">
+      <name>spocode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код торговой точки покупателя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний уникальный код, хранящийся в системе дистрибьютора и позволяющий идентифицировать торговую точку покупателя. Все указанные в этом файле сочетания полей clientcode и spocode должны быть в файле epclient. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5e0f141a-4b39-451d-b577-c87a441989cd">
+      <name>tpcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код торгового представителя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний уникальный код, хранящийся в системе дистрибьютора и позволяющий идентифицировать торгового представителя. Все указанные в этом файле коды торговых представителей должны быть в файле epsr. Если в системе учёта допустимо хранение документов без указания действительного торгового представителя, то в это поле необходимо выгрузить фиктивное значение «ТП не определён» (без кавычек). Поле не может быть пустым. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7af12a21-12b7-4262-9e0a-8ce6abf63284">
+      <name>opcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код оператора</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний уникальный код, хранящийся в системе дистрибьютора и позволяющий идентифицировать оператора. Все указанные в этом файле коды операторов должны присутствовать в файле epsr. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a96e444e-0faa-4d0e-9e66-0a969c08bba3">
+      <name>order_stat</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус исполнения заказа</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Для строк, где oper_type равен 3, следует выгружать 0 для случаев, если заказ ещё не исполнен, и 1 для случаев, когда заказ исполнен. Для строк, где oper_type равен 0 или 1, следует выгружать 1 в том случае, если документ имеет статус «интернет-заказа», в противном случае следует выгружать 0. Для всех остальных oper_type следует выгружать 0. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cb2e7598-b32c-47eb-8507-be8f675eee6e">
+      <name>ru</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип хранения товара</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Код, указывающий на тип хранения товара. Если товар хранится в розничной упаковке производителя, то значение поля 0. Если учет ведется в более мелких единицах, чем упаковка, в штуках, то значение поля 1. Если товар учитывается в весе, то значение поля 2. Поле не должно быть пустым и не должно содержать других значений. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9c6fc3ae-b15b-4da1-8254-15ff4964eb1b">
+      <name>quantity</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество товара в рамках указанной детализации, в минимальных (базовых) единицах хранения. Для весового товара выгружать значение необходимо в граммах. Значения должны быть целыми, положительными числами. Поле не может быть пустым. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в количествах есть эти символы, от них необходимо избавиться. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f1f4d651-683b-441b-9bf9-539a862dfd54">
+      <name>weight</name>
+      <synonym>
+        <key>ru</key>
+        <value>Коэффициент веса</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вес одной единицы (нетто) товара, необходим для пересчёта количества в базовых единицах в вес. Выгружать значение необходимо в граммах. Поле не может быть пустым. Значения должны быть целыми, положительными числами. Если такая информация не хранится в учётной системе, следует выгружать значение 1. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="13b12af7-5412-46e5-8c26-8f44659f41a0">
+      <name>amount_bp</name>
+      <synonym>
+        <key>ru</key>
+        <value>Закупочная стоимость товара с НДС в национальной валюте</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Стоимость товара (цена * количество) по цене закупки товара у поставщика с НДС в национальной валюте. Если учёт по партиям не ведётся или товар получен бесплатно, то следует производить расчёт закупочной стоимости по последней цене закупки или закупочному прейскуранту. Разделитель целой и дробной части – точка. Поле всегда положительное и не может быть пустым. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="baf7fff1-f2bb-4fc0-90d1-ac51a876582e">
+      <name>amount_cp</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отгрузочная стоимость товара с НДС в национальной валюте</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Стоимость товара (цена * количество) по цене отгрузки с НДС в национальной валюте с учётом всех скидок. Если товар отгружен бесплатно, то в стоимость выгружать 0. Разделитель целой и дробной части – точка. Значения должны быть положительными числами. Поле может оставаться пустым только для строк со значением oper_type равным 2 и 6. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="988cc2f8-6da9-4692-8e0d-5fb375193571">
+      <name>discount</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма скидки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма скидки покупателю в национальной валюте. Выгружать в это поле наценку не нужно. Разделитель целой и дробной части – точка. Поле всегда положительное и не может быть пустым. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d2ce4811-af06-4adb-b396-8e7f1fef4f73">
+      <name>vat</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма НДС в национальной валюте</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Выгружается сумма НДС (от отгрузочной стоимости для oper_type 0, 1, 3, 4, 5 и 7 и от закупочной стоимости для oper_type 2 и 6) в национальной валюте. Разделитель целой и дробной части – точка. Поле не должно быть пустым. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d0d7e712-5379-4b94-9be4-74eb112dad3b">
+      <name>manfid</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификационный код</value>
+      </synonym>
+      <comment>Идентификационный код «НПФ «ЭКОПРОМ» в системе CISLink – 6009</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>4</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>в системе CISLink – 6009). Значение 6009 выгружается для всех строк. Поле не должно быть пустым и не должно содержать других значений. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:StringValue">
+        <value>6009</value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1fe44a2b-ec2a-4d75-84eb-0854a6ea55eb">
+    <producedTypes>
+      <objectType typeId="43ff1ada-0e14-471d-bd93-68b30a2b1d45" valueTypeId="f48afd78-c55b-4c44-81ca-0e22fd1ccf79"/>
+      <rowType typeId="cf9a579c-a13e-4160-ac5b-c9cbd946db3f" valueTypeId="40f32d68-2ece-4628-848f-a869426f1821"/>
+    </producedTypes>
+    <name>eprest</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл состояния склада</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Файл содержит информацию об остатках продукции «НПФ «ЭКОПРОМ» на начало и конец каждого дня отчётного периода, а также обо всех складских перемещениях во всех филиалах. Отчётный период – 45 календарных дней. Обратите внимание!
+
+В каждой строке файла должно выполняться равенство: Начальный остаток (beg_rest) + Приходы (in_qty) – Расходы (out_qty) = Конечный остаток (end_rest).
+
+Данные в файле epsales не должны противоречить данным в файле eprest. Проверочные нестрогие неравенства, которым должно удовлетворять содержание файлов в сумме по товару и дате (поля code и curr_date):
+- (файл epsales, поле quantity, oper_type = 0, 4, 7) ≤ (файл eprest, поле out_qty);
+- (файл epsales, поле quantity, oper_type = 1, 2, 5) ≤ (файл eprest, поле in_qty). 
+
+В выгрузку eprest должны попадать все 45 строк по каждому товару номенклатуры, даже если движения в этот день по товару не было. Исключение составляют позиции, полностью отсутствующие на складах (т.е. одновременно поля beg_rest, in_qty, out_qty, end_rest нулевые) - такие строки необходимо исключить из выгрузки.
+
+Количество товара на начало дня должно совпадать с количеством товара на конец предыдущего дня.
+
+Чтобы избежать возможных дублей в файле, строки необходимо группировать - поля, входящие в составной ключ: whcode, code, curr_date, exp_date, scd_number, inv_type.
+</value>
+    </toolTip>
+    <attributes uuid="98aad8b7-310f-4f34-b513-830a78438cb1">
+      <name>whcode</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код филиала</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний уникальный код, хранящийся в учётной системе и позволяющий идентифицировать филиал. Поле не может быть пустым. Все указанные в этом файле коды филиалов должны быть в файле epwh.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="92c09dd8-fb8d-4c5a-9e3f-8d03c09bb62f">
+      <name>code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код товара</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>11</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Внутренний уникальный код, хранящийся в учётной системе и позволяющий идентифицировать товар. Поле не может быть пустым. Все указанные в этом файле коды товаров должны быть в файле epcatal.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="deefb9bb-c79b-4355-ac5b-4cba58655a8b">
+      <name>curr_date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата актуальности строки</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Формат даты строгий: ГГГГММДД, где ГГГГ – год, ММ – месяц, ДД – день. Поле не должно быть пустым.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5cd16368-f6a6-4ecb-bc27-08c1b2da0f3a">
+      <name>exp_date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата истечения срока годности</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ДФ=yyyyMMdd</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Формат даты строгий: ГГГГММДД, где ГГГГ – год, ММ – месяц, ДД – день. Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе дистрибьютора. Выгрузка недостоверных дат в поле не допускается. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c4a68662-de05-4ca9-84ed-fd83c11d1b72">
+      <name>scd_number</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер грузовой таможенной декларации</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер грузовой таможенной декларации является основным реквизитом документов, оформляемых при перемещении товаров через таможенную границу государства. Выгрузка недостоверных данных в поле не допускается. Поле может оставаться пустым только в том случае, если такая информация не хранится в учётной системе дистрибьютора.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0243e580-e889-46eb-8efa-d1b36e144cb9">
+      <name>inv_type</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика товара на остатке</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если товар доступен для продажи, то следует выгружать значение 0. Если не годен для продажи, например брак, истек срок годности товара, поврежден внешний вид и тому подобное, то 1. Поле не должно быть пустым и не должно содержать других значений. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e0dc7bf5-f993-483d-9f18-6ad3da71cf92">
+      <name>ru</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип хранения товара</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Код, указывающий на тип хранения товара. Если товар хранится в розничной упаковке производителя, то значение поля 0. Если учет ведется в более мелких единицах, чем упаковка, в штуках, то значение поля 1. Если товар учитывается в весе, то значение поля 2. Поле не должно быть пустым и не должно содержать других значений. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d3e332fd-6d9e-45ee-ad65-8e2b4970824b">
+      <name>beg_rest</name>
+      <synonym>
+        <key>ru</key>
+        <value>Остаток товара на начало дня</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество товара на начало торгового дня. Если продукция хранится в весе, то значение в это поле необходимо выгружать в граммах. Поле не должно быть пустым. Значение поля должно быть целым числом. Отрицательные значения допускаются. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в количествах есть эти символы, от них необходимо избавиться.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c310cd7d-fe45-4802-803b-e6708e793fd1">
+      <name>in_qty</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество по приходным операциям</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество товара по всем приходным операциям в течение дня. Если продукция хранится в весе, то значение в это поле необходимо выгружать в граммах. Поле не должно быть пустым. Значение поля должно быть целым положительным числом. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в количествах есть эти символы, от них необходимо избавиться.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4658ee47-2c2f-4e51-9f16-c55fe9e5ffc8">
+      <name>out_qty</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество по расходным операциям</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество товара по всем расходным операциям в течение дня. Если продукция хранится в весе, то значение в это поле необходимо выгружать в граммах. Поле не должно быть пустым. Значение поля должно быть целым положительным числом. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в количествах есть эти символы, от них необходимо избавиться.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="41a93c64-2131-4e18-b3bb-55bfa07ef4b7">
+      <name>end_rest</name>
+      <synonym>
+        <key>ru</key>
+        <value>Остаток товара на конец дня</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество товара на конец торгового дня. Если продукция хранится в весе, то значение в это поле необходимо выгружать в граммах. Поле не должно быть пустым. Значение поля должно быть целым числом. Отрицательные значения допускаются. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в количествах есть эти символы, от них необходимо избавиться.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="09cbfa3a-b2ef-499e-b1b5-bb2c64e6549a">
+      <name>beg_amount</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость товара на начало дня</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Стоимость товара (цена * количество) на начало рабочего дня по цене закупки товара у производителя в национальной валюте, с НДС. Если учёт по партиям не ведётся или товар получен бесплатно, то следует производить расчёт закупочной стоимости по последней цене закупки без учета скидок или закупочному прейскуранту. Разделитель целой и дробной части – точка. Поле не должно быть пустым. Отрицательные значения допускаются. Знак суммы (плюс или минус) должен совпадать со знаком количества в поле beg_rest. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ed6206ee-e54c-4453-a9d5-99f33df7c797">
+      <name>in_amount</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость по приходным операциям</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Стоимость поступившего на склад товара (цена * количество) по цене закупки товара у производителя в национальной валюте с НДС. Если учёт по партиям не ведётся или товар получен бесплатно, то следует производить расчёт закупочной стоимости по последней цене закупки без учета скидок или закупочному прейскуранту. Разделитель целой и дробной части – точка. Поле не должно быть пустым и не может содержать отрицательных значений. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bfc713c0-4ffe-4fe6-846e-cdac808c8667">
+      <name>out_amount</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость по расходным операциям</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Стоимость списанного со склада товара (цена * количество) по цене закупки товара у производителя в национальной валюте с НДС. Если учёт по партиям не ведётся или товар получен бесплатно, то следует производить расчёт закупочной стоимости по последней цене закупки без учета скидок или закупочному прейскуранту. Разделитель целой и дробной части – точка. Поле не должно быть пустым и не может содержать отрицательных значений. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9e8680bb-9694-4fe4-a1e9-836d16839d96">
+      <name>end_amount</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость товара на конец дня</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </editFormat>
+      <toolTip>
+        <key>ru</key>
+        <value>Стоимость товара (цена * количество) на конец рабочего дня по цене закупки товара у производителя в национальной валюте с НДС. Если учёт по партиям не ведётся или товар получен бесплатно, то следует производить расчёт закупочной стоимости по последней цене закупки без учета скидок или закупочному прейскуранту. Разделитель целой и дробной части – точка. Поле не должно быть пустым. Отрицательные значения допускаются. Знак суммы (плюс или минус) должен совпадать со знаком количества в поле end_rest. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0f0cd56a-001e-4d19-a97a-6fbc6810728f">
+      <name>weight</name>
+      <synonym>
+        <key>ru</key>
+        <value>Коэффициент веса</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вес одной базовой единицы (нетто), необходим для пересчёта количества в базовых единицах в вес. Выгружать значение необходимо в граммах. Поле не может быть пустым. Значение должно быть целым, положительным. Если такая информация не хранится в учётной системе дистрибьютора, следует выгружать значение 1. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="be1b0319-0772-43c8-9b64-1725191f3dae">
+      <name>manfid</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификационный код</value>
+      </synonym>
+      <comment>Идентификационный код «НПФ «ЭКОПРОМ» в системе CISLink – 6009</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>4</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>в системе CISLink – 6009). Значение 6009 выгружается для всех строк. Поле не должно быть пустым и не должно содержать других значений. </value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:StringValue">
+        <value>6009</value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <templates uuid="e8c77e0e-fb4f-44d2-ae51-31149ff86624">
+    <name>Остатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>
