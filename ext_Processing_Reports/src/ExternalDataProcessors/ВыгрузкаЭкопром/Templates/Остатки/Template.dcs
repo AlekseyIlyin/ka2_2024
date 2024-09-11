@@ -90,6 +90,39 @@
 			<appearance/>
 			<inputParameters/>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>art</dataPath>
+			<field>art</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Art</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>barcode</dataPath>
+			<field>barcode</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Barcode</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>name</dataPath>
+			<field>name</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Name</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	КлючиАналитикиУчетаНоменклатуры.Ссылка КАК АналитикаНоменклатуры,
@@ -103,13 +136,18 @@
 		КОГДА ТоварыДругогоКачества.Номенклатура ЕСТЬ NULL
 			ТОГДА 0
 		ИНАЧЕ 1
-	КОНЕЦ КАК Брак
+	КОНЕЦ КАК Брак,
+	ШтрихкодыНоменклатуры.Штрихкод КАК Штрихкод,
+	КлючиАналитикиУчетаНоменклатуры.Номенклатура.Артикул КАК Артикул,
+	КлючиАналитикиУчетаНоменклатуры.Номенклатура.НаименованиеПолное КАК НаименованиеПолное
 ПОМЕСТИТЬ ВТ_АнадитикаНоменклатуры
 ИЗ
 	Справочник.КлючиАналитикиУчетаНоменклатуры КАК КлючиАналитикиУчетаНоменклатуры
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ТоварыДругогоКачества КАК ТоварыДругогоКачества
 		ПО КлючиАналитикиУчетаНоменклатуры.Номенклатура = ТоварыДругогоКачества.НоменклатураБрак
 			И (ТоварыДругогоКачества.ГрадацияКачества = &amp;КачествоНеГоден)
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ШтрихкодыНоменклатуры КАК ШтрихкодыНоменклатуры
+		ПО КлючиАналитикиУчетаНоменклатуры.Номенклатура = ШтрихкодыНоменклатуры.Номенклатура
 ГДЕ
 	КлючиАналитикиУчетаНоменклатуры.Номенклатура.Производитель = &amp;Производитель
 
@@ -133,7 +171,10 @@
 	ВТ_АнадитикаНоменклатуры.ВесЕдиницы КАК weight,
 	&amp;ИдентификационныйКодЭкопром КАК manfid,
 	&amp;ИдентификационныйКодДистрибьютера КАК whcode,
-	ВТ_АнадитикаНоменклатуры.Брак КАК inv_type
+	ВТ_АнадитикаНоменклатуры.Брак КАК inv_type,
+	ВТ_АнадитикаНоменклатуры.Штрихкод КАК barcode,
+	ВТ_АнадитикаНоменклатуры.Артикул КАК art,
+	ВТ_АнадитикаНоменклатуры.НаименованиеПолное КАК name
 ИЗ
 	РегистрНакопления.усОстаткиПоПартиям.ОстаткиИОбороты(
 			&amp;ДатаКалендарная,
@@ -394,6 +435,15 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>manfid</dcsset:field>
 				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>art</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>barcode</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>name</dcsset:field>
+				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -411,6 +461,7 @@
 					</dcscor:value>
 				</dcscor:item>
 			</dcsset:dataParameters>
+			<dcsset:outputParameters/>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
@@ -418,6 +469,7 @@
 				<dcsset:selection>
 					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 				</dcsset:selection>
+				<dcsset:outputParameters/>
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>

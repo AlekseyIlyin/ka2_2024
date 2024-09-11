@@ -9,17 +9,142 @@
     <value>Выгрузка Экопром</value>
   </synonym>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="ae32615c-dc1b-456c-8d9e-0055d98c5c9b"/>
-  <attributes uuid="21e8026e-bc0e-44ce-8de9-8629ded9e5d0">
-    <name>Дата</name>
+  <defaultForm>ExternalDataProcessor.ВыгрузкаЭкопром.Form.Форма</defaultForm>
+  <attributes uuid="deefa01d-c21f-4f60-9295-76af048827d0">
+    <name>ДополнительнаяОбработкаСсылка</name>
     <synonym>
       <key>ru</key>
-      <value>Дата</value>
+      <value>Дополнительная обработка ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d58b04cb-30f6-4ef6-aed5-b7b231ae9965">
+    <name>НастройкиЗагружены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загружены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="da8dc925-b2ed-4e22-b5a2-e1a98e987a04">
+    <name>ДанныеЗаполнены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные заполнены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1a9bb13e-e4c1-4297-91db-a7c4c43c1b86">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="c70196cd-8531-4c49-b0a1-49fc03824f08">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a0c44503-85fd-4a87-976d-9f05f45b8ea4">
+    <name>ГлубинаОтчетаДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина отчета дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="054b514c-dbf1-4775-a209-7b0dfebe36e1">
+    <name>ИдентификационныйКодЭкопром</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификационный код экопром</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="e28e0378-465c-49db-b4d5-9ce125113de0">
+    <name>ИдентификационныйКодДистрибьютера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификационный код дистрибьютера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="9c61c55c-9886-498e-9377-d647b93322a0">
+    <name>Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Производители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="43aa7c15-5de2-4620-a46a-c9ec2a0dc9a5">
+    <name>ПутьВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -51,7 +176,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>11</length>
+          <length>36</length>
         </stringQualifiers>
       </type>
       <toolTip>
@@ -60,6 +185,7 @@
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="f8668081-c81f-4d64-9780-f535f1109023">
       <name>art</name>
@@ -210,7 +336,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>11</length>
+          <length>36</length>
         </stringQualifiers>
       </type>
       <toolTip>
@@ -433,6 +559,25 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="6002cbd8-47dd-43d6-8536-a3929e931dd8">
+      <name>mcname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование канала рынка ТТ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полное, не сокращённое наименование канала рынка, которому соответствует торговая точка. Если торговые точки не классифицируются по каналам рынка, поле можно оставлять пустым.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
     <attributes uuid="1aa712ce-a01e-40f1-b4ec-27a12536766d">
       <name>manfid</name>
       <synonym>
@@ -498,7 +643,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>15</length>
+          <length>36</length>
         </stringQualifiers>
       </type>
       <toolTip>
@@ -508,6 +653,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="83bce3fc-a8fc-411a-a7f9-2bc349e2103c">
       <name>tpname</name>
@@ -558,18 +704,24 @@
       </synonym>
       <comment>Идентификационный код «НПФ «ЭКОПРОМ» в системе CISLink – 6009</comment>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>4</length>
-          <fixed>true</fixed>
-        </stringQualifiers>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧГ=</value>
+      </editFormat>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillFromFillingValue>true</fillFromFillingValue>
-      <fillValue xsi:type="core:StringValue">
-        <value>6009</value>
-      </fillValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
   <tabularSections uuid="1c0561bc-d610-4d5e-8aa7-6db1af82fc24">
@@ -606,7 +758,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>11</length>
+          <length>36</length>
         </stringQualifiers>
       </type>
       <toolTip>
@@ -738,7 +890,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>11</length>
+          <length>36</length>
         </stringQualifiers>
       </type>
       <toolTip>
@@ -877,6 +1029,14 @@
           <precision>1</precision>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧН=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧН=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Выгружается код произведённой с товаром операции: 0 – для продаж (а также для корректировок продаж, увеличивающих количества в исходном документе), 1 – для возвратов от клиентов (а также для корректировок продаж, уменьшающих количества в исходном документе), 2 – для приходов от поставщика, 3 – для заказов от клиентов, 4 – расходные перемещения в другие филиалы, 5 – приходные перемещения из других филиалов, 6 – для заказов поставщику, 7 – для возвратов поставщику. Прочие операции (инвентаризации, списания и т.п.) не должны попадать в этот файл (но должны быть в файле состояния склада eprest). Поле не должно быть пустым и не должно содержать других значений. </value>
@@ -988,7 +1148,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>11</length>
+          <length>36</length>
         </stringQualifiers>
       </type>
       <toolTip>
@@ -1028,7 +1188,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>11</length>
+          <length>36</length>
         </stringQualifiers>
       </type>
       <toolTip>
@@ -1071,6 +1231,14 @@
           <precision>1</precision>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Для строк, где oper_type равен 3, следует выгружать 0 для случаев, если заказ ещё не исполнен, и 1 для случаев, когда заказ исполнен. Для строк, где oper_type равен 0 или 1, следует выгружать 1 в том случае, если документ имеет статус «интернет-заказа», в противном случае следует выгружать 0. Для всех остальных oper_type следует выгружать 0. </value>
@@ -1091,6 +1259,14 @@
           <precision>1</precision>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Код, указывающий на тип хранения товара. Если товар хранится в розничной упаковке производителя, то значение поля 0. Если учет ведется в более мелких единицах, чем упаковка, в штуках, то значение поля 1. Если товар учитывается в весе, то значение поля 2. Поле не должно быть пустым и не должно содержать других значений. </value>
@@ -1112,6 +1288,14 @@
           <scale>2</scale>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Количество товара в рамках указанной детализации, в минимальных (базовых) единицах хранения. Для весового товара выгружать значение необходимо в граммах. Значения должны быть целыми, положительными числами. Поле не может быть пустым. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в количествах есть эти символы, от них необходимо избавиться. </value>
@@ -1130,9 +1314,16 @@
         <types>Number</types>
         <numberQualifiers>
           <precision>12</precision>
-          <scale>2</scale>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Вес одной единицы (нетто) товара, необходим для пересчёта количества в базовых единицах в вес. Выгружать значение необходимо в граммах. Поле не может быть пустым. Значения должны быть целыми, положительными числами. Если такая информация не хранится в учётной системе, следует выгружать значение 1. </value>
@@ -1154,6 +1345,14 @@
           <scale>2</scale>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Стоимость товара (цена * количество) по цене закупки товара у поставщика с НДС в национальной валюте. Если учёт по партиям не ведётся или товар получен бесплатно, то следует производить расчёт закупочной стоимости по последней цене закупки или закупочному прейскуранту. Разделитель целой и дробной части – точка. Поле всегда положительное и не может быть пустым. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться. </value>
@@ -1175,6 +1374,14 @@
           <scale>2</scale>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Стоимость товара (цена * количество) по цене отгрузки с НДС в национальной валюте с учётом всех скидок. Если товар отгружен бесплатно, то в стоимость выгружать 0. Разделитель целой и дробной части – точка. Значения должны быть положительными числами. Поле может оставаться пустым только для строк со значением oper_type равным 2 и 6. </value>
@@ -1196,6 +1403,14 @@
           <scale>2</scale>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Сумма скидки покупателю в национальной валюте. Выгружать в это поле наценку не нужно. Разделитель целой и дробной части – точка. Поле всегда положительное и не может быть пустым. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться. </value>
@@ -1217,6 +1432,14 @@
           <scale>2</scale>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Выгружается сумма НДС (от отгрузочной стоимости для oper_type 0, 1, 3, 4, 5 и 7 и от закупочной стоимости для oper_type 2 и 6) в национальной валюте. Разделитель целой и дробной части – точка. Поле не должно быть пустым. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться. </value>
@@ -1233,12 +1456,20 @@
       </synonym>
       <comment>Идентификационный код «НПФ «ЭКОПРОМ» в системе CISLink – 6009</comment>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>4</length>
-          <fixed>true</fixed>
-        </stringQualifiers>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>в системе CISLink – 6009). Значение 6009 выгружается для всех строк. Поле не должно быть пустым и не должно содержать других значений. </value>
@@ -1246,9 +1477,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillFromFillingValue>true</fillFromFillingValue>
-      <fillValue xsi:type="core:StringValue">
-        <value>6009</value>
-      </fillValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
   <tabularSections uuid="1fe44a2b-ec2a-4d75-84eb-0854a6ea55eb">
@@ -1287,7 +1516,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>11</length>
+          <length>36</length>
         </stringQualifiers>
       </type>
       <toolTip>
@@ -1296,6 +1525,7 @@
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="92c09dd8-fb8d-4c5a-9e3f-8d03c09bb62f">
       <name>code</name>
@@ -1306,7 +1536,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>11</length>
+          <length>36</length>
         </stringQualifiers>
       </type>
       <toolTip>
@@ -1315,6 +1545,7 @@
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="deefb9bb-c79b-4355-ac5b-4cba58655a8b">
       <name>curr_date</name>
@@ -1402,12 +1633,21 @@
           <precision>1</precision>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧН=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧН=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Если товар доступен для продажи, то следует выгружать значение 0. Если не годен для продажи, например брак, истек срок годности товара, поврежден внешний вид и тому подобное, то 1. Поле не должно быть пустым и не должно содержать других значений. </value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="e0dc7bf5-f993-483d-9f18-6ad3da71cf92">
@@ -1422,6 +1662,14 @@
           <precision>1</precision>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Код, указывающий на тип хранения товара. Если товар хранится в розничной упаковке производителя, то значение поля 0. Если учет ведется в более мелких единицах, чем упаковка, в штуках, то значение поля 1. Если товар учитывается в весе, то значение поля 2. Поле не должно быть пустым и не должно содержать других значений. </value>
@@ -1445,11 +1693,11 @@
       </type>
       <format>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </format>
       <editFormat>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </editFormat>
       <toolTip>
         <key>ru</key>
@@ -1473,11 +1721,11 @@
       </type>
       <format>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </format>
       <editFormat>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </editFormat>
       <toolTip>
         <key>ru</key>
@@ -1501,11 +1749,11 @@
       </type>
       <format>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </format>
       <editFormat>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </editFormat>
       <toolTip>
         <key>ru</key>
@@ -1529,11 +1777,11 @@
       </type>
       <format>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </format>
       <editFormat>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </editFormat>
       <toolTip>
         <key>ru</key>
@@ -1557,11 +1805,11 @@
       </type>
       <format>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </format>
       <editFormat>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </editFormat>
       <toolTip>
         <key>ru</key>
@@ -1585,11 +1833,11 @@
       </type>
       <format>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </format>
       <editFormat>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </editFormat>
       <toolTip>
         <key>ru</key>
@@ -1613,11 +1861,11 @@
       </type>
       <format>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </format>
       <editFormat>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </editFormat>
       <toolTip>
         <key>ru</key>
@@ -1641,11 +1889,11 @@
       </type>
       <format>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </format>
       <editFormat>
         <key>ru</key>
-        <value>ЧРД=.; ЧГ=</value>
+        <value>ЧРД=.; ЧН=0; ЧГ=</value>
       </editFormat>
       <toolTip>
         <key>ru</key>
@@ -1667,6 +1915,14 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>Вес одной базовой единицы (нетто), необходим для пересчёта количества в базовых единицах в вес. Выгружать значение необходимо в граммах. Поле не может быть пустым. Значение должно быть целым, положительным. Если такая информация не хранится в учётной системе дистрибьютора, следует выгружать значение 1. </value>
@@ -1683,12 +1939,20 @@
       </synonym>
       <comment>Идентификационный код «НПФ «ЭКОПРОМ» в системе CISLink – 6009</comment>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>4</length>
-          <fixed>true</fixed>
-        </stringQualifiers>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
       </type>
+      <format>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧГ=</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧДЦ=0; ЧГ=</value>
+      </editFormat>
       <toolTip>
         <key>ru</key>
         <value>в системе CISLink – 6009). Значение 6009 выгружается для всех строк. Поле не должно быть пустым и не должно содержать других значений. </value>
@@ -1696,11 +1960,18 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillFromFillingValue>true</fillFromFillingValue>
-      <fillValue xsi:type="core:StringValue">
-        <value>6009</value>
-      </fillValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
+  <forms uuid="d6e1afc5-77cf-4840-b2fd-e396e52838bd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="e8c77e0e-fb4f-44d2-ae51-31149ff86624">
     <name>Остатки</name>
     <synonym>
