@@ -146,6 +146,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для ручной выгрузки данных на рабочем месте (папка должна быть доступна на компьютере или в сети)</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -173,6 +177,57 @@
         <length>250</length>
       </stringQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2189602a-257a-4ccf-89e8-415620658078">
+    <name>ИсходящаяПапкаCisLink</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящая папка CISLink</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Папка должна быть доступна с сервера</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fbdaa6c2-456b-4e55-ad63-20ef79c69a79">
+    <name>ВходящаяПапкаCisLink</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящая папка CISLink</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Папка должна быть доступна с сервера</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="710012bd-ae8c-4247-b272-389b1b200a03">
+    <name>ПутьКлиентаCisLink</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь клиента CISLink</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>D:\Полный_путь_к_папке_с_клиентом\CisLink.FileClient.exe файл должен быть доступен на сервере</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -1364,8 +1419,9 @@
       <name>amount_bp</name>
       <synonym>
         <key>ru</key>
-        <value>Закупочная стоимость товара с НДС в национальной валюте</value>
+        <value>amount_bp</value>
       </synonym>
+      <comment>Стоимость товара (цена * количество) по цене закупки товара у поставщика с НДС в национальной валюте. Если учёт по партиям не ведётся или товар получен бесплатно, то следует производить расчёт закупочной стоимости по последней цене закупки или закупочному прейскуранту. Разделитель целой и дробной части – точка. Поле всегда положительное и не может быть пустым. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться. </comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -1383,7 +1439,7 @@
       </editFormat>
       <toolTip>
         <key>ru</key>
-        <value>Стоимость товара (цена * количество) по цене закупки товара у поставщика с НДС в национальной валюте. Если учёт по партиям не ведётся или товар получен бесплатно, то следует производить расчёт закупочной стоимости по последней цене закупки или закупочному прейскуранту. Разделитель целой и дробной части – точка. Поле всегда положительное и не может быть пустым. Значения в этом поле не должны содержать символов разделения на разряды (т.н. триады; номер символа 160). Если в суммах есть эти символы, от них необходимо избавиться. </value>
+        <value>Закупочная стоимость товара с НДС в национальной валюте</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1393,8 +1449,9 @@
       <name>amount_cp</name>
       <synonym>
         <key>ru</key>
-        <value>Отгрузочная стоимость товара с НДС в национальной валюте</value>
+        <value>amount_cp</value>
       </synonym>
+      <comment>Стоимость товара (цена * количество) по цене отгрузки с НДС в национальной валюте с учётом всех скидок. Если товар отгружен бесплатно, то в стоимость выгружать 0. Разделитель целой и дробной части – точка. Значения должны быть положительными числами. Поле может оставаться пустым только для строк со значением oper_type равным 2 и 6. </comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -1412,7 +1469,7 @@
       </editFormat>
       <toolTip>
         <key>ru</key>
-        <value>Стоимость товара (цена * количество) по цене отгрузки с НДС в национальной валюте с учётом всех скидок. Если товар отгружен бесплатно, то в стоимость выгружать 0. Разделитель целой и дробной части – точка. Значения должны быть положительными числами. Поле может оставаться пустым только для строк со значением oper_type равным 2 и 6. </value>
+        <value>Отгрузочная стоимость товара с НДС в национальной валюте</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
