@@ -5653,6 +5653,7 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Объект.ОсновнойМенеджер</segments>
             </dataPath>
+            <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
               <name>ОсновнойМенеджерРасширеннаяПодсказка</name>
               <id>367</id>
@@ -5828,6 +5829,10 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
+                <handlers>
+                  <event>StartChoice</event>
+                  <name>ПутьКлиентаCisLinkНачалоВыбора</name>
+                </handlers>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
@@ -5883,6 +5888,10 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
+                <handlers>
+                  <event>StartChoice</event>
+                  <name>ИсходящаяПапкаCisLinkНачалоВыбора</name>
+                </handlers>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
@@ -5938,6 +5947,10 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
+                <handlers>
+                  <event>StartChoice</event>
+                  <name>ВходящаяПапкаCisLinkНачалоВыбора</name>
+                </handlers>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
@@ -5973,7 +5986,7 @@
             </extendedTooltip>
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
-              <group>HorizontalIfPossible</group>
+              <group>Vertical</group>
               <behavior>Auto</behavior>
               <representation>WeakSeparation</representation>
               <showLeftMargin>true</showLeftMargin>

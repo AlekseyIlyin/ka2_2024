@@ -162,6 +162,10 @@
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если по продаже не удалось получить Торгового представителя, будет использован этот</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
